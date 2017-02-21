@@ -15,7 +15,3 @@ function parallax(){
   $(this).css('transform','translateY(' + (scrolled * (z * (-.01))) + 'px)')
 });
 }
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2017 GitHub, Inc. Terms Priv
