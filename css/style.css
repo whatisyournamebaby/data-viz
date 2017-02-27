@@ -1,0 +1,201 @@
+header {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #1893B2;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.text-container {
+  padding: 20px;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media screen and (min-width: 600px) {
+  #continents-map-container {
+    padding-top: 50px;
+  }
+}
+
+.collapsible-body p {
+  padding: 0.5rem;
+}
+
+p {
+  text-align: justify;
+}
+
+h5 {
+  font-size: 1.44rem;
+  text-align: justify;
+}
+
+.smaller-h5 {
+  font-size: 1.24rem;
+}
+
+.collapsible-title {
+  font-size: 1.24rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.card-container {
+  margin-bottom: 40px;
+}
+
+.share-buttons {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #1893B2;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: #1843b3;
+  margin: 0px 4px;
+}
+
+
+@media screen and (min-width: 600px) {
+  #years-map-container {
+    padding-top: 50px;
+  }
+}
+
+.collapsible-body p {
+  padding: 0.5rem;
+}
+
+p {
+  text-align: justify;
+}
+
+h5 {
+  font-size: 1.44rem;
+  text-align: justify;
+}
+
+.smaller-h5 {
+  font-size: 1.24rem;
+}
+
+.collapsible-title {
+  font-size: 1.24rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.card-container {
+  margin-bottom: 40px;
+}
+
+.share-buttons {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #1893B2;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: #1843b3;
+  margin: 0px 4px;
+}
+
+/*#region switch element*/
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #46b7d4;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #1893B2;
+}
+.switch {
+  margin-bottom: 10px;
+}
+/*#endregion*/
+
+/*#region '<select>' element*/
+.select-wrapper input.select-dropdown
+{
+  border-bottom: 1px solid #1893B2;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #1893B2;
+}
+
+.select-wrapper span.caret {
+  color: #1893B2;
+}
+/*#endregion*/
+
+/*#region '.tabs' element*/
+.tabs .tab a {
+  color: #1893B2;
+}
+
+.tabs .indicator {
+  background-color: #1893B2;
+}
+
+.tabs .tab a:hover {
+  color: #69cae2;
+}
+/*#endregion*/
+
+/*#region medals stats panel*/
+#medals-stats-container {
+  padding-left: 40px;
+}
+
+.input-field label {
+  color: #1893B2;
+}
+
+#gold-medal {
+  fill: #FFA500;
+}
+
+#silver-medal {
+  fill: #B9B9B9;
+}
+
+#bronze-medal {
+  fill: #DF612A;
+}
+/*#endregion*/
+
+/*#region social buttons*/
+#twitter-button:hover {
+  fill: #009ef8;
+}
+#facebook-button:hover {
+  fill: #3b539a;
+}
+#linkedin-button:hover {
+  fill: #0074b8;
+}
+
+
+/*#endregion*/
