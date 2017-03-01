@@ -133,6 +133,7 @@
         data: data0,
         mapData: Highcharts.maps['countries/fr/custom/fr-all-mainland'],
         joinBy: 'hc-key',
+            /* couleur du surlignage*/
 
         states: {
           hover: {
@@ -144,7 +145,11 @@
           format: '{point.nom}'
         }
       }
-    ]
+    ],
+/* pas de légende*/
+        legend : {
+        enabled: false
+    } 
   });
 
   // Switch the year from the dropdown
@@ -704,6 +709,7 @@
         data: dataH0,
         mapData: Highcharts.maps['countries/fr/custom/fr-all-mainland'],
         joinBy: 'hc-key',
+            /* couleur du surlignage*/
 
         states: {
           hover: {
@@ -715,7 +721,11 @@
           format: '{point.nom}'
         }
       }
-    ]
+    ],
+	/* pas de légende*/
+        legend : {
+        enabled: false
+    } 
   });
 
   // Switch the year from the dropdown
