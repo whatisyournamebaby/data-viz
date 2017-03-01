@@ -65,7 +65,7 @@ footer h3, footer p {
           justify-content: center;
 }
 
-.landing span {
+.brand span {
   -webkit-animation: titleShow 0.11s cubic-bezier(0.25, 0.1, 0.25, 1) both;
           animation: titleShow 0.11s cubic-bezier(0.25, 0.1, 0.25, 1) both;
   font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
