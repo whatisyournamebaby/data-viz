@@ -6,7 +6,7 @@ X/*!
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url("../img/shattered_@2X.png") repeat center center fixed;
+    background: url("./img/shattered_@2X.png") repeat center center fixed;
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
