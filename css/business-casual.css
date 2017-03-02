@@ -1,4 +1,4 @@
-X/*!
+/*!
  * Start Bootstrap - Business Casual (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -6,7 +6,7 @@ X/*!
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url("./img/shattered_@2X.png") repeat center center fixed;
+    background: url("../img/shattered_@2X.png") repeat center center fixed;
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
