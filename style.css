@@ -30,6 +30,12 @@ footer h3, footer p {
   padding: 0.5em 1em;
 }
 
+/* Diviser une section en 4 colonnes */
+div.col4 {
+    float: left;
+    width: 25%;
+}
+
 .landing {
   display: -webkit-box;
   display: -ms-flexbox;
