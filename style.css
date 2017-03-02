@@ -31,7 +31,7 @@ footer h3, footer p {
 }
 
 /* Diviser une section en 4 colonnes */
-div.col4 {
+div.col {
     float: left;
     width: 25%;
 }
