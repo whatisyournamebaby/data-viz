@@ -37,6 +37,39 @@ hr {
     border-color: #999999;
 }
 
+/* Diviser une section en 4 colonnes */
+div.col4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+/* Diviser une section en 3 colonnes */
+div.col3 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+/* Ligne (utilisée pour insérer les images)*/
+div.ligne {
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: ##FEFEFE;
+}
+
+/*Légende image*/
+legende {
+  text-align: justify;
+  font-size: 1em;
+}
+
 .brand,
 .address-bar {
     display: none;
