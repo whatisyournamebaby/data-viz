@@ -395,6 +395,13 @@ div#colonne2 {
 	margin-left: 10px;
 	background: burlywood;
 }
+
+div#colonne3 {
+	float: center;
+	width: 300px;
+	margin-left: 10px;
+	background: burlywood;
+}
 div#centre {
 	overflow: hidden;
 	background: khaki;
