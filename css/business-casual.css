@@ -37,11 +37,12 @@ hr {
     border-color: #999999;
 }
 
-
 /*Légende image*/
 legende {
-  text-align: justify;
+  text-align: center;
   font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .brand,
