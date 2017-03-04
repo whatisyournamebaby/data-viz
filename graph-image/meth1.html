@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Montants investis par arrondissement</title>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">$(function () {
+    $('#container').highcharts({
+     
+    xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    },
+
+    series: [{
+        data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+    }]
+
+}, function (chart) { // on complete
+
+    chart.renderer.image('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0kOBWxM7Yb-1oApuBcVWjSl3FN7B22nZAuy7mLeRCdaXDRf-4gx7wVhjW', '48%', '27%', 32, 24)
+        .add();
+// 1er : largeur en comptant a partir de droite
+//2eme : hauteur en comptant à partir du haur
+// 3eme : nb de px en hauteur de l'image
+//2eme : nb de pixel en lageur de l'image
+});
+});
+		</script>
+	</head>
+	<body>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	</body>
+</html>
