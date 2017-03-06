@@ -3,4 +3,4 @@ Description de la data Diz + lien [ENSAE](http://www.ensae.fr/ensae/fr/) + lien 
 ## Work
 Description de notre travail  
 ## Creator
- **[Agnès Guy ](http://google.com/)**, **[Claudia Delgado ](http://google.com/)**, **[Mélanie Finas ](http://google.com/)**, **[Sophie Ouillade](http://google.com/)**,
+ **[Agnès Guy ](https://github.com/agnesguy)**, **[Claudia Delgado ](https://github.com/claudiadelgado92)**, **[Mélanie Finas ](https://github.com/melaniefns)**, **[Sophie Ouillade](https://github.com/souillade)**,
