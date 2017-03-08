@@ -4065,6 +4065,7 @@ input[type=range] + .thumb {
   }
 }
 
+/*
 nav {
   color: #fff;
   background-color: #ee6e73;
@@ -4253,6 +4254,7 @@ nav .input-field label.active {
     height: 64px;
   }
 }
+*/
 
 @font-face {
   font-family: "Roboto";
@@ -6772,6 +6774,9 @@ input[type=range]:focus::-ms-fill-upper {
 /***************
     Nav List
 ***************/
+
+/*
+
 .table-of-contents.fixed {
   position: fixed;
 }
@@ -7023,6 +7028,8 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 997;
   will-change: opacity;
 }
+
+*/
 
 /*
     @license

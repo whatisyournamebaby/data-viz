@@ -27,7 +27,7 @@ header,
 hgroup,
 main,
 menu,
-nav,
+/* nav,*/
 section,
 summary {
   display: block;
@@ -243,9 +243,11 @@ th {
   h3 {
     page-break-after: avoid;
   }
+  /*
   .navbar {
     display: none;
   }
+  */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -3626,6 +3628,7 @@ tbody.collapse.in {
   left: auto;
 }
 .dropup .caret,
+/*
 .navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
@@ -3648,6 +3651,7 @@ tbody.collapse.in {
     left: 0;
   }
 }
+*/
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -3977,6 +3981,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
+/*
 .nav {
   padding-left: 0;
   margin-bottom: 0;
@@ -4170,11 +4175,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-right-radius: 0;
 }
 .navbar {
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
@@ -4696,6 +4704,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
+*/
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -6480,6 +6489,7 @@ button.close {
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:before,
 .btn-group-vertical > .btn-group:after,
+/*
 .nav:before,
 .nav:after,
 .navbar:before,
@@ -6488,6 +6498,7 @@ button.close {
 .navbar-header:after,
 .navbar-collapse:before,
 .navbar-collapse:after,
+*/
 .pager:before,
 .pager:after,
 .panel-body:before,
@@ -6507,10 +6518,12 @@ button.close {
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:after,
+/*
 .nav:after,
 .navbar:after,
 .navbar-header:after,
 .navbar-collapse:after,
+*/
 .pager:after,
 .panel-body:after,
 .modal-header:after,
