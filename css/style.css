@@ -125,15 +125,7 @@
 		top: -0.5em;
 	}
 
-	hr {
-		border: 0;
-		border-bottom: medium 1px rgba(144, 144, 144, 0.25);
-		margin: 2em 0;
-	}
-
-		hr.major {
-			margin: 3em 0;
-		}
+	
 
 	blockquote {
 		border-left: solid 4px rgba(144, 144, 144, 0.25);
