@@ -6,11 +6,11 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url("../img/bebe.jpg") repeat center center fixed;
-    -webkit-background-size: cover ;
+    background: url("../img/ep_naturalblack.png") repeat center center fixed;
+   /* -webkit-background-size: cover ;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 	
 }
 
@@ -371,6 +371,7 @@ footer p {
         font-size: 1.25em;
     }
 
+
 /*
 .container {
     overflow: hidden;
@@ -387,6 +388,7 @@ footer p {
     text-decoration: none;
 }
 */
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -417,9 +419,11 @@ footer p {
 }
 
 .dropdown-content {
+
     display: none;
     position: absolute;
     background-color: red;
+
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -441,13 +445,6 @@ footer p {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
-
-.show {
-    display: block;
-}
-
 
 }
 
