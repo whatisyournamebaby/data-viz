@@ -67,18 +67,20 @@ legende {
     min-width: 100%;
 }
 
-.brand-before,
-.brand-name {
-    text-transform: capitalize;
-}
 
+/* Police de l'intro */
 .brand-before {
     margin: 15px 0;
+    text-transform: none;
+    font-size: xx-large;
 }
 
+/* Police du nom de l'auteur de l'intro */
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: xx-large;
+    text-transform: none;
+    text-align: right;
 }
 
 .tagline-divider {
