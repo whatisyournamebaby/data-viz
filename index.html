@@ -1,2439 +1,175 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content=""> 
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-	    <!-- Special footer -->
+  <!-- Special footer -->
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-	
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/skel.min.js"></script>
+  <script src="js/skel-layers.min.js"></script>
+  <script src="js/init.js"></script>
+    
+  <!-- Chargements des scripts de Claudia pour les cartes -->
+  <script src="js/year_carte.js"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom CSS -->
+  <link href="css/business-casual.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+    rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+      rel="stylesheet" type="text/css">
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-  <!-- Import DataTables css -->
-  <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"  media="screen,projection"/> 
-  <!--Import style.css-->
-  <link type="text/css" rel="stylesheet" href="css/style2.css"  media="screen,projection"/>
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Make sure that text encoding is correct, French people love accents -->
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="googlebot" content="noindex, nofollow">
-
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
- 
-
- 
-
-
-	  <script type="text/javascript">
-  $(function() {
-    Highcharts.setOptions({
-      lang: {
-        numericSymbols: ['k', ' millions', ' milliards', ' billions']
-      }});
-
-
-	  
- // autocomplete
-	  	  $('input.autocomplete').autocomplete({
-    data: {
-"Adrien": null,
-"Agnès": null,
-"Alain": null,
-"Alexandra": null,
-"Alexandre": null,
-"Alice": null,
-"Amandine": null,
-"Amélie": null,
-"Anaïs": null,
-"Angelique": null,
-"Anne": null,
-"Annick": null,
-"Annie": null,
-"Anthony": null,
-"Antoine": null,
-"Arnaud": null,
-"Arthur": null,
-"Audrey": null,
-"Aurélie": null,
-"Aurélien": null,
-"Aurore": null,
-"Baptiste": null,
-"Béatrice": null,
-"Benjamin": null,
-"Benoît": null,
-"Bernard": null,
-"Brigitte": null,
-"Bruno": null,
-"Camille": null,
-"Carole": null,
-"Caroline": null,
-"Catherine": null,
-"Cécile": null,
-"Cedric": null,
-"Céline": null,
-"Chantal": null,
-"Charlotte": null,
-"Chloé": null,
-"Christelle": null,
-"Christian": null,
-"Christiane": null,
-"Christine": null,
-"Christophe": null,
-"Cindy": null,
-"Claire": null,
-"Clara": null,
-"Claudine": null,
-"Clément": null,
-"Corinne": null,
-"Cyril": null,
-"Damien": null,
-"Daniel": null,
-"David": null,
-"Delphine": null,
-"Denis": null,
-"Didier": null,
-"Dominique": null,
-"Dylan": null,
-"Elisabeth": null,
-"Elise": null,
-"Elodie": null,
-"Emilie": null,
-"Emma": null,
-"Emmanuel": null,
-"Emmanuelle": null,
-"Enzo": null,
-"Eric": null,
-"Estelle": null,
-"Eva": null,
-"Evelyne": null,
-"Fabien": null,
-"Fabienne": null,
-"Fanny": null,
-"Florence": null,
-"Florent": null,
-"Florian": null,
-"Francis": null,
-"Franck": null,
-"François": null,
-"Françoise": null,
-"Frédéric": null,
-"Gabriel": null,
-"Gilles": null,
-"Gregory": null,
-"Guillaume": null,
-"Hélène": null,
-"Hervé": null,
-"Hugo": null,
-"Inès": null,
-"Isabelle": null,
-"Jacqueline": null,
-"Jacques": null,
-"Jade": null,
-"Jean": null,
-"Jean-claude": null,
-"Jean-françois": null,
-"Jean-luc": null,
-"Jean-marc": null,
-"Jean-michel": null,
-"Jean-paul": null,
-"Jean-pierre": null,
-"Jennifer": null,
-"Jeremy": null,
-"Jerome": null,
-"Jessica": null,
-"Jocelyne": null,
-"Joël": null,
-"Joëlle": null,
-"Jonathan": null,
-"Jules": null,
-"Julie": null,
-"Julien": null,
-"Juliette": null,
-"Justine": null,
-"Karine": null,
-"Kevin": null,
-"Laetitia": null,
-"Laura": null,
-"Laure": null,
-"Laurence": null,
-"Laurent": null,
-"Léa": null,
-"Lionel": null,
-"Lisa": null,
-"Loïc": null,
-"Louis": null,
-"Louise": null,
-"Lucas": null,
-"Lucie": null,
-"Ludovic": null,
-"Magali": null,
-"Manon": null,
-"Marc": null,
-"Marie": null,
-"Marie-christine": null,
-"Marine": null,
-"Marion": null,
-"Martine": null,
-"Mathieu": null,
-"Mathilde": null,
-"Mathis": null,
-"Matthieu": null,
-"Mélanie": null,
-"Mélissa": null,
-"Michael": null,
-"Michel": null,
-"Michèle": null,
-"Mickael": null,
-"Mohamed": null,
-"Monique": null,
-"Morgane": null,
-"Muriel": null,
-"Myriam": null,
-"Nadia": null,
-"Nadine": null,
-"Nathalie": null,
-"Nathan": null,
-"Nicolas": null,
-"Nicole": null,
-"Océane": null,
-"Olivier": null,
-"Pascal": null,
-"Pascale": null,
-"Patricia": null,
-"Patrick": null,
-"Paul": null,
-"Pauline": null,
-"Philippe": null,
-"Pierre": null,
-"Quentin": null,
-"Raphaël": null,
-"Rémi": null,
-"Romain": null,
-"Sabrina": null,
-"Samuel": null,
-"Sandra": null,
-"Sandrine": null,
-"Sarah": null,
-"Sébastien": null,
-"Severine": null,
-"Simon": null,
-"Sonia": null,
-"Sophie": null,
-"Stéphanie": null,
-"Sylvain": null,
-"Sylvie": null,
-"Théo": null,
-"Thierry": null,
-"Thomas": null,
-"Tom": null,
-"Valentin": null,
-"Valérie": null,
-"Vanessa": null,
-"Véronique": null,
-"Victor": null,
-"Vincent": null,
-"Virginie": null,
-"William": null,
-"Xavier": null,
-"Yann": null
-    },
-    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
-  });
-  
-
-
-        // Make sure that the dropdown is loaded correctly
-        $('select').material_select();
-
-       
-        // Initiate the years map
-     	
-		$('#CarteFranceTopPrenom').highcharts('Map', {
-		title: {
-            text: 'Sélectionnez une année'
-          },
-
-          subtitle: {
-            text: 'depuis le menu déroulant ci-dessus'
-          },
-
-		   mapNavigation: {
-            enabled: true,
-            buttonOptions: {
-              verticalAlign: 'bottom'
-            }
-          },
-
-          exporting: {
-            buttons: {
-              contextButton: {
-                symbolStroke: '#1893B2',
-              },
-            },
-          },
-
-          colorAxis: {
-            minColor: "#AD1457",
-			maxColor : "#FCE4EC",
-			min : 1,
-			max : 50
-          },
-
-        plotOptions: {
-      map: {
-        allAreas: false,
-        joinBy: ['iso-a2', 'code'],
-        dataLabels: {
-          enabled: true,
-          color: '#FFFFFF',
-          formatter: function() {
-            if (this.point.properties && this.point.properties.labelrank.toString() < 5) {
-              return this.point.properties['iso-a2'];
-            }
-          },
-          format: null,
-          style: {
-            fontWeight: 'bold'
-          }
-        },
-        mapData: Highcharts.maps['countries/fr/custom/fr-all-mainland'],
-        tooltip: {
-          headerFormat: '',
-          pointFormat: '<b>{point.name}</b>' + '<br>' +
-            'Nb total de naissance : ' + '{point.nbNaissances}' + '<br>' +
-            'Pourcentage de ' + '{point.nom}' + ' : ' + '{point.pourcentageMax }' + '<br>'
-        }
-
-      }
-    },
-
-
-		  
-    series: [
-
-      {
-        data: data2015,
-        mapData: Highcharts.maps['countries/fr/custom/fr-all-mainland'],
-        joinBy: 'hc-key',
-            /* couleur du surlignage*/
-
-        states: {
-          hover: {
-            color: '#a4edba'
-          }
-        },
-        dataLabels: {
-          enabled: true,
-          format: '{point.nom}'
-        }
-      }
-    ],
-/* pas de légende*/
-        legend : {
-        enabled: false
-    } 
-  });
-
-  // Switch the year from the dropdown
-         $('#year-select').change(function() {
-          var chart = $('#CarteFranceTopPrenom').highcharts();
-          var val = $('#year-select').val();
-		switch (val) {
-          case "2015":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2015"},{text: ""});
-          chart.series[0].setData(data2015);
-          break;
-          case "2014":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2014"},{text: ""});
-          chart.series[0].setData(data2014);
-          break;
-          case "2013":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2013"},{text: ""});
-          chart.series[0].setData(data2013);
-          break;
-          case "2012":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2012"},{text: ""});
-          chart.series[0].setData(data2012);
-          break;
-          case "2011":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2011"},{text: ""});
-          chart.series[0].setData(data2011);
-          break;
-          case "2010":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2010"},{text: ""});
-          chart.series[0].setData(data2010);
-          break;
-          case "2009":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2009"},{text: ""});
-          chart.series[0].setData(data2009);
-          break;
-          case "2008":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2008"},{text: ""});
-          chart.series[0].setData(data2008);
-          break;
-          case "2007":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2007"},{text: ""});
-          chart.series[0].setData(data2007);
-          break;
-          case "2006":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2006"},{text: ""});
-          chart.series[0].setData(data2006);
-          break;
-          case "2005":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2005"},{text: ""});
-          chart.series[0].setData(data2005);
-          break;
-          case "2004":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2004"},{text: ""});
-          chart.series[0].setData(data2004);
-          break;
-          case "2003":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2003"},{text: ""});
-          chart.series[0].setData(data2003);
-          break;
-          case "2002":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2002"},{text: ""});
-          chart.series[0].setData(data2002);
-          break;
-          case "2001":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2001"},{text: ""});
-          chart.series[0].setData(data2001);
-          break;
-          case "2000":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2000"},{text: ""});
-          chart.series[0].setData(data2000);
-          break;
-          case "1999":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1999"},{text: ""});
-          chart.series[0].setData(data1999);
-          break;
-          case "1998":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1998"},{text: ""});
-          chart.series[0].setData(data1998);
-          break;
-          case "1997":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1997"},{text: ""});
-          chart.series[0].setData(data1997);
-          break;
-          case "1996":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1996"},{text: ""});
-          chart.series[0].setData(data1996);
-          break;
-          case "1995":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1995"},{text: ""});
-          chart.series[0].setData(data1995);
-          break;
-          case "1994":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1994"},{text: ""});
-          chart.series[0].setData(data1994);
-          break;
-          case "1993":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1993"},{text: ""});
-          chart.series[0].setData(data1993);
-          break;
-          case "1992":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1992"},{text: ""});
-          chart.series[0].setData(data1992);
-          break;
-          case "1991":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1991"},{text: ""});
-          chart.series[0].setData(data1991);
-          break;
-          case "1990":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1990"},{text: ""});
-          chart.series[0].setData(data1990);
-          break;
-          case "1989":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1989"},{text: ""});
-          chart.series[0].setData(data1989);
-          break;
-          case "1988":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1988"},{text: ""});
-          chart.series[0].setData(data1988);
-          break;
-          case "1987":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1987"},{text: ""});
-          chart.series[0].setData(data1987);
-          break;
-          case "1986":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1986"},{text: ""});
-          chart.series[0].setData(data1986);
-          break;
-          case "1985":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1985"},{text: ""});
-          chart.series[0].setData(data1985);
-          break;
-          case "1984":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1984"},{text: ""});
-          chart.series[0].setData(data1984);
-          break;
-          case "1983":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1983"},{text: ""});
-          chart.series[0].setData(data1983);
-          break;
-          case "1982":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1982"},{text: ""});
-          chart.series[0].setData(data1982);
-          break;
-          case "1981":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1981"},{text: ""});
-          chart.series[0].setData(data1981);
-          break;
-          case "1980":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1980"},{text: ""});
-          chart.series[0].setData(data1980);
-          break;
-          case "1979":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1979"},{text: ""});
-          chart.series[0].setData(data1979);
-          break;
-          case "1978":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1978"},{text: ""});
-          chart.series[0].setData(data1978);
-          break;
-          case "1977":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1977"},{text: ""});
-          chart.series[0].setData(data1977);
-          break;
-          case "1976":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1976"},{text: ""});
-          chart.series[0].setData(data1976);
-          break;
-          case "1975":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1975"},{text: ""});
-          chart.series[0].setData(data1975);
-          break;
-          case "1974":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1974"},{text: ""});
-          chart.series[0].setData(data1974);
-          break;
-          case "1973":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1973"},{text: ""});
-          chart.series[0].setData(data1973);
-          break;
-          case "1972":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1972"},{text: ""});
-          chart.series[0].setData(data1972);
-          break;
-          case "1971":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1971"},{text: ""});
-          chart.series[0].setData(data1971);
-          break;
-          case "1970":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1970"},{text: ""});
-          chart.series[0].setData(data1970);
-          break;
-          case "1969":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1969"},{text: ""});
-          chart.series[0].setData(data1969);
-          break;
-          case "1968":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1968"},{text: ""});
-          chart.series[0].setData(data1968);
-          break;
-          case "1967":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1967"},{text: ""});
-          chart.series[0].setData(data1967);
-          break;
-          case "1966":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1966"},{text: ""});
-          chart.series[0].setData(data1966);
-          break;
-          case "1965":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1965"},{text: ""});
-          chart.series[0].setData(data1965);
-          break;
-          case "1964":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1964"},{text: ""});
-          chart.series[0].setData(data1964);
-          break;
-          case "1963":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1963"},{text: ""});
-          chart.series[0].setData(data1963);
-          break;
-          case "1962":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1962"},{text: ""});
-          chart.series[0].setData(data1962);
-          break;
-          case "1961":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1961"},{text: ""});
-          chart.series[0].setData(data1961);
-          break;
-          case "1960":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1960"},{text: ""});
-          chart.series[0].setData(data1960);
-          break;
-          case "1959":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1959"},{text: ""});
-          chart.series[0].setData(data1959);
-          break;
-          case "1958":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1958"},{text: ""});
-          chart.series[0].setData(data1958);
-          break;
-          case "1957":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1957"},{text: ""});
-          chart.series[0].setData(data1957);
-          break;
-          case "1956":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1956"},{text: ""});
-          chart.series[0].setData(data1956);
-          break;
-          case "1955":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1955"},{text: ""});
-          chart.series[0].setData(data1955);
-          break;
-          case "1954":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1954"},{text: ""});
-          chart.series[0].setData(data1954);
-          break;
-          case "1953":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1953"},{text: ""});
-          chart.series[0].setData(data1953);
-          break;
-          case "1952":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1952"},{text: ""});
-          chart.series[0].setData(data1952);
-          break;
-          case "1951":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1951"},{text: ""});
-          chart.series[0].setData(data1951);
-          break;
-          case "1950":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1950"},{text: ""});
-          chart.series[0].setData(data1950);
-          break;
-          case "1949":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1949"},{text: ""});
-          chart.series[0].setData(data1949);
-          break;
-          case "1948":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1948"},{text: ""});
-          chart.series[0].setData(data1948);
-          break;
-          case "1947":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1947"},{text: ""});
-          chart.series[0].setData(data1947);
-          break;
-          case "1946":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1946"},{text: ""});
-          chart.series[0].setData(data1946);
-          break;
-          case "1945":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1945"},{text: ""});
-          chart.series[0].setData(data1945);
-          break;
-          case "1944":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1944"},{text: ""});
-          chart.series[0].setData(data1944);
-          break;
-          case "1943":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1943"},{text: ""});
-          chart.series[0].setData(data1943);
-          break;
-          case "1942":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1942"},{text: ""});
-          chart.series[0].setData(data1942);
-          break;
-          case "1941":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1941"},{text: ""});
-          chart.series[0].setData(data1941);
-          break;
-          case "1940":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1940"},{text: ""});
-          chart.series[0].setData(data1940);
-          break;
-          case "1939":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1939"},{text: ""});
-          chart.series[0].setData(data1939);
-          break;
-          case "1938":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1938"},{text: ""});
-          chart.series[0].setData(data1938);
-          break;
-          case "1937":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1937"},{text: ""});
-          chart.series[0].setData(data1937);
-          break;
-          case "1936":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1936"},{text: ""});
-          chart.series[0].setData(data1936);
-          break;
-          case "1935":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1935"},{text: ""});
-          chart.series[0].setData(data1935);
-          break;
-          case "1934":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1934"},{text: ""});
-          chart.series[0].setData(data1934);
-          break;
-          case "1933":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1933"},{text: ""});
-          chart.series[0].setData(data1933);
-          break;
-          case "1932":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1932"},{text: ""});
-          chart.series[0].setData(data1932);
-          break;
-          case "1931":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1931"},{text: ""});
-          chart.series[0].setData(data1931);
-          break;
-          case "1930":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1930"},{text: ""});
-          chart.series[0].setData(data1930);
-          break;
-          case "1929":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1929"},{text: ""});
-          chart.series[0].setData(data1929);
-          break;
-          case "1928":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1928"},{text: ""});
-          chart.series[0].setData(data1928);
-          break;
-          case "1927":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1927"},{text: ""});
-          chart.series[0].setData(data1927);
-          break;
-          case "1926":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1926"},{text: ""});
-          chart.series[0].setData(data1926);
-          break;
-          case "1925":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1925"},{text: ""});
-          chart.series[0].setData(data1925);
-          break;
-          case "1924":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1924"},{text: ""});
-          chart.series[0].setData(data1924);
-          break;
-          case "1923":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1923"},{text: ""});
-          chart.series[0].setData(data1923);
-          break;
-          case "1922":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1922"},{text: ""});
-          chart.series[0].setData(data1922);
-          break;
-          case "1921":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1921"},{text: ""});
-          chart.series[0].setData(data1921);
-          break;
-          case "1920":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1920"},{text: ""});
-          chart.series[0].setData(data1920);
-          break;
-          case "1919":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1919"},{text: ""});
-          chart.series[0].setData(data1919);
-          break;
-          case "1918":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1918"},{text: ""});
-          chart.series[0].setData(data1918);
-          break;
-          case "1917":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1917"},{text: ""});
-          chart.series[0].setData(data1917);
-          break;
-          case "1916":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1916"},{text: ""});
-          chart.series[0].setData(data1916);
-          break;
-          case "1915":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1915"},{text: ""});
-          chart.series[0].setData(data1915);
-          break;
-          case "1914":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1914"},{text: ""});
-          chart.series[0].setData(data1914);
-          break;
-          case "1913":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1913"},{text: ""});
-          chart.series[0].setData(data1913);
-          break;
-          case "1912":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1912"},{text: ""});
-          chart.series[0].setData(data1912);
-          break;
-          case "1911":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1911"},{text: ""});
-          chart.series[0].setData(data1911);
-          break;
-          case "1910":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1910"},{text: ""});
-          chart.series[0].setData(data1910);
-          break;
-          case "1909":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1909"},{text: ""});
-          chart.series[0].setData(data1909);
-          break;
-          case "1908":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1908"},{text: ""});
-          chart.series[0].setData(data1908);
-          break;
-          case "1907":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1907"},{text: ""});
-          chart.series[0].setData(data1907);
-          break;
-          case "1906":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1906"},{text: ""});
-          chart.series[0].setData(data1906);
-          break;
-          case "1905":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1905"},{text: ""});
-          chart.series[0].setData(data1905);
-          break;
-          case "1904":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1904"},{text: ""});
-          chart.series[0].setData(data1904);
-          break;
-          case "1903":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1903"},{text: ""});
-          chart.series[0].setData(data1903);
-          break;
-          case "1902":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1902"},{text: ""});
-          chart.series[0].setData(data1902);
-          break;
-          case "1901":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1901"},{text: ""});
-          chart.series[0].setData(data1901);
-          break;
-          case "1900":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1900"},{text: ""});
-          chart.series[0].setData(data1900);
-          break;
-};
-
-
-		
-		});
-
-      });
-      
-  $(function() {
-    Highcharts.setOptions({
-      lang: {
-        numericSymbols: ['k', ' millions', ' milliards', ' billions']
-      }});
-
-
-
-        // Make sure that the dropdown is loaded correctly
-        $('select').material_select();
-
-       
-        // Initiate the years map
-     	
-		$('#CarteFranceTopPrenomHomme').highcharts('Map', {
-		title: {
-            text: 'Sélectionnez une année'
-          },
-
-          subtitle: {
-            text: 'depuis le menu déroulant ci-dessus'
-          },
-
-		   mapNavigation: {
-            enabled: true,
-            buttonOptions: {
-              verticalAlign: 'bottom'
-            }
-          },
-
-          exporting: {
-            buttons: {
-              contextButton: {
-                symbolStroke: '#1893B2',
-              },
-            },
-          },
-
-          colorAxis: {
-            min: 1,
-			max :51
-          },
-
-        plotOptions: {
-      map: {
-        allAreas: false,
-        joinBy: ['iso-a2', 'code'],
-        dataLabels: {
-          enabled: true,
-          color: '#FFFFFF',
-          formatter: function() {
-            if (this.point.properties && this.point.properties.labelrank.toString() < 5) {
-              return this.point.properties['iso-a2'];
-            }
-          },
-          format: null,
-          style: {
-            fontWeight: 'bold'
-          }
-        },
-        mapData: Highcharts.maps['countries/fr/custom/fr-all-mainland'],
-        tooltip: {
-          headerFormat: '',
-          pointFormat: '<b>{point.name}</b>' + '<br>' +
-            'Nb total de naissance : ' + '{point.nbNaissances}' + '<br>' +
-            'Pourcentage de ' + '{point.nom}' + ' : ' + '{point.pourcentageMax }' + '<br>'
-        }
-
-      }
-    },
-
-
-		  
-    series: [
-
-      {
-        data: dataH2015,
-        mapData: Highcharts.maps['countries/fr/custom/fr-all-mainland'],
-        joinBy: 'hc-key',
-            /* couleur du surlignage*/
-
-        states: {
-          hover: {
-            color: '#a4edba'
-          }
-        },
-        dataLabels: {
-          enabled: true,
-          format: '{point.nom}'
-        }
-      }
-    ],
-	/* pas de légende*/
-        legend : {
-        enabled: false
-    } 
-  });
-
-  // Switch the year from the dropdown
-         $('#year-selectH').change(function() {
-          var chart = $('#CarteFranceTopPrenomHomme').highcharts();
-          var val = $('#year-selectH').val();
-		switch (val) {
-          case "2015":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2015"},{text: ""});
-          chart.series[0].setData(dataH2015);
-          break;
-          case "2014":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2014"},{text: ""});
-          chart.series[0].setData(dataH2014);
-          break;
-          case "2013":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2013"},{text: ""});
-          chart.series[0].setData(dataH2013);
-          break;
-          case "2012":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2012"},{text: ""});
-          chart.series[0].setData(dataH2012);
-          break;
-          case "2011":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2011"},{text: ""});
-          chart.series[0].setData(dataH2011);
-          break;
-          case "2010":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2010"},{text: ""});
-          chart.series[0].setData(dataH2010);
-          break;
-          case "2009":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2009"},{text: ""});
-          chart.series[0].setData(dataH2009);
-          break;
-          case "2008":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2008"},{text: ""});
-          chart.series[0].setData(dataH2008);
-          break;
-          case "2007":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2007"},{text: ""});
-          chart.series[0].setData(dataH2007);
-          break;
-          case "2006":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2006"},{text: ""});
-          chart.series[0].setData(dataH2006);
-          break;
-          case "2005":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2005"},{text: ""});
-          chart.series[0].setData(dataH2005);
-          break;
-          case "2004":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2004"},{text: ""});
-          chart.series[0].setData(dataH2004);
-          break;
-          case "2003":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2003"},{text: ""});
-          chart.series[0].setData(dataH2003);
-          break;
-          case "2002":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2002"},{text: ""});
-          chart.series[0].setData(dataH2002);
-          break;
-          case "2001":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2001"},{text: ""});
-          chart.series[0].setData(dataH2001);
-          break;
-          case "2000":
-          chart.setTitle({text: "Les prénoms les plus données par région en 2000"},{text: ""});
-          chart.series[0].setData(dataH2000);
-          break;
-          case "1999":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1999"},{text: ""});
-          chart.series[0].setData(dataH1999);
-          break;
-          case "1998":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1998"},{text: ""});
-          chart.series[0].setData(dataH1998);
-          break;
-          case "1997":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1997"},{text: ""});
-          chart.series[0].setData(dataH1997);
-          break;
-          case "1996":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1996"},{text: ""});
-          chart.series[0].setData(dataH1996);
-          break;
-          case "1995":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1995"},{text: ""});
-          chart.series[0].setData(dataH1995);
-          break;
-          case "1994":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1994"},{text: ""});
-          chart.series[0].setData(dataH1994);
-          break;
-          case "1993":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1993"},{text: ""});
-          chart.series[0].setData(dataH1993);
-          break;
-          case "1992":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1992"},{text: ""});
-          chart.series[0].setData(dataH1992);
-          break;
-          case "1991":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1991"},{text: ""});
-          chart.series[0].setData(dataH1991);
-          break;
-          case "1990":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1990"},{text: ""});
-          chart.series[0].setData(dataH1990);
-          break;
-          case "1989":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1989"},{text: ""});
-          chart.series[0].setData(dataH1989);
-          break;
-          case "1988":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1988"},{text: ""});
-          chart.series[0].setData(dataH1988);
-          break;
-          case "1987":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1987"},{text: ""});
-          chart.series[0].setData(dataH1987);
-          break;
-          case "1986":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1986"},{text: ""});
-          chart.series[0].setData(dataH1986);
-          break;
-          case "1985":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1985"},{text: ""});
-          chart.series[0].setData(dataH1985);
-          break;
-          case "1984":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1984"},{text: ""});
-          chart.series[0].setData(dataH1984);
-          break;
-          case "1983":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1983"},{text: ""});
-          chart.series[0].setData(dataH1983);
-          break;
-          case "1982":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1982"},{text: ""});
-          chart.series[0].setData(dataH1982);
-          break;
-          case "1981":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1981"},{text: ""});
-          chart.series[0].setData(dataH1981);
-          break;
-          case "1980":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1980"},{text: ""});
-          chart.series[0].setData(dataH1980);
-          break;
-          case "1979":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1979"},{text: ""});
-          chart.series[0].setData(dataH1979);
-          break;
-          case "1978":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1978"},{text: ""});
-          chart.series[0].setData(dataH1978);
-          break;
-          case "1977":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1977"},{text: ""});
-          chart.series[0].setData(dataH1977);
-          break;
-          case "1976":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1976"},{text: ""});
-          chart.series[0].setData(dataH1976);
-          break;
-          case "1975":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1975"},{text: ""});
-          chart.series[0].setData(dataH1975);
-          break;
-          case "1974":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1974"},{text: ""});
-          chart.series[0].setData(dataH1974);
-          break;
-          case "1973":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1973"},{text: ""});
-          chart.series[0].setData(dataH1973);
-          break;
-          case "1972":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1972"},{text: ""});
-          chart.series[0].setData(dataH1972);
-          break;
-          case "1971":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1971"},{text: ""});
-          chart.series[0].setData(dataH1971);
-          break;
-          case "1970":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1970"},{text: ""});
-          chart.series[0].setData(dataH1970);
-          break;
-          case "1969":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1969"},{text: ""});
-          chart.series[0].setData(dataH1969);
-          break;
-          case "1968":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1968"},{text: ""});
-          chart.series[0].setData(dataH1968);
-          break;
-          case "1967":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1967"},{text: ""});
-          chart.series[0].setData(dataH1967);
-          break;
-          case "1966":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1966"},{text: ""});
-          chart.series[0].setData(dataH1966);
-          break;
-          case "1965":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1965"},{text: ""});
-          chart.series[0].setData(dataH1965);
-          break;
-          case "1964":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1964"},{text: ""});
-          chart.series[0].setData(dataH1964);
-          break;
-          case "1963":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1963"},{text: ""});
-          chart.series[0].setData(dataH1963);
-          break;
-          case "1962":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1962"},{text: ""});
-          chart.series[0].setData(dataH1962);
-          break;
-          case "1961":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1961"},{text: ""});
-          chart.series[0].setData(dataH1961);
-          break;
-          case "1960":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1960"},{text: ""});
-          chart.series[0].setData(dataH1960);
-          break;
-          case "1959":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1959"},{text: ""});
-          chart.series[0].setData(dataH1959);
-          break;
-          case "1958":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1958"},{text: ""});
-          chart.series[0].setData(dataH1958);
-          break;
-          case "1957":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1957"},{text: ""});
-          chart.series[0].setData(dataH1957);
-          break;
-          case "1956":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1956"},{text: ""});
-          chart.series[0].setData(dataH1956);
-          break;
-          case "1955":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1955"},{text: ""});
-          chart.series[0].setData(dataH1955);
-          break;
-          case "1954":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1954"},{text: ""});
-          chart.series[0].setData(dataH1954);
-          break;
-          case "1953":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1953"},{text: ""});
-          chart.series[0].setData(dataH1953);
-          break;
-          case "1952":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1952"},{text: ""});
-          chart.series[0].setData(dataH1952);
-          break;
-          case "1951":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1951"},{text: ""});
-          chart.series[0].setData(dataH1951);
-          break;
-          case "1950":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1950"},{text: ""});
-          chart.series[0].setData(dataH1950);
-          break;
-          case "1949":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1949"},{text: ""});
-          chart.series[0].setData(dataH1949);
-          break;
-          case "1948":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1948"},{text: ""});
-          chart.series[0].setData(dataH1948);
-          break;
-          case "1947":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1947"},{text: ""});
-          chart.series[0].setData(dataH1947);
-          break;
-          case "1946":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1946"},{text: ""});
-          chart.series[0].setData(dataH1946);
-          break;
-          case "1945":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1945"},{text: ""});
-          chart.series[0].setData(dataH1945);
-          break;
-          case "1944":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1944"},{text: ""});
-          chart.series[0].setData(dataH1944);
-          break;
-          case "1943":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1943"},{text: ""});
-          chart.series[0].setData(dataH1943);
-          break;
-          case "1942":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1942"},{text: ""});
-          chart.series[0].setData(dataH1942);
-          break;
-          case "1941":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1941"},{text: ""});
-          chart.series[0].setData(dataH1941);
-          break;
-          case "1940":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1940"},{text: ""});
-          chart.series[0].setData(dataH1940);
-          break;
-          case "1939":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1939"},{text: ""});
-          chart.series[0].setData(dataH1939);
-          break;
-          case "1938":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1938"},{text: ""});
-          chart.series[0].setData(dataH1938);
-          break;
-          case "1937":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1937"},{text: ""});
-          chart.series[0].setData(dataH1937);
-          break;
-          case "1936":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1936"},{text: ""});
-          chart.series[0].setData(dataH1936);
-          break;
-          case "1935":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1935"},{text: ""});
-          chart.series[0].setData(dataH1935);
-          break;
-          case "1934":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1934"},{text: ""});
-          chart.series[0].setData(dataH1934);
-          break;
-          case "1933":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1933"},{text: ""});
-          chart.series[0].setData(dataH1933);
-          break;
-          case "1932":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1932"},{text: ""});
-          chart.series[0].setData(dataH1932);
-          break;
-          case "1931":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1931"},{text: ""});
-          chart.series[0].setData(dataH1931);
-          break;
-          case "1930":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1930"},{text: ""});
-          chart.series[0].setData(dataH1930);
-          break;
-          case "1929":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1929"},{text: ""});
-          chart.series[0].setData(dataH1929);
-          break;
-          case "1928":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1928"},{text: ""});
-          chart.series[0].setData(dataH1928);
-          break;
-          case "1927":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1927"},{text: ""});
-          chart.series[0].setData(dataH1927);
-          break;
-          case "1926":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1926"},{text: ""});
-          chart.series[0].setData(dataH1926);
-          break;
-          case "1925":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1925"},{text: ""});
-          chart.series[0].setData(dataH1925);
-          break;
-          case "1924":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1924"},{text: ""});
-          chart.series[0].setData(dataH1924);
-          break;
-          case "1923":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1923"},{text: ""});
-          chart.series[0].setData(dataH1923);
-          break;
-          case "1922":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1922"},{text: ""});
-          chart.series[0].setData(dataH1922);
-          break;
-          case "1921":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1921"},{text: ""});
-          chart.series[0].setData(dataH1921);
-          break;
-          case "1920":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1920"},{text: ""});
-          chart.series[0].setData(dataH1920);
-          break;
-          case "1919":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1919"},{text: ""});
-          chart.series[0].setData(dataH1919);
-          break;
-          case "1918":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1918"},{text: ""});
-          chart.series[0].setData(dataH1918);
-          break;
-          case "1917":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1917"},{text: ""});
-          chart.series[0].setData(dataH1917);
-          break;
-          case "1916":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1916"},{text: ""});
-          chart.series[0].setData(dataH1916);
-          break;
-          case "1915":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1915"},{text: ""});
-          chart.series[0].setData(dataH1915);
-          break;
-          case "1914":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1914"},{text: ""});
-          chart.series[0].setData(dataH1914);
-          break;
-          case "1913":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1913"},{text: ""});
-          chart.series[0].setData(dataH1913);
-          break;
-          case "1912":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1912"},{text: ""});
-          chart.series[0].setData(dataH1912);
-          break;
-          case "1911":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1911"},{text: ""});
-          chart.series[0].setData(dataH1911);
-          break;
-          case "1910":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1910"},{text: ""});
-          chart.series[0].setData(dataH1910);
-          break;
-          case "1909":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1909"},{text: ""});
-          chart.series[0].setData(dataH1909);
-          break;
-          case "1908":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1908"},{text: ""});
-          chart.series[0].setData(dataH1908);
-          break;
-          case "1907":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1907"},{text: ""});
-          chart.series[0].setData(dataH1907);
-          break;
-          case "1906":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1906"},{text: ""});
-          chart.series[0].setData(dataH1906);
-          break;
-          case "1905":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1905"},{text: ""});
-          chart.series[0].setData(dataH1905);
-          break;
-          case "1904":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1904"},{text: ""});
-          chart.series[0].setData(dataH1904);
-          break;
-          case "1903":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1903"},{text: ""});
-          chart.series[0].setData(dataH1903);
-          break;
-          case "1902":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1902"},{text: ""});
-          chart.series[0].setData(dataH1902);
-          break;
-          case "1901":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1901"},{text: ""});
-          chart.series[0].setData(dataH1901);
-          break;
-          case "1900":
-          chart.setTitle({text: "Les prénoms les plus données par région en 1900"},{text: ""});
-          chart.series[0].setData(dataH1900);
-          break;
-};
-
-		
-		});
-
-      });
-	  
-	  
-	    $(function() {
-    
-    Highcharts.setOptions({
-      lang: {
-        numericSymbols: ['k', ' millions', ' milliards', ' billions']
-      }});
-
-
-
-        // Make sure that the dropdown is loaded correctly
-        $('select').material_select();
-
-       
-        // Initiate the years map
-     	
-		$('#CourbePrenom').highcharts({
-
-    title: {
-        text: 'Titre'
-    },
-
-    subtitle: {
-        text: 'Sous titre'
-    },
-
-    yAxis: {
-        title: {
-            text: 'Nombre de naissances'
-        }
-    },
-    legend: {
-       enabled: false
-    },
-
-    plotOptions: {
-        series: {
-            pointStart: 1900
-        }
-    },
-
-    series: [{
-        name: 'Installation',
-        data: [848,926,972,987,1018,982,1034,1036,1060,1049,1089,954,1110,1013,979,682,515,554,598,609,995,982,867,837,754,787,671,675,640,585,523,480,456,425,421,341,369,343,310,267,264,189,201,175,158,167,194,184,214,198,180,171,4,168,3,146,110,97,119,96,126,74,102,92,59,63,77,60,77,90,71,101,115,105,105,148,250,341,485,672,1123,1705,1771,1774,2227,3034,3683,3915,4204,4178,4222,4357,3855,3480,3920,3915,3630,3911,3619,3643,3634,3399,2856,2407,2347,2163,2022,1764,1573,1502,1350,1341,1304,1061,1143,968,14]
-    }]
-
-});
-
-  // Switch the year from the dropdown
-         $('#year-select-AllPrenom').change(function() {
-          var chart = $('#CourbePrenom').highcharts();
-          var val = $('#year-select-AllPrenom').val();
-		switch (val) {
-           case "Adrien":
-           chart.setTitle({text: " Naissances pour le prénom Adrien"});
-           chart.series[0].setData(data3000);
-		   chart.series[0].setName({text: " Naissances pour le prénom Adrien"});
-
-           break;
-           case "Agnès":
-           chart.setTitle({text: " Naissances pour le prénom Agnès"});
-           chart.series[0].setData(data3001);
-           break;
-           case "Alain":
-           chart.setTitle({text: " Naissances pour le prénom Alain"});
-           chart.series[0].setData(data3002);
-           break;
-           case "Alexandra":
-           chart.setTitle({text: " Naissances pour le prénom Alexandra"});
-           chart.series[0].setData(data3003);
-           break;
-           case "Alexandre":
-           chart.setTitle({text: " Naissances pour le prénom Alexandre"});
-           chart.series[0].setData(data3004);
-           break;
-           case "Alice":
-           chart.setTitle({text: " Naissances pour le prénom Alice"});
-           chart.series[0].setData(data3005);
-           break;
-           case "Amandine":
-           chart.setTitle({text: " Naissances pour le prénom Amandine"});
-           chart.series[0].setData(data3006);
-           break;
-           case "Amélie":
-           chart.setTitle({text: " Naissances pour le prénom Amélie"});
-           chart.series[0].setData(data3007);
-           break;
-           case "Anaïs":
-           chart.setTitle({text: " Naissances pour le prénom Anaïs"});
-           chart.series[0].setData(data3008);
-           break;
-           case "Angelique":
-           chart.setTitle({text: " Naissances pour le prénom Angelique"});
-           chart.series[0].setData(data3009);
-           break;
-           case "Anne":
-           chart.setTitle({text: " Naissances pour le prénom Anne"});
-           chart.series[0].setData(data3010);
-           break;
-           case "Annick":
-           chart.setTitle({text: " Naissances pour le prénom Annick"});
-           chart.series[0].setData(data3011);
-           break;
-           case "Annie":
-           chart.setTitle({text: " Naissances pour le prénom Annie"});
-           chart.series[0].setData(data3012);
-           break;
-           case "Anthony":
-           chart.setTitle({text: " Naissances pour le prénom Anthony"});
-           chart.series[0].setData(data3013);
-           break;
-           case "Antoine":
-           chart.setTitle({text: " Naissances pour le prénom Antoine"});
-           chart.series[0].setData(data3014);
-           break;
-           case "Arnaud":
-           chart.setTitle({text: " Naissances pour le prénom Arnaud"});
-           chart.series[0].setData(data3015);
-           break;
-           case "Arthur":
-           chart.setTitle({text: " Naissances pour le prénom Arthur"});
-           chart.series[0].setData(data3016);
-           break;
-           case "Audrey":
-           chart.setTitle({text: " Naissances pour le prénom Audrey"});
-           chart.series[0].setData(data3017);
-           break;
-           case "Aurélie":
-           chart.setTitle({text: " Naissances pour le prénom Aurélie"});
-           chart.series[0].setData(data3018);
-           break;
-           case "Aurélien":
-           chart.setTitle({text: " Naissances pour le prénom Aurélien"});
-           chart.series[0].setData(data3019);
-           break;
-           case "Aurore":
-           chart.setTitle({text: " Naissances pour le prénom Aurore"});
-           chart.series[0].setData(data3020);
-           break;
-           case "Baptiste":
-           chart.setTitle({text: " Naissances pour le prénom Baptiste"});
-           chart.series[0].setData(data3021);
-           break;
-           case "Béatrice":
-           chart.setTitle({text: " Naissances pour le prénom Béatrice"});
-           chart.series[0].setData(data3022);
-           break;
-           case "Benjamin":
-           chart.setTitle({text: " Naissances pour le prénom Benjamin"});
-           chart.series[0].setData(data3023);
-           break;
-           case "Benoît":
-           chart.setTitle({text: " Naissances pour le prénom Benoît"});
-           chart.series[0].setData(data3024);
-           break;
-           case "Bernard":
-           chart.setTitle({text: " Naissances pour le prénom Bernard"});
-           chart.series[0].setData(data3025);
-           break;
-           case "Brigitte":
-           chart.setTitle({text: " Naissances pour le prénom Brigitte"});
-           chart.series[0].setData(data3026);
-           break;
-           case "Bruno":
-           chart.setTitle({text: " Naissances pour le prénom Bruno"});
-           chart.series[0].setData(data3027);
-           break;
-           case "Camille":
-           chart.setTitle({text: " Naissances pour le prénom Camille"});
-           chart.series[0].setData(data3028);
-           break;
-           case "Carole":
-           chart.setTitle({text: " Naissances pour le prénom Carole"});
-           chart.series[0].setData(data3029);
-           break;
-           case "Caroline":
-           chart.setTitle({text: " Naissances pour le prénom Caroline"});
-           chart.series[0].setData(data3030);
-           break;
-           case "Catherine":
-           chart.setTitle({text: " Naissances pour le prénom Catherine"});
-           chart.series[0].setData(data3031);
-           break;
-           case "Cécile":
-           chart.setTitle({text: " Naissances pour le prénom Cécile"});
-           chart.series[0].setData(data3032);
-           break;
-           case "Cedric":
-           chart.setTitle({text: " Naissances pour le prénom Cedric"});
-           chart.series[0].setData(data3033);
-           break;
-           case "Céline":
-           chart.setTitle({text: " Naissances pour le prénom Céline"});
-           chart.series[0].setData(data3034);
-           break;
-           case "Chantal":
-           chart.setTitle({text: " Naissances pour le prénom Chantal"});
-           chart.series[0].setData(data3035);
-           break;
-           case "Charlotte":
-           chart.setTitle({text: " Naissances pour le prénom Charlotte"});
-           chart.series[0].setData(data3036);
-           break;
-           case "Chloé":
-           chart.setTitle({text: " Naissances pour le prénom Chloé"});
-           chart.series[0].setData(data3037);
-           break;
-           case "Christelle":
-           chart.setTitle({text: " Naissances pour le prénom Christelle"});
-           chart.series[0].setData(data3038);
-           break;
-           case "Christian":
-           chart.setTitle({text: " Naissances pour le prénom Christian"});
-           chart.series[0].setData(data3039);
-           break;
-           case "Christiane":
-           chart.setTitle({text: " Naissances pour le prénom Christiane"});
-           chart.series[0].setData(data3040);
-           break;
-           case "Christine":
-           chart.setTitle({text: " Naissances pour le prénom Christine"});
-           chart.series[0].setData(data3041);
-           break;
-           case "Christophe":
-           chart.setTitle({text: " Naissances pour le prénom Christophe"});
-           chart.series[0].setData(data3042);
-           break;
-           case "Cindy":
-           chart.setTitle({text: " Naissances pour le prénom Cindy"});
-           chart.series[0].setData(data3043);
-           break;
-           case "Claire":
-           chart.setTitle({text: " Naissances pour le prénom Claire"});
-           chart.series[0].setData(data3044);
-           break;
-           case "Clara":
-           chart.setTitle({text: " Naissances pour le prénom Clara"});
-           chart.series[0].setData(data3045);
-           break;
-           case "Claudine":
-           chart.setTitle({text: " Naissances pour le prénom Claudine"});
-           chart.series[0].setData(data3046);
-           break;
-           case "Clément":
-           chart.setTitle({text: " Naissances pour le prénom Clément"});
-           chart.series[0].setData(data3047);
-           break;
-           case "Corinne":
-           chart.setTitle({text: " Naissances pour le prénom Corinne"});
-           chart.series[0].setData(data3048);
-           break;
-           case "Cyril":
-           chart.setTitle({text: " Naissances pour le prénom Cyril"});
-           chart.series[0].setData(data3049);
-           break;
-           case "Damien":
-           chart.setTitle({text: " Naissances pour le prénom Damien"});
-           chart.series[0].setData(data3050);
-           break;
-           case "Daniel":
-           chart.setTitle({text: " Naissances pour le prénom Daniel"});
-           chart.series[0].setData(data3051);
-           break;
-           case "David":
-           chart.setTitle({text: " Naissances pour le prénom David"});
-           chart.series[0].setData(data3052);
-           break;
-           case "Delphine":
-           chart.setTitle({text: " Naissances pour le prénom Delphine"});
-           chart.series[0].setData(data3053);
-           break;
-           case "Denis":
-           chart.setTitle({text: " Naissances pour le prénom Denis"});
-           chart.series[0].setData(data3054);
-           break;
-           case "Didier":
-           chart.setTitle({text: " Naissances pour le prénom Didier"});
-           chart.series[0].setData(data3055);
-           break;
-           case "Dominique":
-           chart.setTitle({text: " Naissances pour le prénom Dominique"});
-           chart.series[0].setData(data3056);
-           break;
-           case "Dylan":
-           chart.setTitle({text: " Naissances pour le prénom Dylan"});
-           chart.series[0].setData(data3057);
-           break;
-           case "Elisabeth":
-           chart.setTitle({text: " Naissances pour le prénom Elisabeth"});
-           chart.series[0].setData(data3058);
-           break;
-           case "Elise":
-           chart.setTitle({text: " Naissances pour le prénom Elise"});
-           chart.series[0].setData(data3059);
-           break;
-           case "Elodie":
-           chart.setTitle({text: " Naissances pour le prénom Elodie"});
-           chart.series[0].setData(data3060);
-           break;
-           case "Emilie":
-           chart.setTitle({text: " Naissances pour le prénom Emilie"});
-           chart.series[0].setData(data3061);
-           break;
-           case "Emma":
-           chart.setTitle({text: " Naissances pour le prénom Emma"});
-           chart.series[0].setData(data3062);
-           break;
-           case "Emmanuel":
-           chart.setTitle({text: " Naissances pour le prénom Emmanuel"});
-           chart.series[0].setData(data3063);
-           break;
-           case "Emmanuelle":
-           chart.setTitle({text: " Naissances pour le prénom Emmanuelle"});
-           chart.series[0].setData(data3064);
-           break;
-           case "Enzo":
-           chart.setTitle({text: " Naissances pour le prénom Enzo"});
-           chart.series[0].setData(data3065);
-           break;
-           case "Eric":
-           chart.setTitle({text: " Naissances pour le prénom Eric"});
-           chart.series[0].setData(data3066);
-           break;
-           case "Estelle":
-           chart.setTitle({text: " Naissances pour le prénom Estelle"});
-           chart.series[0].setData(data3067);
-           break;
-           case "Eva":
-           chart.setTitle({text: " Naissances pour le prénom Eva"});
-           chart.series[0].setData(data3068);
-           break;
-           case "Evelyne":
-           chart.setTitle({text: " Naissances pour le prénom Evelyne"});
-           chart.series[0].setData(data3069);
-           break;
-           case "Fabien":
-           chart.setTitle({text: " Naissances pour le prénom Fabien"});
-           chart.series[0].setData(data3070);
-           break;
-           case "Fabienne":
-           chart.setTitle({text: " Naissances pour le prénom Fabienne"});
-           chart.series[0].setData(data3071);
-           break;
-           case "Fanny":
-           chart.setTitle({text: " Naissances pour le prénom Fanny"});
-           chart.series[0].setData(data3072);
-           break;
-           case "Florence":
-           chart.setTitle({text: " Naissances pour le prénom Florence"});
-           chart.series[0].setData(data3073);
-           break;
-           case "Florent":
-           chart.setTitle({text: " Naissances pour le prénom Florent"});
-           chart.series[0].setData(data3074);
-           break;
-           case "Florian":
-           chart.setTitle({text: " Naissances pour le prénom Florian"});
-           chart.series[0].setData(data3075);
-           break;
-           case "Francis":
-           chart.setTitle({text: " Naissances pour le prénom Francis"});
-           chart.series[0].setData(data3076);
-           break;
-           case "Franck":
-           chart.setTitle({text: " Naissances pour le prénom Franck"});
-           chart.series[0].setData(data3077);
-           break;
-           case "François":
-           chart.setTitle({text: " Naissances pour le prénom François"});
-           chart.series[0].setData(data3078);
-           break;
-           case "Françoise":
-           chart.setTitle({text: " Naissances pour le prénom Françoise"});
-           chart.series[0].setData(data3079);
-           break;
-           case "Frédéric":
-           chart.setTitle({text: " Naissances pour le prénom Frédéric"});
-           chart.series[0].setData(data3080);
-           break;
-           case "Gabriel":
-           chart.setTitle({text: " Naissances pour le prénom Gabriel"});
-           chart.series[0].setData(data3081);
-           break;
-           case "Gilles":
-           chart.setTitle({text: " Naissances pour le prénom Gilles"});
-           chart.series[0].setData(data3082);
-           break;
-           case "Gregory":
-           chart.setTitle({text: " Naissances pour le prénom Gregory"});
-           chart.series[0].setData(data3083);
-           break;
-           case "Guillaume":
-           chart.setTitle({text: " Naissances pour le prénom Guillaume"});
-           chart.series[0].setData(data3084);
-           break;
-           case "Hélène":
-           chart.setTitle({text: " Naissances pour le prénom Hélène"});
-           chart.series[0].setData(data3085);
-           break;
-           case "Hervé":
-           chart.setTitle({text: " Naissances pour le prénom Hervé"});
-           chart.series[0].setData(data3086);
-           break;
-           case "Hugo":
-           chart.setTitle({text: " Naissances pour le prénom Hugo"});
-           chart.series[0].setData(data3087);
-           break;
-           case "Inès":
-           chart.setTitle({text: " Naissances pour le prénom Inès"});
-           chart.series[0].setData(data3088);
-           break;
-           case "Isabelle":
-           chart.setTitle({text: " Naissances pour le prénom Isabelle"});
-           chart.series[0].setData(data3089);
-           break;
-           case "Jacqueline":
-           chart.setTitle({text: " Naissances pour le prénom Jacqueline"});
-           chart.series[0].setData(data3090);
-           break;
-           case "Jacques":
-           chart.setTitle({text: " Naissances pour le prénom Jacques"});
-           chart.series[0].setData(data3091);
-           break;
-           case "Jade":
-           chart.setTitle({text: " Naissances pour le prénom Jade"});
-           chart.series[0].setData(data3092);
-           break;
-           case "Jean":
-           chart.setTitle({text: " Naissances pour le prénom Jean"});
-           chart.series[0].setData(data3093);
-           break;
-           case "Jean-claude":
-           chart.setTitle({text: " Naissances pour le prénom Jean-claude"});
-           chart.series[0].setData(data3094);
-           break;
-           case "Jean-françois":
-           chart.setTitle({text: " Naissances pour le prénom Jean-françois"});
-           chart.series[0].setData(data3095);
-           break;
-           case "Jean-luc":
-           chart.setTitle({text: " Naissances pour le prénom Jean-luc"});
-           chart.series[0].setData(data3096);
-           break;
-           case "Jean-marc":
-           chart.setTitle({text: " Naissances pour le prénom Jean-marc"});
-           chart.series[0].setData(data3097);
-           break;
-           case "Jean-michel":
-           chart.setTitle({text: " Naissances pour le prénom Jean-michel"});
-           chart.series[0].setData(data3098);
-           break;
-           case "Jean-paul":
-           chart.setTitle({text: " Naissances pour le prénom Jean-paul"});
-           chart.series[0].setData(data3099);
-           break;
-           case "Jean-pierre":
-           chart.setTitle({text: " Naissances pour le prénom Jean-pierre"});
-           chart.series[0].setData(data3100);
-           break;
-           case "Jennifer":
-           chart.setTitle({text: " Naissances pour le prénom Jennifer"});
-           chart.series[0].setData(data3101);
-           break;
-           case "Jeremy":
-           chart.setTitle({text: " Naissances pour le prénom Jeremy"});
-           chart.series[0].setData(data3102);
-           break;
-           case "Jerome":
-           chart.setTitle({text: " Naissances pour le prénom Jerome"});
-           chart.series[0].setData(data3103);
-           break;
-           case "Jessica":
-           chart.setTitle({text: " Naissances pour le prénom Jessica"});
-           chart.series[0].setData(data3104);
-           break;
-           case "Jocelyne":
-           chart.setTitle({text: " Naissances pour le prénom Jocelyne"});
-           chart.series[0].setData(data3105);
-           break;
-           case "Joël":
-           chart.setTitle({text: " Naissances pour le prénom Joël"});
-           chart.series[0].setData(data3106);
-           break;
-           case "Joëlle":
-           chart.setTitle({text: " Naissances pour le prénom Joëlle"});
-           chart.series[0].setData(data3107);
-           break;
-           case "Jonathan":
-           chart.setTitle({text: " Naissances pour le prénom Jonathan"});
-           chart.series[0].setData(data3108);
-           break;
-           case "Jules":
-           chart.setTitle({text: " Naissances pour le prénom Jules"});
-           chart.series[0].setData(data3109);
-           break;
-           case "Julie":
-           chart.setTitle({text: " Naissances pour le prénom Julie"});
-           chart.series[0].setData(data3110);
-           break;
-           case "Julien":
-           chart.setTitle({text: " Naissances pour le prénom Julien"});
-           chart.series[0].setData(data3111);
-           break;
-           case "Juliette":
-           chart.setTitle({text: " Naissances pour le prénom Juliette"});
-           chart.series[0].setData(data3112);
-           break;
-           case "Justine":
-           chart.setTitle({text: " Naissances pour le prénom Justine"});
-           chart.series[0].setData(data3113);
-           break;
-           case "Karine":
-           chart.setTitle({text: " Naissances pour le prénom Karine"});
-           chart.series[0].setData(data3114);
-           break;
-           case "Kevin":
-           chart.setTitle({text: " Naissances pour le prénom Kevin"});
-           chart.series[0].setData(data3115);
-           break;
-           case "Laetitia":
-           chart.setTitle({text: " Naissances pour le prénom Laetitia"});
-           chart.series[0].setData(data3116);
-           break;
-           case "Laura":
-           chart.setTitle({text: " Naissances pour le prénom Laura"});
-           chart.series[0].setData(data3117);
-           break;
-           case "Laure":
-           chart.setTitle({text: " Naissances pour le prénom Laure"});
-           chart.series[0].setData(data3118);
-           break;
-           case "Laurence":
-           chart.setTitle({text: " Naissances pour le prénom Laurence"});
-           chart.series[0].setData(data3119);
-           break;
-           case "Laurent":
-           chart.setTitle({text: " Naissances pour le prénom Laurent"});
-           chart.series[0].setData(data3120);
-           break;
-           case "Léa":
-           chart.setTitle({text: " Naissances pour le prénom Léa"});
-           chart.series[0].setData(data3121);
-           break;
-           case "Lionel":
-           chart.setTitle({text: " Naissances pour le prénom Lionel"});
-           chart.series[0].setData(data3122);
-           break;
-           case "Lisa":
-           chart.setTitle({text: " Naissances pour le prénom Lisa"});
-           chart.series[0].setData(data3123);
-           break;
-           case "Loïc":
-           chart.setTitle({text: " Naissances pour le prénom Loïc"});
-           chart.series[0].setData(data3124);
-           break;
-           case "Louis":
-           chart.setTitle({text: " Naissances pour le prénom Louis"});
-           chart.series[0].setData(data3125);
-           break;
-           case "Louise":
-           chart.setTitle({text: " Naissances pour le prénom Louise"});
-           chart.series[0].setData(data3126);
-           break;
-           case "Lucas":
-           chart.setTitle({text: " Naissances pour le prénom Lucas"});
-           chart.series[0].setData(data3127);
-           break;
-           case "Lucie":
-           chart.setTitle({text: " Naissances pour le prénom Lucie"});
-           chart.series[0].setData(data3128);
-           break;
-           case "Ludovic":
-           chart.setTitle({text: " Naissances pour le prénom Ludovic"});
-           chart.series[0].setData(data3129);
-           break;
-           case "Magali":
-           chart.setTitle({text: " Naissances pour le prénom Magali"});
-           chart.series[0].setData(data3130);
-           break;
-           case "Manon":
-           chart.setTitle({text: " Naissances pour le prénom Manon"});
-           chart.series[0].setData(data3131);
-           break;
-           case "Marc":
-           chart.setTitle({text: " Naissances pour le prénom Marc"});
-           chart.series[0].setData(data3132);
-           break;
-           case "Marie":
-           chart.setTitle({text: " Naissances pour le prénom Marie"});
-           chart.series[0].setData(data3133);
-           break;
-           case "Marie-christine":
-           chart.setTitle({text: " Naissances pour le prénom Marie-christine"});
-           chart.series[0].setData(data3134);
-           break;
-           case "Marine":
-           chart.setTitle({text: " Naissances pour le prénom Marine"});
-           chart.series[0].setData(data3135);
-           break;
-           case "Marion":
-           chart.setTitle({text: " Naissances pour le prénom Marion"});
-           chart.series[0].setData(data3136);
-           break;
-           case "Martine":
-           chart.setTitle({text: " Naissances pour le prénom Martine"});
-           chart.series[0].setData(data3137);
-           break;
-           case "Mathieu":
-           chart.setTitle({text: " Naissances pour le prénom Mathieu"});
-           chart.series[0].setData(data3138);
-           break;
-           case "Mathilde":
-           chart.setTitle({text: " Naissances pour le prénom Mathilde"});
-           chart.series[0].setData(data3139);
-           break;
-           case "Mathis":
-           chart.setTitle({text: " Naissances pour le prénom Mathis"});
-           chart.series[0].setData(data3140);
-           break;
-           case "Matthieu":
-           chart.setTitle({text: " Naissances pour le prénom Matthieu"});
-           chart.series[0].setData(data3141);
-           break;
-           case "Mélanie":
-           chart.setTitle({text: " Naissances pour le prénom Mélanie"});
-           chart.series[0].setData(data3142);
-           break;
-           case "Mélissa":
-           chart.setTitle({text: " Naissances pour le prénom Mélissa"});
-           chart.series[0].setData(data3143);
-           break;
-           case "Michael":
-           chart.setTitle({text: " Naissances pour le prénom Michael"});
-           chart.series[0].setData(data3144);
-           break;
-           case "Michel":
-           chart.setTitle({text: " Naissances pour le prénom Michel"});
-           chart.series[0].setData(data3145);
-           break;
-           case "Michèle":
-           chart.setTitle({text: " Naissances pour le prénom Michèle"});
-           chart.series[0].setData(data3146);
-           break;
-           case "Mickael":
-           chart.setTitle({text: " Naissances pour le prénom Mickael"});
-           chart.series[0].setData(data3147);
-           break;
-           case "Mohamed":
-           chart.setTitle({text: " Naissances pour le prénom Mohamed"});
-           chart.series[0].setData(data3148);
-           break;
-           case "Monique":
-           chart.setTitle({text: " Naissances pour le prénom Monique"});
-           chart.series[0].setData(data3149);
-           break;
-           case "Morgane":
-           chart.setTitle({text: " Naissances pour le prénom Morgane"});
-           chart.series[0].setData(data3150);
-           break;
-           case "Muriel":
-           chart.setTitle({text: " Naissances pour le prénom Muriel"});
-           chart.series[0].setData(data3151);
-           break;
-           case "Myriam":
-           chart.setTitle({text: " Naissances pour le prénom Myriam"});
-           chart.series[0].setData(data3152);
-           break;
-           case "Nadia":
-           chart.setTitle({text: " Naissances pour le prénom Nadia"});
-           chart.series[0].setData(data3153);
-           break;
-           case "Nadine":
-           chart.setTitle({text: " Naissances pour le prénom Nadine"});
-           chart.series[0].setData(data3154);
-           break;
-           case "Nathalie":
-           chart.setTitle({text: " Naissances pour le prénom Nathalie"});
-           chart.series[0].setData(data3155);
-           break;
-           case "Nathan":
-           chart.setTitle({text: " Naissances pour le prénom Nathan"});
-           chart.series[0].setData(data3156);
-           break;
-           case "Nicolas":
-           chart.setTitle({text: " Naissances pour le prénom Nicolas"});
-           chart.series[0].setData(data3157);
-           break;
-           case "Nicole":
-           chart.setTitle({text: " Naissances pour le prénom Nicole"});
-           chart.series[0].setData(data3158);
-           break;
-           case "Océane":
-           chart.setTitle({text: " Naissances pour le prénom Océane"});
-           chart.series[0].setData(data3159);
-           break;
-           case "Olivier":
-           chart.setTitle({text: " Naissances pour le prénom Olivier"});
-           chart.series[0].setData(data3160);
-           break;
-           case "Pascal":
-           chart.setTitle({text: " Naissances pour le prénom Pascal"});
-           chart.series[0].setData(data3161);
-           break;
-           case "Pascale":
-           chart.setTitle({text: " Naissances pour le prénom Pascale"});
-           chart.series[0].setData(data3162);
-           break;
-           case "Patricia":
-           chart.setTitle({text: " Naissances pour le prénom Patricia"});
-           chart.series[0].setData(data3163);
-           break;
-           case "Patrick":
-           chart.setTitle({text: " Naissances pour le prénom Patrick"});
-           chart.series[0].setData(data3164);
-           break;
-           case "Paul":
-           chart.setTitle({text: " Naissances pour le prénom Paul"});
-           chart.series[0].setData(data3165);
-           break;
-           case "Pauline":
-           chart.setTitle({text: " Naissances pour le prénom Pauline"});
-           chart.series[0].setData(data3166);
-           break;
-           case "Philippe":
-           chart.setTitle({text: " Naissances pour le prénom Philippe"});
-           chart.series[0].setData(data3167);
-           break;
-           case "Pierre":
-           chart.setTitle({text: " Naissances pour le prénom Pierre"});
-           chart.series[0].setData(data3168);
-           break;
-           case "Quentin":
-           chart.setTitle({text: " Naissances pour le prénom Quentin"});
-           chart.series[0].setData(data3169);
-           break;
-           case "Raphaël":
-           chart.setTitle({text: " Naissances pour le prénom Raphaël"});
-           chart.series[0].setData(data3170);
-           break;
-           case "Rémi":
-           chart.setTitle({text: " Naissances pour le prénom Rémi"});
-           chart.series[0].setData(data3171);
-           break;
-           case "Romain":
-           chart.setTitle({text: " Naissances pour le prénom Romain"});
-           chart.series[0].setData(data3172);
-           break;
-           case "Sabrina":
-           chart.setTitle({text: " Naissances pour le prénom Sabrina"});
-           chart.series[0].setData(data3173);
-           break;
-           case "Samuel":
-           chart.setTitle({text: " Naissances pour le prénom Samuel"});
-           chart.series[0].setData(data3174);
-           break;
-           case "Sandra":
-           chart.setTitle({text: " Naissances pour le prénom Sandra"});
-           chart.series[0].setData(data3175);
-           break;
-           case "Sandrine":
-           chart.setTitle({text: " Naissances pour le prénom Sandrine"});
-           chart.series[0].setData(data3176);
-           break;
-           case "Sarah":
-           chart.setTitle({text: " Naissances pour le prénom Sarah"});
-           chart.series[0].setData(data3177);
-           break;
-           case "Sébastien":
-           chart.setTitle({text: " Naissances pour le prénom Sébastien"});
-           chart.series[0].setData(data3178);
-           break;
-           case "Severine":
-           chart.setTitle({text: " Naissances pour le prénom Severine"});
-           chart.series[0].setData(data3179);
-           break;
-           case "Simon":
-           chart.setTitle({text: " Naissances pour le prénom Simon"});
-           chart.series[0].setData(data3180);
-           break;
-           case "Sonia":
-           chart.setTitle({text: " Naissances pour le prénom Sonia"});
-           chart.series[0].setData(data3181);
-           break;
-           case "Sophie":
-           chart.setTitle({text: " Naissances pour le prénom Sophie"});
-           chart.series[0].setData(data3182);
-           break;
-           case "Stéphanie":
-           chart.setTitle({text: " Naissances pour le prénom Stéphanie"});
-           chart.series[0].setData(data3183);
-           break;
-           case "Sylvain":
-           chart.setTitle({text: " Naissances pour le prénom Sylvain"});
-           chart.series[0].setData(data3184);
-           break;
-           case "Sylvie":
-           chart.setTitle({text: " Naissances pour le prénom Sylvie"});
-           chart.series[0].setData(data3185);
-           break;
-           case "Théo":
-           chart.setTitle({text: " Naissances pour le prénom Théo"});
-           chart.series[0].setData(data3186);
-           break;
-           case "Thierry":
-           chart.setTitle({text: " Naissances pour le prénom Thierry"});
-           chart.series[0].setData(data3187);
-           break;
-           case "Thomas":
-           chart.setTitle({text: " Naissances pour le prénom Thomas"});
-           chart.series[0].setData(data3188);
-           break;
-           case "Tom":
-           chart.setTitle({text: " Naissances pour le prénom Tom"});
-           chart.series[0].setData(data3189);
-           break;
-           case "Valentin":
-           chart.setTitle({text: " Naissances pour le prénom Valentin"});
-           chart.series[0].setData(data3190);
-           break;
-           case "Valérie":
-           chart.setTitle({text: " Naissances pour le prénom Valérie"});
-           chart.series[0].setData(data3191);
-           break;
-           case "Vanessa":
-           chart.setTitle({text: " Naissances pour le prénom Vanessa"});
-           chart.series[0].setData(data3192);
-           break;
-           case "Véronique":
-           chart.setTitle({text: " Naissances pour le prénom Véronique"});
-           chart.series[0].setData(data3193);
-           break;
-           case "Victor":
-           chart.setTitle({text: " Naissances pour le prénom Victor"});
-           chart.series[0].setData(data3194);
-           break;
-           case "Vincent":
-           chart.setTitle({text: " Naissances pour le prénom Vincent"});
-           chart.series[0].setData(data3195);
-           break;
-           case "Virginie":
-           chart.setTitle({text: " Naissances pour le prénom Virginie"});
-           chart.series[0].setData(data3196);
-           break;
-           case "William":
-           chart.setTitle({text: " Naissances pour le prénom William"});
-           chart.series[0].setData(data3197);
-           break;
-           case "Xavier":
-           chart.setTitle({text: " Naissances pour le prénom Xavier"});
-           chart.series[0].setData(data3198);
-           break;
-           case "Yann":
-           chart.setTitle({text: " Naissances pour le prénom Yann"});
-           chart.series[0].setData(data3199);
-           break;
-};
-
-		
-		});
-
-      });
-      
-</script>
-	
-
-  <style type="text/css">
-    #CarteFranceTopPrenom {
-    height: 500px; 
-    min-width: 310px; 
-    max-width: 800px; 
-    margin: 0 auto; 
-}
-.loading {
-    margin-top: 10em;
-    text-align: center;
-    color: gray;
-}
-
-   #CarteFranceTopPrenomHomme {
-    height: 500px; 
-    min-width: 310px; 
-    max-width: 800px; 
-    margin: 0 auto; 
-}
-.loading {
-    margin-top: 10em;
-    text-align: center;
-    color: gray;
-}
-
-
-#CourbePrenom {
-	min-width: 310px;
-	max-width: 800px;
-	height: 400px;
-	margin: 0 auto
-}
-
-
-
-  </style>
-
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+      <!-- Import DataTables css -->
+      <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" media="screen,projection"
+      />
+      <!--Import style.css-->
+      <link type="text/css" rel="stylesheet" href="css/style2.css" media="screen,projection" />
+      <link type="text/css" rel="stylesheet" href="css/style_cartes.css" media="screen,projection" />
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Make sure that text encoding is correct, French people love accents -->
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta name="robots" content="noindex, nofollow">
+      <meta name="googlebot" content="noindex, nofollow">
+
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
-
-
-<!-- Affichage du titre en animé -->
-<div class="brand">
-  <div class="text plx" data-z="8">
-    <div class="first">
-      <span>W</span><span>h</span><span>a</span><span>t</span><span>&nbsp;</span>
-      <span>i</span><span>s</span><span>&nbsp;</span>
-      <span>y</span><span>o</span><span>u</span><span>r</span><span>&nbsp;</span>
-      <span>n</span><span>a</span><span>m</span><span>e</span><span>&nbsp;</span>
-      <span>B</span><span>a</span><span>b</span><span>y</span><span>&nbsp;</span><span>?</span>
-    </div>	
+  <!-- Affichage du titre en animé -->
+  <div class="brand">
+    <div class="text plx" data-z="8">
+      <div class="first">
+        <span>W</span><span>h</span><span>a</span><span>t</span><span>&nbsp;</span>
+        <span>i</span><span>s</span><span>&nbsp;</span>
+        <span>y</span><span>o</span><span>u</span><span>r</span><span>&nbsp;</span>
+        <span>n</span><span>a</span><span>m</span><span>e</span><span>&nbsp;</span>
+        <span>B</span><span>a</span><span>b</span><span>y</span><span>&nbsp;</span><span>?</span>
+      </div>
+    </div>
   </div>
-</div>
 
 
-<!-- Sous titre -->
-<div class="address-bar">
-  Ce que vous avez toujours voulu savoir sur les prénoms
-</div>
+  <!-- Sous titre -->
+  <div class="address-bar">
+    Ce que vous avez toujours voulu savoir sur les prénoms
+  </div>
 
 
-<!-- Navigation -->
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
 
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-      </button> 
-      <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-      <a class="navbar-brand" href="index.html">What is your name baby</a>
+      </button>
+        <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+        <a class="navbar-brand" href="index.html">What is your name baby</a>
+      </div>
+
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+
+          <!-- Liste des liens pour la navigation -->
+          <li>
+            <!-- Dropdown Trigger -->
+            <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown1'>Influences</div>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#prenom">Prénoms interdits</a></li>
+              <li><a href="#chanteurs">Chanteurs</a></li>
+              <li><a href="#film">Films</a></li>
+              <li><a href="#sport">Sportifs</a></li>
+              <li><a href="#renault">Voitures Renault</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <!-- Dropdown Trigger -->
+            <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown2'>Composition</div>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown2' class='dropdown-content'>
+              <li><a href="#longueur">Longueur des prénoms</a></li>
+              <li><a href="#compose">Prénoms composés</a></li>
+              <li><a href="#mixte">Prénoms mixtes</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <!-- Dropdown Trigger -->
+            <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown3'>Localisation</div>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown3' class='dropdown-content'>
+              <li><a href="#femmes">Filles</a></li>
+              <li><a href="#hommes">Garçons</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <!-- Dropdown Trigger -->
+            <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown4'>A propos de vous</div>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown4' class='dropdown-content'>
+              <li><a href="#vous">Votre prénom</a></li>
+              <li><a href="#vousan">Votre année</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-
-        <!-- Liste des liens pour la navigation -->
-        <li>
-          <!-- Dropdown Trigger -->
-          <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown1'>Influences</div>
-          <!-- Dropdown Structure -->
-          <ul id='dropdown1' class='dropdown-content'>
-            <li><a href="#prenom">Prénoms interdits</a></li>
-            <li><a href="#chanteurs">Chanteurs</a></li>
-            <li><a href="#film">Films</a></li>
-            <li><a href="#sport">Sportifs</a></li>
-            <li><a href="#renault">Voitures Renault</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <!-- Dropdown Trigger -->
-          <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown2'>Composition</div>
-          <!-- Dropdown Structure -->
-          <ul id='dropdown2' class='dropdown-content'>
-            <li><a href="#longueur">Longueur des prénoms</a></li>
-            <li><a href="#compose">Prénoms composés</a></li>
-            <li><a href="#mixte">Prénoms mixtes</a></li>
-          </ul>
-        </li>
-          
-        <li>
-          <!-- Dropdown Trigger -->
-          <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown3'>Localisation</div>
-          <!-- Dropdown Structure -->
-          <ul id='dropdown3' class='dropdown-content'>
-            <li><a href="#femmes">Filles</a></li>
-            <li><a href="#hommes">Garçons</a></li>
-          </ul>
-        </li>
-          
-        <li>
-          <!-- Dropdown Trigger -->
-          <div class='dropdown-button btn' data-beloworigin="true" data-hover='true' data-activates='dropdown4'>A propos de vous</div>
-          <!-- Dropdown Structure -->
-          <ul id='dropdown4' class='dropdown-content'>
-            <li><a href="#vous">Votre prénom</a></li>
-            <li><a href="#vousan">Votre année</a></li>
-          </ul>
-        </li>   
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container -->
-</nav>
-  
+    <!-- /.container -->
+  </nav>
 
 
 
-<div class="container">
-	
-  
-  <!-- INTRODUCTION -->
+
+  <div class="container">
+
+
+    <!-- INTRODUCTION -->
     <div class="row">
       <div class="box">
         <div class="col-lg-12 text-center">
 
           <h4 class="brand-before">
-              "Il se noue autour du prénom une maille symbolique, tantôt aérée et libératrice qui laisse l'enfant respirer, tantôt serrée et étouffante, orientant le cours de sa vie à son insu" 
-          </h4> 
-              
-          <h4 class="brand-name"> 
+            "Il se noue autour du prénom une maille symbolique, tantôt aérée et libératrice qui laisse l'enfant respirer, tantôt serrée
+            et étouffante, orientant le cours de sa vie à son insu"
+          </h4>
+
+          <h4 class="brand-name">
             - Juan Eduardo Tesone
           </h4>
           <!-- 
@@ -2451,285 +187,325 @@
         </div>
       </div>
     </div>
-	
 
 
 
-  <!-- SECTION 1 : INFLUENCES -->
-  
+
+    <!-- SECTION 1 : INFLUENCES -->
+
 
 
     <div class="row">
       <div class="box">
         <div class="col-lg-12">
           <hr>
-            <h2 class="intro-text text-center"><strong>Influences</strong></h2>
-          <hr>          
+          <h2 class="intro-text text-center"><strong>Influences</strong></h2>
+          <hr>
         </div>
       </div>
     </div>
-    
 
 
 
-	<!-- SECTION 1.1 : PRENOMS INTERDITS -->
-	<section id="prenom">
 
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+    <!-- SECTION 1.1 : PRENOMS INTERDITS -->
+    <section id="prenom">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center"><strong>Les prénoms interdits</strong></h2>
-          <hr>
+            <hr>
 
-          <p style="text-align:center"><img src="img/bomb.png" alt="icone interdit" width = 100 /></p>
-          <p> Certains prénoms ont disparu suite à un événement particulier. On pense évidemment à la Seconde Guerre Mondiale et
-          aux attentats du 11 septembre 2001. </p>
-          <p>Plus inattendu, connaissez-vous le film Tanguy, sorti en 2001 ? 
-          Alors que ce prénom était en plein boom, il a entamé un déclin très rapide suite à la sortie du film. 
-          Les parents auraient-ils craint une malédiction ? </p>
-          
-          <div class="infogram-embed" data-id="interdit-24556271" data-type="interactive" data-title="chanteurs"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t),d=o[0],a=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=a+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var r=e.createElement(t);r.async=1,r.id=n,r.src=s,d.parentNode.insertBefore(r,d)}}(document,"script","infogram-async","//e.infogr.am/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogr.am/interdit-24556271" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">chanteurs</a><br><a href="https://infogr.am/create/line-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=line_chart" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Create line charts</a></div>
-			    
-          <p> Et vous, tenterez-vous l'originalité pour vos enfants ? </p>
+            <p style="text-align:center"><img src="img/bomb.png" alt="icone interdit" width=1 00 /></p>
+            <p> Certains prénoms ont disparu suite à un événement particulier. On pense évidemment à la Seconde Guerre Mondiale
+              et aux attentats du 11 septembre 2001. </p>
+            <p>Plus inattendu, connaissez-vous le film Tanguy, sorti en 2001 ? Alors que ce prénom était en plein boom, il a
+              entamé un déclin très rapide suite à la sortie du film. Les parents auraient-ils craint une malédiction ? </p>
+
+            <div class="infogram-embed" data-id="interdit-24556271" data-type="interactive" data-title="chanteurs"></div>
+            <script>
+              !function (e, t, n, s) { var i = "InfogramEmbeds", o = e.getElementsByTagName(t), d = o[0], a = /^http:/.test(e.location) ? "http:" : "https:"; if (/^\/{2}/.test(s) && (s = a + s), window[i] && window[i].initialized) window[i].process && window[i].process(); else if (!e.getElementById(n)) { var r = e.createElement(t); r.async = 1, r.id = n, r.src = s, d.parentNode.insertBefore(r, d) } } (document, "script", "infogram-async", "//e.infogr.am/js/dist/embed-loader-min.js");
+            </script>
+            <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+              <a href="https://infogr.am/interdit-24556271" style="color:#989898!important;text-decoration:none!important;"
+                target="_blank" rel="nofollow">chanteurs</a><br>
+                <a href="https://infogr.am/create/line-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=line_chart"
+                  style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Create line charts</a>
+            </div>
+
+            <p> Et vous, tenterez-vous l'originalité pour vos enfants ? </p>
+          </div>
         </div>
       </div>
-    </div>
 
-  </section>
-
+    </section>
 
 
 
-  <!-- SECTION 1.2 : PRENOMS DE CHANTEURS -->
-	<section id="chanteurs">
-  
- 	  <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+
+    <!-- SECTION 1.2 : PRENOMS DE CHANTEURS -->
+    <section id="chanteurs">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Les prénoms de chanteurs</h2>
-          <hr>
-		
-			    <p> La popularité des chanteurs influe fortement sur les choix des parents. </p>
-		    </div>
-		    
-        <div class="col-lg-3" align = "center">
-			    <img class="imagecenter" src="img/celine.png" height="150px" width="150px" alt="" />
-          <h5> Céline Dion</h5>
-          <p><br/>En 1966, la chanson "Céline" de Hugues Aufray met ce prénom à la mode. Ce nom passe de mode dans les années 1980. En 1988, Céline Dion gagne l'Eurovision mais cela n'a pas suffi à faire remonter la popularité du prénom ! </p>
-		    </div>
+            <hr>
 
-		    <div class="col-lg-3" align = "center">
-          <img class="imagecenter" src="img/johnny.png" height="150px" width="150px" alt="" />
-          <h5>Johnny Hallyday</h5>
-          <p>Dans les années 60, la popularité croissante du rockeur a fait décoller les naissances de Johnny.</p>
-		    </div>
+            <p> La popularité des chanteurs influe fortement sur les choix des parents. </p>
+          </div>
 
-        <div class="col-lg-3" align = "center">
-          <img class="imagecenter" src="img/adele.png" height="150px" width="150px" alt="" />
-          <h5>Adèle</h5> 
-          <p><br/>Révélée au grand public en 2008, la chanteuse Adèle a donné une seconde jeunesse à ce prénom vintage. </p>
-        </div>
+          <div class="col-lg-3" align="center">
+            <img class="imagecenter" src="img/celine.png" height="150px" width="150px" alt="" />
+            <h5> Céline Dion</h5>
+            <p><br/>En 1966, la chanson "Céline" de Hugues Aufray met ce prénom à la mode. Ce nom passe de mode dans les années
+              1980. En 1988, Céline Dion gagne l'Eurovision mais cela n'a pas suffi à faire remonter la popularité du prénom
+              ! </p>
+          </div>
 
-        <div class="col-lg-3" align = "center">
-          <img class="imagecenter" src="img/lorie.png" height="150px" width="150px" alt="" />
-          <h5>Lorie</h5> 
-          <p><br/>Le prénom Lorie est monté aussi vite qu'il est descendu, tout comme la carrière de la chanteuse !</p>
-        </div>
+          <div class="col-lg-3" align="center">
+            <img class="imagecenter" src="img/johnny.png" height="150px" width="150px" alt="" />
+            <h5>Johnny Hallyday</h5>
+            <p>Dans les années 60, la popularité croissante du rockeur a fait décoller les naissances de Johnny.</p>
+          </div>
 
-		    <div class="col-lg-12" align = "center">
-          <div class="infogram-embed" data-id="chanteurs-1851934" data-type="interactive" data-title="chanteurs"></div>
-            <script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t),d=o[0],a=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=a+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var r=e.createElement(t);r.async=1,r.id=n,r.src=s,d.parentNode.insertBefore(r,d)}}(document,"script","infogram-async","//e.infogr.am/js/dist/embed-loader-min.js");</script>
-            <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogr.am/chanteurs-1851934" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">chanteurs</a><br><a href="https://infogr.am/create/line-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=line_chart" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Create line charts</a></div>
-                	<hr class="visible-xs">
+          <div class="col-lg-3" align="center">
+            <img class="imagecenter" src="img/adele.png" height="150px" width="150px" alt="" />
+            <h5>Adèle</h5>
+            <p><br/>Révélée au grand public en 2008, la chanteuse Adèle a donné une seconde jeunesse à ce prénom vintage. </p>
+          </div>
+
+          <div class="col-lg-3" align="center">
+            <img class="imagecenter" src="img/lorie.png" height="150px" width="150px" alt="" />
+            <h5>Lorie</h5>
+            <p><br/>Le prénom Lorie est monté aussi vite qu'il est descendu, tout comme la carrière de la chanteuse !</p>
+          </div>
+
+          <div class="col-lg-12" align="center">
+            <div class="infogram-embed" data-id="chanteurs-1851934" data-type="interactive" data-title="chanteurs"></div>
+            <script>
+              !function (e, t, n, s) { var i = "InfogramEmbeds", o = e.getElementsByTagName(t), d = o[0], a = /^http:/.test(e.location) ? "http:" : "https:"; if (/^\/{2}/.test(s) && (s = a + s), window[i] && window[i].initialized) window[i].process && window[i].process(); else if (!e.getElementById(n)) { var r = e.createElement(t); r.async = 1, r.id = n, r.src = s, d.parentNode.insertBefore(r, d) } } (document, "script", "infogram-async", "//e.infogr.am/js/dist/embed-loader-min.js");
+            </script>
+            <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+              <a href="https://infogr.am/chanteurs-1851934" style="color:#989898!important;text-decoration:none!important;"
+                target="_blank" rel="nofollow">chanteurs</a><br>
+                <a href="https://infogr.am/create/line-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=line_chart"
+                  style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Create line charts</a>
+            </div>
+            <hr class="visible-xs">
+          </div>
         </div>
       </div>
-    </div>
-  
-  </section>
+
+    </section>
 
 
 
-  <!-- SECTION 1.3 : PRENOMS DE FILMS -->
-	<section id="film">
+    <!-- SECTION 1.3 : PRENOMS DE FILMS -->
+    <section id="film">
 
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center"><strong>Les prénoms de films</strong></h2>
-          <hr>
+            <hr>
 
-          <p> A faire </p>
-          
+            <p> A faire </p>
+
+          </div>
         </div>
       </div>
-    </div>
-    
-  </section>
+
+    </section>
 
 
-  <!-- SECTION 1.4 : PRENOMS DE SPORTIFS -->
-	<section id="sport">
+    <!-- SECTION 1.4 : PRENOMS DE SPORTIFS -->
+    <section id="sport">
 
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center"><strong>Les prénoms de sportifs</strong></h2>
-          <hr>
+            <hr>
 
-          <p> A faire </p>
-          
+            <p> A faire </p>
+
+          </div>
         </div>
       </div>
-    </div>
-    
-  </section>
+
+    </section>
 
 
-	<!-- SECTION 1.5 : VOITURES RENAULT -->
-	<section id="renault">
-	  <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+    <!-- SECTION 1.5 : VOITURES RENAULT -->
+    <section id="renault">
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Les voitures Renault</h2>
-		      <hr>
+            <hr>
 
-          <p style="text-align:center"><img src="img/renault.png" alt="Logo Renault" width = 100 /></p>	
-          <p> D'où vient le déclin des prénoms Clio, Mégane et Zoé ? Ces prénoms qui étaient très à la mode en 1990, 1995 et 2013 ne sont presque plus donnés aujourd'hui… La cause ? Le choix fait par Renault de nommer certains de ses modèles par ces ci jolis prénoms ! </p>
-          <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1OwpeIk2X20q8i-EnsuUrxo4Phi4QLvDxu5laEOnFCnk&font=Default&lang=en&initial_zoom=0&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-		    </div>
+            <p style="text-align:center"><img src="img/renault.png" alt="Logo Renault" width=1 00 /></p>
+            <p> D'où vient le déclin des prénoms Clio, Mégane et Zoé ? Ces prénoms qui étaient très à la mode en 1990, 1995 et
+              2013 ne sont presque plus donnés aujourd'hui… La cause ? Le choix fait par Renault de nommer certains de ses
+              modèles par ces ci jolis prénoms ! </p>
+            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1OwpeIk2X20q8i-EnsuUrxo4Phi4QLvDxu5laEOnFCnk&font=Default&lang=en&initial_zoom=0&height=650'
+              width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+          </div>
+        </div>
       </div>
-    </div>
-	
-  </section>
-	
-  
-  <!-- fin de la section 1 -->	    
-  
-  
-  
-  
-  
-  <!-- SECTION 2 : COMPOSITION DES PRENOMS -->
+
+    </section>
+
+
+    <!-- fin de la section 1 -->
+
+
+
+
+
+    <!-- SECTION 2 : COMPOSITION DES PRENOMS -->
 
 
     <div class="row">
       <div class="box">
         <div class="col-lg-12">
           <hr>
-            <h2 class="intro-text text-center"><strong>Composition</strong></h2>
-          <hr>          
+          <h2 class="intro-text text-center"><strong>Composition</strong></h2>
+          <hr>
         </div>
       </div>
     </div>
-    
 
 
-	<!-- SECTION 2.1 : LONGUEUR DES PRENOMS -->
-	<section id="longueur">
 
-	  <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+    <!-- SECTION 2.1 : LONGUEUR DES PRENOMS -->
+    <section id="longueur">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Longueur des prénoms</h2>
-		  <hr>
-		  
-		  <p>Depuis les années 80 les prénoms comportant plus de 6 lettres ne font que baisser. En parallèle ceux composé de 5 lettres ou moins augmentent depuis les années 2000. Quel prénom choisirez votre pour votre bambin ? Choisirez-vous de suivre la Tendance ou d’être Old-School ?</p>
+            <hr>
 
-			    <div id='highcharts-ymucopa'><script src='//cloud.highcharts.com/inject/ymucopa' defer='defer'></script></div>
-		
-		    </div>
+            <p>Depuis les années 80 les prénoms comportant plus de 6 lettres ne font que baisser. En parallèle ceux composé
+              de 5 lettres ou moins augmentent depuis les années 2000. Quel prénom choisirez votre pour votre bambin ? Choisirez-vous
+              de suivre la Tendance ou d’être Old-School ?</p>
+
+            <div id='highcharts-ymucopa'>
+              <script src='//cloud.highcharts.com/inject/ymucopa' defer='defer'></script>
+            </div>
+
+          </div>
+        </div>
       </div>
-    </div>
-	
-  </section>
+
+    </section>
 
 
 
-	<!-- SECTION 2.2 : PRENOMS COMPOSES -->
-	<section id="compose">
-	  
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+    <!-- SECTION 2.2 : PRENOMS COMPOSES -->
+    <section id="compose">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Les prénoms composés</h2>
-		   <hr>
-		   <p> Les prénoms composés ont connu une cote de popularité à partir du Baby boom et jusque dans les années 60. Les prénoms les plus donnés sont : JEAN-PIERRE pour les garçons et ANNE-MARIE pour les filles. Oseriez-vous tout de même être audacieux et donner un prénom composé à votre futur enfant ?</p>
-            
-          <div id='highcharts-ilyhybe'><script src='//cloud.highcharts.com/inject/ilyhybe' defer='defer'></script></div>
-         
-          <h4> Prénoms composés les plus donnés depuis 1900</h4>
-          <script id="infogram_0_prenoms_composes-0" title="Prénoms composés" src="//e.infogr.am/js/dist/embed.js?UiT" type="text/javascript"></script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogr.am/prenoms_composes-0" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Prénoms composés</a></div>
-		    </div>
-	    </div>
-    </div>
+            <hr>
+            <p> Les prénoms composés ont connu une cote de popularité à partir du Baby boom et jusque dans les années 60. Les
+              prénoms les plus donnés sont : JEAN-PIERRE pour les garçons et ANNE-MARIE pour les filles. Oseriez-vous tout
+              de même être audacieux et donner un prénom composé à votre futur enfant ?</p>
 
-	</section>
+            <div id='highcharts-ilyhybe'>
+              <script src='//cloud.highcharts.com/inject/ilyhybe' defer='defer'></script>
+            </div>
+
+            <h4> Prénoms composés les plus donnés depuis 1900</h4>
+            <script id="infogram_0_prenoms_composes-0" title="Prénoms composés" src="//e.infogr.am/js/dist/embed.js?UiT" type="text/javascript"></script>
+            <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+              <a href="https://infogr.am/prenoms_composes-0" style="color:#989898!important;text-decoration:none!important;"
+                target="_blank" rel="nofollow">Prénoms composés</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
 
 
 
-	<!-- SECTION 2.3 : PRENOMS MIXTES -->
-	<section id="mixte">
+    <!-- SECTION 2.3 : PRENOMS MIXTES -->
+    <section id="mixte">
 
-	  <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Les prénoms mixtes</h2>
-		      <hr>
-			
-			<p>Certains prénoms sont donnés à la fois aux filles et aux garçons. Parmi les prénoms mixtes les plus données, ceux-ci ont des histoires très différentes. Dominique a été donné à peu près de la même façon aux filles et aux garçons. Camille était plutôt masculin au début du siècle et est devenu plutôt féminin. Evolution inverse avec le prénom EDEN qui est peut-être boosté par la popularité du joueur de foot EDEN HAZAR pour les garçons plus que pour les filles.</p>
-          		<div id='highcharts-idybawe'><script src='//cloud.highcharts.com/inject/idybawe' defer='defer'></script></div>
-			
-		      
-		    </div>
+            <hr>
+
+            <p>Certains prénoms sont donnés à la fois aux filles et aux garçons. Parmi les prénoms mixtes les plus données,
+              ceux-ci ont des histoires très différentes. Dominique a été donné à peu près de la même façon aux filles et
+              aux garçons. Camille était plutôt masculin au début du siècle et est devenu plutôt féminin. Evolution inverse
+              avec le prénom EDEN qui est peut-être boosté par la popularité du joueur de foot EDEN HAZAR pour les garçons
+              plus que pour les filles.</p>
+            <div id='highcharts-idybawe'>
+              <script src='//cloud.highcharts.com/inject/idybawe' defer='defer'></script>
+            </div>
+
+
+          </div>
+        </div>
       </div>
-    </div>
 
-	</section>
-	
-  <!-- fin de la section 2 -->
+    </section>
 
+    <!-- fin de la section 2 -->
 
 
 
-  <!-- SECTION 3 : CARTES -->
- 
+
+    <!-- SECTION 3 : CARTES -->
+
 
     <div class="row">
       <div class="box">
         <div class="col-lg-12">
           <hr>
-            <h2 class="intro-text text-center"><strong>Localisation</strong></h2>
-          <hr>          
+          <h2 class="intro-text text-center"><strong>Localisation</strong></h2>
+          <hr>
         </div>
       </div>
     </div>
-    
-	
-	<!-- SECTION 3.1 : CARTE FEMMES -->	
-  <section id="femmes">
 
-	  <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+
+    <!-- SECTION 3.1 : CARTE FEMMES -->
+    <section id="femmes">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Prénoms féminins les plus donnés </h2>
-		  <hr>				
-		  <p> Les goûts et les couleurs ça ne se discutent pas… Cependant au fil des années certains prénoms connaissent un réel effet de mode ! Trouvez donc ci-dessous les prénoms féminins les plus donnés par année et par région ! Alors votre prénom correspond-t-il au « top prénom féminin » donné lors de votre année de naissance ? 
-		  </p>
-         
-          <div class="z-depth-2 white card-container row" id="years-map-tab">
-            <form class="col s12">
-              <div class="input-field">
-                <select id="year-select">
+            <hr>
+            <p> Les goûts et les couleurs ça ne se discutent pas… Cependant au fil des années certains prénoms connaissent un
+              réel effet de mode ! Trouvez donc ci-dessous les prénoms féminins les plus donnés par année et par région !
+              Alors votre prénom correspond-t-il au « top prénom féminin » donné lors de votre année de naissance ?
+            </p>
+
+            <div class="z-depth-2 white card-container row" id="years-map-tab">
+              <form class="col s12">
+                <div class="input-field">
+                  <select id="year-select">
                   <option value="" disabled selected>Choisissez une année</option>
 <option value="2015">2015</option>
 <option value="2014">2014</option>
@@ -2847,50 +623,52 @@
 <option value="1902">1902</option>
 <option value="1901">1901</option>
 <option value="1900">1900</option>
+
                 </select>
-                <label>année</label>
-              </div>
-            </form>
-	          
-            <div class="col s12" id="CarteFranceTopPrenom"></div>
+                  <label>année</label>
+                </div>
+              </form>
+
+              <div class="col s12" id="CarteFranceTopPrenom"></div>
+            </div>
+
+            <script>
+              // tell the embed parent frame the height of the content
+              if (window.parent && window.parent.parent) {
+                window.parent.parent.postMessage(["resultsFrame", {
+                  height: document.body.getBoundingClientRect().height,
+                  slug: "None"
+                }], "*")
+              }
+            </script>
           </div>
-
-          <script>
-            // tell the embed parent frame the height of the content
-            if (window.parent && window.parent.parent){
-              window.parent.parent.postMessage(["resultsFrame", {
-                height: document.body.getBoundingClientRect().height,
-                slug: "None"
-              }], "*")
-            }
-          </script>				
-		    </div>
+        </div>
       </div>
-    </div>
 
-	</section>
-
+    </section>
 
 
-	<!-- SECTION 3.2 : CARTE HOMMES -->
-	<section id="hommes">
-    
-    <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+
+    <!-- SECTION 3.2 : CARTE HOMMES -->
+    <section id="hommes">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Prénoms masculins les plus donnés</h2>
-		  <hr>
-			<p> A présent place aux hommes ! Trouvez donc ci-dessous les prénoms masculins les plus donnés par année et par région ! Alors votre prénom correspond-t-il au « top prénom masculin » donné lors de votre année de naissance ?
-			</p>
-	        
-          <div class="row z-depth-2 white tab-container">
-     		  </div>
+            <hr>
+            <p> A présent place aux hommes ! Trouvez donc ci-dessous les prénoms masculins les plus donnés par année et par région
+              ! Alors votre prénom correspond-t-il au « top prénom masculin » donné lors de votre année de naissance ?
+            </p>
 
-          <div class="z-depth-2 white card-container row" id="years-map-tab">
-            <form class="col s12">
-              <div class="input-field">
-                <select id="year-selectH">
+            <div class="row z-depth-2 white tab-container">
+            </div>
+
+            <div class="z-depth-2 white card-container row" id="years-map-tab">
+              <form class="col s12">
+                <div class="input-field">
+                  <select id="year-selectH">
                   <option value="" disabled selected>Choisissez une année</option>
 <option value="2015">2015</option>
 <option value="2014">2014</option>
@@ -3009,35 +787,35 @@
 <option value="1901">1901</option>
 <option value="1900">1900</option>
                 </select>
-                <label>année</label>
-              </div>
-            </form>
-	
-            <div class="col s12" id="CarteFranceTopPrenomHomme"></div>
+                  <label>année</label>
+                </div>
+              </form>
+
+              <div class="col s12" id="CarteFranceTopPrenomHomme"></div>
+            </div>
+
+            <script>
+              // tell the embed parent frame the height of the content
+              if (window.parent && window.parent.parent) {
+                window.parent.parent.postMessage(["resultsFrame", {
+                  height: document.body.getBoundingClientRect().height,
+                  slug: "None"
+                }], "*")
+              }
+            </script>
           </div>
-
-          <script>
-            // tell the embed parent frame the height of the content
-            if (window.parent && window.parent.parent){
-              window.parent.parent.postMessage(["resultsFrame", {
-                height: document.body.getBoundingClientRect().height,
-                slug: "None"
-              }], "*")
-            }
-          </script>
-			  </div>
+        </div>
       </div>
-    </div>
 
-	</section>
-  
-  
-  
-  <!-- fin de la section 3 -->
+    </section>
 
-	
-	
-<!-- SECTION 4 : A PROPOS DE VOUS -->
+
+
+    <!-- fin de la section 3 -->
+
+
+
+    <!-- SECTION 4 : A PROPOS DE VOUS -->
 
 
 
@@ -3045,29 +823,31 @@
       <div class="box">
         <div class="col-lg-12">
           <hr>
-            <h2 class="intro-text text-center"><strong>A propos de vous</strong></h2>
-          <hr>          
+          <h2 class="intro-text text-center"><strong>A propos de vous</strong></h2>
+          <hr>
         </div>
       </div>
     </div>
-    
 
-<!-- SECTION 4.1 : Evolution par prénom -->
-<section id="vous">
-	
-	<div class="row">
-    <div class="box">
-      <div class="col-lg-12">
-        <hr>
-          <h2 class="intro-text text-center"> A propos de vous </h2>
-		<hr>		
-        <p> Déçu(e) de pas avoir trouvé votre prénom dans les différentes catégories que nous proposons ? Pas de panique cette section est faite pour vous ! Trouvez ci-dessous la courbe représentant le nombre de naissances par an de vos homonymes ! Et si par malheur votre prénom ne figure pas dans la liste envoyez-nous un petit mail ;)
-		</p>
 
-        <div class="z-depth-2 white card-container row" id="years-map-tab">
-          <form class="col s12">
-            <div class="input-field">
-              <select id="year-select-AllPrenom">
+    <!-- SECTION 4.1 : Evolution par prénom -->
+    <section id="vous">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center"> A propos de vous </h2>
+            <hr>
+            <p> Déçu(e) de pas avoir trouvé votre prénom dans les différentes catégories que nous proposons ? Pas de panique
+              cette section est faite pour vous ! Trouvez ci-dessous la courbe représentant le nombre de naissances par an
+              de vos homonymes ! Et si par malheur votre prénom ne figure pas dans la liste envoyez-nous un petit mail ;)
+            </p>
+
+            <div class="z-depth-2 white card-container row" id="years-map-tab">
+              <form class="col s12">
+                <div class="input-field">
+                  <select id="year-select-AllPrenom">
                 <option value="" disabled selected>Choisissez votre prénom </option>
                 <option value="Adrien">Adrien</option>
                 <option value="Agnès">Agnès</option>
@@ -3270,69 +1050,71 @@
                 <option value="Xavier">Xavier</option>
                 <option value="Yann">Yann</option>
               </select>
-              <label>prénom</label>
-            </div>
-          </form>
-
-	        <div class="row">
-            <div class="col s12">
-              <div class="row">
-                <div class="input-field col s12">
-                  <input type="text" id="autocomplete-input" class="autocomplete">
-	                </input>
-                  <label for="autocomplete-input">Prénom</label>
-
+                  <label>prénom</label>
                 </div>
-				        <div class="col s12" id="CourbePrenom">
+              </form>
+
+              <div class="row">
+                <div class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input type="text" id="autocomplete-input" class="autocomplete">
+                      </input>
+                      <label for="autocomplete-input">Prénom</label>
+
+                    </div>
+                    <div class="col s12" id="CourbePrenom">
+                    </div>
+                  </div>
                 </div>
               </div>
+
+              <script>
+                // tell the embed parent frame the height of the content
+                if (window.parent && window.parent.parent) {
+                  window.parent.parent.postMessage(["resultsFrame", {
+                    height: document.body.getBoundingClientRect().height,
+                    slug: "None"
+                  }], "*")
+                }
+              </script>
             </div>
-          </div>     
-
-          <script>
-            // tell the embed parent frame the height of the content
-            if (window.parent && window.parent.parent){
-              window.parent.parent.postMessage(["resultsFrame", {
-                height: document.body.getBoundingClientRect().height,
-                slug: "None"
-              }], "*")
-            }
-          </script>
-		    </div>
-      </div>
-    </div>
+          </div>
+        </div>
 
 
-  </section>
+    </section>
 
-	<!-- SECTION 4.2 : TOP 10 -->
-	<section id="vousan">
+    <!-- SECTION 4.2 : TOP 10 -->
+    <section id="vousan">
 
-	  <div class="row">
-      <div class="box">
-        <div class="col-lg-12">
-          <hr>
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
             <h2 class="intro-text text-center">Top 10 par année</h2>
-		   <hr>
-		   <p> Que vous vous demandiez « Mes parents ont-ils été originaux sur le choix de mon prénom ? » ou « Comment être orignal(e) sur le choix du prénom de mon enfant à venir ? » c’est ici que se trouve votre réponse ! Retrouvez ci-dessous le Top10 des prénoms féminins et masculins par année depuis 1900 !
-			</p>
-		    </div>
+            <hr>
+            <p> Que vous vous demandiez « Mes parents ont-ils été originaux sur le choix de mon prénom ? » ou « Comment être
+              orignal(e) sur le choix du prénom de mon enfant à venir ? » c’est ici que se trouve votre réponse ! Retrouvez
+              ci-dessous le Top10 des prénoms féminins et masculins par année depuis 1900 !
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
 
-	</section>
-	
+    </section>
 
-<!-- fin de la section 4 -->
 
-	
-	
+    <!-- fin de la section 4 -->
 
 
 
 
-  
-   <!-- 
+
+
+
+
+    <!-- 
     
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -3342,127 +1124,113 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
+            $('.carousel').carousel({
+              interval: 5000 //changes the speed
+            })
     </script>
-	
-	
-	</div>    
-	
-    <footer id="footer" width ="2000px" >
-	<CENTER>
-		<TABLE  border=none WIDTH="50%">
-			<TR>
-			<TD width=15%> </TD>
-			<TD width=15%><a href="http://www.ensae.fr/" style="margin-left: 0%" ><img src="img/ensae.png" width ="220px" height="200px" alt="" style="margin-left: 0%" /></a>
-			</TD>
-			<TD width=28%> <h5> Qui sommes-nous?</h5>  
 
-                    <p> Etudiantes en dernière année d'école d'ingénieur à l'ENSAE ParisTech, nous avons réalisé ce site dans le cadre d'un projet de Data Viz.
-					</p>  
-				
-			</TD>
-			<TD width=2%> 		
-			</TD>
-			<TD width=40> <h5> Nous contacter</h5>  
-								<ul class="icons">
-								Mail : 
-								<a href="mailto:whatisyournamebaby@gmail.com">whatisyournamebaby@gmail.com</a> 
-								<br>
-								</ul>
-									
-                               <ul class="icons">
-								
-								<li><a href="https://github.com/agnesguy" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
-				                                <li><a href="https://www.linkedin.com/in/agn%C3%A8s-guy-974731a7/" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>Agnès Guy
-								<br>
-							        <li><a href="https://github.com/claudiadelgado92" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
-				       			        <li><a href="https://es.linkedin.com/in/claudia-delgado-gomes" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>Claudia Delgado 
-								<br>
-								<li><a href="https://github.com/melaniefns" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:melanie.finas@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li> Mélanie Finas
-								<br>
-								<li><a href="https://github.com/souillade" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:sophie.ouillade@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li> Sophie Ouillade,
-								<br>
-							   </ul>	
-			</TD>
-			<TD width=5%></TD>
-			</TR>
-		</TABLE>
-    </CENTER>
-	</footer>
-						
-			   
-	
 
-	
-	
-						
-					
- <meta name="robots" content="noindex, nofollow">
-  <meta name="googlebot" content="noindex, nofollow">
+    </div>
 
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <footer id="footer" width="2000px">
+      <CENTER>
+        <TABLE border=none WIDTH="50%">
+          <TR>
+            <TD width=15%> </TD>
+            <TD width=15%>
+              <a href="http://www.ensae.fr/" style="margin-left: 0%"><img src="img/ensae.png" width="220px" height="200px" alt="" style="margin-left: 0%" /></a>
+            </TD>
+            <TD width=28%>
+              <h5> Qui sommes-nous?</h5>
+
+              <p> Etudiantes en dernière année d'école d'ingénieur à l'ENSAE ParisTech, nous avons réalisé ce site dans le cadre
+                d'un projet de Data Viz.
+              </p>
+
+            </TD>
+            <TD width=2%>
+            </TD>
+            <TD width=40>
+              <h5> Nous contacter</h5>
+              <ul class="icons">
+                Mail :
+                <a href="mailto:whatisyournamebaby@gmail.com">whatisyournamebaby@gmail.com</a>
+                <br>
+              </ul>
+
+              <ul class="icons">
+
+                <li><a href="https://github.com/agnesguy" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://www.linkedin.com/in/agn%C3%A8s-guy-974731a7/" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>Agnès
+                Guy
+                <br>
+                <li><a href="https://github.com/claudiadelgado92" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://es.linkedin.com/in/claudia-delgado-gomes" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>Claudia
+                Delgado
+                <br>
+                <li><a href="https://github.com/melaniefns" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:melanie.finas@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li>
+                Mélanie Finas
+                <br>
+                <li><a href="https://github.com/souillade" class="icon rounded fa-github"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:sophie.ouillade@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li>
+                Sophie Ouillade,
+                <br>
+              </ul>
+            </TD>
+            <TD width=5%></TD>
+          </TR>
+        </TABLE>
+      </CENTER>
+    </footer>
+
+
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/css/result-light.css">
- 
- 
- <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-  <!-- Import DataTables css -->
-  <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"  media="screen,projection"/> 
-  <!--Import style.css-->
-  <link type="text/css" rel="stylesheet" href="css/style2.css"  media="screen,projection"/>
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Make sure that text encoding is correct, French people love accents -->
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <style type="text/css">
-    #CarteFranceTopPrenom {
-    height: 500px; 
-    min-width: 310px; 
-    max-width: 800px; 
-    margin: 0 auto; 
-	padding-top: 50px;
-}
-.loading {
-    margin-top: 10em;
-    text-align: center;
-    color: gray;
-}
-
-table.dataTable{width:100%;margin:0 auto;clear:both;border-collapse:separate;border-spacing:0}table.dataTable thead th,table.dataTable tfoot th{font-weight:bold}table.dataTable thead th,table.dataTable thead td{padding:10px 18px;border-bottom:1px solid #111}table.dataTable thead th:active,table.dataTable thead td:active{outline:none}table.dataTable tfoot th,table.dataTable tfoot td{padding:10px 18px 6px 18px;border-top:1px solid #111}table.dataTable thead .sorting,table.dataTable thead .sorting_asc,table.dataTable thead .sorting_desc{cursor:pointer;*cursor:hand}table.dataTable thead .sorting,table.dataTable thead .sorting_asc,table.dataTable thead .sorting_desc,table.dataTable thead .sorting_asc_disabled,table.dataTable thead .sorting_desc_disabled{background-repeat:no-repeat;background-position:center right}table.dataTable thead .sorting{background-image:url("../images/sort_both.png")}table.dataTable thead .sorting_asc{background-image:url("../images/sort_asc.png")}table.dataTable thead .sorting_desc{background-image:url("../images/sort_desc.png")}table.dataTable thead .sorting_asc_disabled{background-image:url("../images/sort_asc_disabled.png")}table.dataTable thead .sorting_desc_disabled{background-image:url("../images/sort_desc_disabled.png")}table.dataTable tbody tr{background-color:#ffffff}table.dataTable tbody tr.selected{background-color:#B0BED9}table.dataTable tbody th,table.dataTable tbody td{padding:8px 10px}table.dataTable.row-border tbody th,table.dataTable.row-border tbody td,table.dataTable.display tbody th,table.dataTable.display tbody td{border-top:1px solid #ddd}table.dataTable.row-border tbody tr:first-child th,table.dataTable.row-border tbody tr:first-child td,table.dataTable.display tbody tr:first-child th,table.dataTable.display tbody tr:first-child td{border-top:none}table.dataTable.cell-border tbody th,table.dataTable.cell-border tbody td{border-top:1px solid #ddd;border-right:1px solid #ddd}table.dataTable.cell-border tbody tr th:first-child,table.dataTable.cell-border tbody tr td:first-child{border-left:1px solid #ddd}table.dataTable.cell-border tbody tr:first-child th,table.dataTable.cell-border tbody tr:first-child td{border-top:none}table.dataTable.stripe tbody tr.odd,table.dataTable.display tbody tr.odd{background-color:#f9f9f9}table.dataTable.stripe tbody tr.odd.selected,table.dataTable.display tbody tr.odd.selected{background-color:#acbad4}table.dataTable.hover tbody tr:hover,table.dataTable.display tbody tr:hover{background-color:#f6f6f6}table.dataTable.hover tbody tr:hover.selected,table.dataTable.display tbody tr:hover.selected{background-color:#aab7d1}table.dataTable.order-column tbody tr>.sorting_1,table.dataTable.order-column tbody tr>.sorting_2,table.dataTable.order-column tbody tr>.sorting_3,table.dataTable.display tbody tr>.sorting_1,table.dataTable.display tbody tr>.sorting_2,table.dataTable.display tbody tr>.sorting_3{background-color:#fafafa}table.dataTable.order-column tbody tr.selected>.sorting_1,table.dataTable.order-column tbody tr.selected>.sorting_2,table.dataTable.order-column tbody tr.selected>.sorting_3,table.dataTable.display tbody tr.selected>.sorting_1,table.dataTable.display tbody tr.selected>.sorting_2,table.dataTable.display tbody tr.selected>.sorting_3{background-color:#acbad5}table.dataTable.display tbody tr.odd>.sorting_1,table.dataTable.order-column.stripe tbody tr.odd>.sorting_1{background-color:#f1f1f1}table.dataTable.display tbody tr.odd>.sorting_2,table.dataTable.order-column.stripe tbody tr.odd>.sorting_2{background-color:#f3f3f3}table.dataTable.display tbody tr.odd>.sorting_3,table.dataTable.order-column.stripe tbody tr.odd>.sorting_3{background-color:whitesmoke}table.dataTable.display tbody tr.odd.selected>.sorting_1,table.dataTable.order-column.stripe tbody tr.odd.selected>.sorting_1{background-color:#a6b4cd}table.dataTable.display tbody tr.odd.selected>.sorting_2,table.dataTable.order-column.stripe tbody tr.odd.selected>.sorting_2{background-color:#a8b5cf}table.dataTable.display tbody tr.odd.selected>.sorting_3,table.dataTable.order-column.stripe tbody tr.odd.selected>.sorting_3{background-color:#a9b7d1}table.dataTable.display tbody tr.even>.sorting_1,table.dataTable.order-column.stripe tbody tr.even>.sorting_1{background-color:#fafafa}table.dataTable.display tbody tr.even>.sorting_2,table.dataTable.order-column.stripe tbody tr.even>.sorting_2{background-color:#fcfcfc}table.dataTable.display tbody tr.even>.sorting_3,table.dataTable.order-column.stripe tbody tr.even>.sorting_3{background-color:#fefefe}table.dataTable.display tbody tr.even.selected>.sorting_1,table.dataTable.order-column.stripe tbody tr.even.selected>.sorting_1{background-color:#acbad5}table.dataTable.display tbody tr.even.selected>.sorting_2,table.dataTable.order-column.stripe tbody tr.even.selected>.sorting_2{background-color:#aebcd6}table.dataTable.display tbody tr.even.selected>.sorting_3,table.dataTable.order-column.stripe tbody tr.even.selected>.sorting_3{background-color:#afbdd8}table.dataTable.display tbody tr:hover>.sorting_1,table.dataTable.order-column.hover tbody tr:hover>.sorting_1{background-color:#eaeaea}table.dataTable.display tbody tr:hover>.sorting_2,table.dataTable.order-column.hover tbody tr:hover>.sorting_2{background-color:#ececec}table.dataTable.display tbody tr:hover>.sorting_3,table.dataTable.order-column.hover tbody tr:hover>.sorting_3{background-color:#efefef}table.dataTable.display tbody tr:hover.selected>.sorting_1,table.dataTable.order-column.hover tbody tr:hover.selected>.sorting_1{background-color:#a2aec7}table.dataTable.display tbody tr:hover.selected>.sorting_2,table.dataTable.order-column.hover tbody tr:hover.selected>.sorting_2{background-color:#a3b0c9}table.dataTable.display tbody tr:hover.selected>.sorting_3,table.dataTable.order-column.hover tbody tr:hover.selected>.sorting_3{background-color:#a5b2cb}table.dataTable.no-footer{border-bottom:1px solid #111}table.dataTable.nowrap th,table.dataTable.nowrap td{white-space:nowrap}table.dataTable.compact thead th,table.dataTable.compact thead td{padding:4px 17px 4px 4px}table.dataTable.compact tfoot th,table.dataTable.compact tfoot td{padding:4px}table.dataTable.compact tbody th,table.dataTable.compact tbody td{padding:4px}table.dataTable th.dt-left,table.dataTable td.dt-left{text-align:left}table.dataTable th.dt-center,table.dataTable td.dt-center,table.dataTable td.dataTables_empty{text-align:center}table.dataTable th.dt-right,table.dataTable td.dt-right{text-align:right}table.dataTable th.dt-justify,table.dataTable td.dt-justify{text-align:justify}table.dataTable th.dt-nowrap,table.dataTable td.dt-nowrap{white-space:nowrap}table.dataTable thead th.dt-head-left,table.dataTable thead td.dt-head-left,table.dataTable tfoot th.dt-head-left,table.dataTable tfoot td.dt-head-left{text-align:left}table.dataTable thead th.dt-head-center,table.dataTable thead td.dt-head-center,table.dataTable tfoot th.dt-head-center,table.dataTable tfoot td.dt-head-center{text-align:center}table.dataTable thead th.dt-head-right,table.dataTable thead td.dt-head-right,table.dataTable tfoot th.dt-head-right,table.dataTable tfoot td.dt-head-right{text-align:right}table.dataTable thead th.dt-head-justify,table.dataTable thead td.dt-head-justify,table.dataTable tfoot th.dt-head-justify,table.dataTable tfoot td.dt-head-justify{text-align:justify}table.dataTable thead th.dt-head-nowrap,table.dataTable thead td.dt-head-nowrap,table.dataTable tfoot th.dt-head-nowrap,table.dataTable tfoot td.dt-head-nowrap{white-space:nowrap}table.dataTable tbody th.dt-body-left,table.dataTable tbody td.dt-body-left{text-align:left}table.dataTable tbody th.dt-body-center,table.dataTable tbody td.dt-body-center{text-align:center}table.dataTable tbody th.dt-body-right,table.dataTable tbody td.dt-body-right{text-align:right}table.dataTable tbody th.dt-body-justify,table.dataTable tbody td.dt-body-justify{text-align:justify}table.dataTable tbody th.dt-body-nowrap,table.dataTable tbody td.dt-body-nowrap{white-space:nowrap}table.dataTable,table.dataTable th,table.dataTable td{-webkit-box-sizing:content-box;box-sizing:content-box}.dataTables_wrapper{position:relative;clear:both;*zoom:1;zoom:1}.dataTables_wrapper .dataTables_length{float:left}.dataTables_wrapper .dataTables_filter{float:right;text-align:right}.dataTables_wrapper .dataTables_filter input{margin-left:0.5em}.dataTables_wrapper .dataTables_info{clear:both;float:left;padding-top:0.755em}.dataTables_wrapper .dataTables_paginate{float:right;text-align:right;padding-top:0.25em}.dataTables_wrapper .dataTables_paginate .paginate_button{box-sizing:border-box;display:inline-block;min-width:1.5em;padding:0.5em 1em;margin-left:2px;text-align:center;text-decoration:none !important;cursor:pointer;*cursor:hand;color:#333 !important;border:1px solid transparent;border-radius:2px}.dataTables_wrapper .dataTables_paginate .paginate_button.current,.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{color:#333 !important;border:1px solid #979797;background-color:white;background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dcdcdc));background:-webkit-linear-gradient(top, #fff 0%, #dcdcdc 100%);background:-moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);background:-ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);background:-o-linear-gradient(top, #fff 0%, #dcdcdc 100%);background:linear-gradient(to bottom, #fff 0%, #dcdcdc 100%)}.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{cursor:default;color:#666 !important;border:1px solid transparent;background:transparent;box-shadow:none}.dataTables_wrapper .dataTables_paginate .paginate_button:hover{color:white !important;border:1px solid #111;background-color:#585858;background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111));background:-webkit-linear-gradient(top, #585858 0%, #111 100%);background:-moz-linear-gradient(top, #585858 0%, #111 100%);background:-ms-linear-gradient(top, #585858 0%, #111 100%);background:-o-linear-gradient(top, #585858 0%, #111 100%);background:linear-gradient(to bottom, #585858 0%, #111 100%)}.dataTables_wrapper .dataTables_paginate .paginate_button:active{outline:none;background-color:#2b2b2b;background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c));background:-webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);background:-moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);background:-ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);background:-o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%);background:linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%);box-shadow:inset 0 0 3px #111}.dataTables_wrapper .dataTables_paginate .ellipsis{padding:0 1em}.dataTables_wrapper .dataTables_processing{position:absolute;top:50%;left:50%;width:100%;height:40px;margin-left:-50%;margin-top:-25px;padding-top:20px;text-align:center;font-size:1.2em;background-color:white;background:-webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(25%, rgba(255,255,255,0.9)), color-stop(75%, rgba(255,255,255,0.9)), color-stop(100%, rgba(255,255,255,0)));background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);background:-moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);background:-ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);background:-o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);background:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%)}.dataTables_wrapper .dataTables_length,.dataTables_wrapper .dataTables_filter,.dataTables_wrapper .dataTables_info,.dataTables_wrapper .dataTables_processing,.dataTables_wrapper .dataTables_paginate{color:#333}.dataTables_wrapper .dataTables_scroll{clear:both}.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody{*margin-top:-1px;-webkit-overflow-scrolling:touch}.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody th,.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody td{vertical-align:middle}.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody th>div.dataTables_sizing,.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody td>div.dataTables_sizing{height:0;overflow:hidden;margin:0 !important;padding:0 !important}.dataTables_wrapper.no-footer .dataTables_scrollBody{border-bottom:1px solid #111}.dataTables_wrapper.no-footer div.dataTables_scrollHead table,.dataTables_wrapper.no-footer div.dataTables_scrollBody table{border-bottom:none}.dataTables_wrapper:after{visibility:hidden;display:block;content:"";clear:both;height:0}@media screen and (max-width: 767px){.dataTables_wrapper .dataTables_info,.dataTables_wrapper .dataTables_paginate{float:none;text-align:center}.dataTables_wrapper .dataTables_paginate{margin-top:0.5em}}@media screen and (max-width: 640px){.dataTables_wrapper .dataTables_length,.dataTables_wrapper .dataTables_filter{float:none;text-align:center}.dataTables_wrapper .dataTables_filter{margin-top:0.5em}}
 
 
-  </style>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <!-- Import DataTables css -->
+    <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" media="screen,projection"
+    />
+    <!--Import style.css-->
+    <link type="text/css" rel="stylesheet" href="css/style2.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Make sure that text encoding is correct, French people love accents -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-  
- 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.js"></script>
-  <!-- Import utilities -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
-  <script src="https://code.highcharts.com/highcharts.js"></script>
-  <script src="https://code.highcharts.com/highcharts-more.js"></script>
-  <script src="https://code.highcharts.com/maps/modules/map.js"></script>
-  <script src="https://code.highcharts.com/maps/modules/data.js"></script>
-  <script src="https://code.highcharts.com/mapdata/countries/gb/gb-all.js"></script>
-  <script src="js/highcharts-exporting.fr.js"></script>
-  <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
-  <!-- Import data -->
-  <script src="data/highcharts-world-continents.fr.js"></script>
-  <script type="text/javascript" src="data/bubble-map-data.js"></script>
-  <script type="text/javascript" src="data/medal-map-data.js"></script>
-  <!-- Scripting goes here -->
-  
-  
-	  
-<script src="https://code.highcharts.com/maps/highmaps.js"></script>
-<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/mapdata/countries/fr/custom/fr-all-mainland.js"></script> 
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <!-- Import utilities -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/gb/gb-all.js"></script>
+    <script src="js/highcharts-exporting.fr.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <!-- Import data -->
+    <script src="data/highcharts-world-continents.fr.js"></script>
+    <script type="text/javascript" src="data/bubble-map-data.js"></script>
+    <script type="text/javascript" src="data/medal-map-data.js"></script>
+    <!-- Scripting goes here -->
+
+
+
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/fr/custom/fr-all-mainland.js"></script>
 
 </body>
 
