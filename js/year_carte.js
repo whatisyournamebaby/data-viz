@@ -312,9 +312,480 @@ $(function () {
         }
     });
 
-    // Switch the year from the dropdown FEMME
-   
+    // Switch the year from the dropdown
+    $('#year-select').change(function () {
+        var chart = $('#CarteFranceTopPrenom').highcharts();
+        var val = $('#year-select').val();
+        switch (val) {
+            case "2015":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2015" }, { text: "" });
+                chart.series[0].setData(data2015);
+                break;
+            case "2014":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2014" }, { text: "" });
+                chart.series[0].setData(data2014);
+                break;
+            case "2013":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2013" }, { text: "" });
+                chart.series[0].setData(data2013);
+                break;
+            case "2012":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2012" }, { text: "" });
+                chart.series[0].setData(data2012);
+                break;
+            case "2011":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2011" }, { text: "" });
+                chart.series[0].setData(data2011);
+                break;
+            case "2010":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2010" }, { text: "" });
+                chart.series[0].setData(data2010);
+                break;
+            case "2009":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2009" }, { text: "" });
+                chart.series[0].setData(data2009);
+                break;
+            case "2008":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2008" }, { text: "" });
+                chart.series[0].setData(data2008);
+                break;
+            case "2007":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2007" }, { text: "" });
+                chart.series[0].setData(data2007);
+                break;
+            case "2006":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2006" }, { text: "" });
+                chart.series[0].setData(data2006);
+                break;
+            case "2005":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2005" }, { text: "" });
+                chart.series[0].setData(data2005);
+                break;
+            case "2004":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2004" }, { text: "" });
+                chart.series[0].setData(data2004);
+                break;
+            case "2003":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2003" }, { text: "" });
+                chart.series[0].setData(data2003);
+                break;
+            case "2002":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2002" }, { text: "" });
+                chart.series[0].setData(data2002);
+                break;
+            case "2001":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2001" }, { text: "" });
+                chart.series[0].setData(data2001);
+                break;
+            case "2000":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2000" }, { text: "" });
+                chart.series[0].setData(data2000);
+                break;
+            case "1999":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1999" }, { text: "" });
+                chart.series[0].setData(data1999);
+                break;
+            case "1998":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1998" }, { text: "" });
+                chart.series[0].setData(data1998);
+                break;
+            case "1997":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1997" }, { text: "" });
+                chart.series[0].setData(data1997);
+                break;
+            case "1996":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1996" }, { text: "" });
+                chart.series[0].setData(data1996);
+                break;
+            case "1995":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1995" }, { text: "" });
+                chart.series[0].setData(data1995);
+                break;
+            case "1994":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1994" }, { text: "" });
+                chart.series[0].setData(data1994);
+                break;
+            case "1993":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1993" }, { text: "" });
+                chart.series[0].setData(data1993);
+                break;
+            case "1992":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1992" }, { text: "" });
+                chart.series[0].setData(data1992);
+                break;
+            case "1991":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1991" }, { text: "" });
+                chart.series[0].setData(data1991);
+                break;
+            case "1990":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1990" }, { text: "" });
+                chart.series[0].setData(data1990);
+                break;
+            case "1989":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1989" }, { text: "" });
+                chart.series[0].setData(data1989);
+                break;
+            case "1988":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1988" }, { text: "" });
+                chart.series[0].setData(data1988);
+                break;
+            case "1987":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1987" }, { text: "" });
+                chart.series[0].setData(data1987);
+                break;
+            case "1986":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1986" }, { text: "" });
+                chart.series[0].setData(data1986);
+                break;
+            case "1985":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1985" }, { text: "" });
+                chart.series[0].setData(data1985);
+                break;
+            case "1984":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1984" }, { text: "" });
+                chart.series[0].setData(data1984);
+                break;
+            case "1983":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1983" }, { text: "" });
+                chart.series[0].setData(data1983);
+                break;
+            case "1982":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1982" }, { text: "" });
+                chart.series[0].setData(data1982);
+                break;
+            case "1981":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1981" }, { text: "" });
+                chart.series[0].setData(data1981);
+                break;
+            case "1980":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1980" }, { text: "" });
+                chart.series[0].setData(data1980);
+                break;
+            case "1979":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1979" }, { text: "" });
+                chart.series[0].setData(data1979);
+                break;
+            case "1978":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1978" }, { text: "" });
+                chart.series[0].setData(data1978);
+                break;
+            case "1977":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1977" }, { text: "" });
+                chart.series[0].setData(data1977);
+                break;
+            case "1976":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1976" }, { text: "" });
+                chart.series[0].setData(data1976);
+                break;
+            case "1975":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1975" }, { text: "" });
+                chart.series[0].setData(data1975);
+                break;
+            case "1974":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1974" }, { text: "" });
+                chart.series[0].setData(data1974);
+                break;
+            case "1973":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1973" }, { text: "" });
+                chart.series[0].setData(data1973);
+                break;
+            case "1972":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1972" }, { text: "" });
+                chart.series[0].setData(data1972);
+                break;
+            case "1971":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1971" }, { text: "" });
+                chart.series[0].setData(data1971);
+                break;
+            case "1970":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1970" }, { text: "" });
+                chart.series[0].setData(data1970);
+                break;
+            case "1969":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1969" }, { text: "" });
+                chart.series[0].setData(data1969);
+                break;
+            case "1968":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1968" }, { text: "" });
+                chart.series[0].setData(data1968);
+                break;
+            case "1967":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1967" }, { text: "" });
+                chart.series[0].setData(data1967);
+                break;
+            case "1966":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1966" }, { text: "" });
+                chart.series[0].setData(data1966);
+                break;
+            case "1965":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1965" }, { text: "" });
+                chart.series[0].setData(data1965);
+                break;
+            case "1964":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1964" }, { text: "" });
+                chart.series[0].setData(data1964);
+                break;
+            case "1963":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1963" }, { text: "" });
+                chart.series[0].setData(data1963);
+                break;
+            case "1962":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1962" }, { text: "" });
+                chart.series[0].setData(data1962);
+                break;
+            case "1961":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1961" }, { text: "" });
+                chart.series[0].setData(data1961);
+                break;
+            case "1960":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1960" }, { text: "" });
+                chart.series[0].setData(data1960);
+                break;
+            case "1959":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1959" }, { text: "" });
+                chart.series[0].setData(data1959);
+                break;
+            case "1958":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1958" }, { text: "" });
+                chart.series[0].setData(data1958);
+                break;
+            case "1957":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1957" }, { text: "" });
+                chart.series[0].setData(data1957);
+                break;
+            case "1956":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1956" }, { text: "" });
+                chart.series[0].setData(data1956);
+                break;
+            case "1955":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1955" }, { text: "" });
+                chart.series[0].setData(data1955);
+                break;
+            case "1954":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1954" }, { text: "" });
+                chart.series[0].setData(data1954);
+                break;
+            case "1953":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1953" }, { text: "" });
+                chart.series[0].setData(data1953);
+                break;
+            case "1952":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1952" }, { text: "" });
+                chart.series[0].setData(data1952);
+                break;
+            case "1951":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1951" }, { text: "" });
+                chart.series[0].setData(data1951);
+                break;
+            case "1950":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1950" }, { text: "" });
+                chart.series[0].setData(data1950);
+                break;
+            case "1949":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1949" }, { text: "" });
+                chart.series[0].setData(data1949);
+                break;
+            case "1948":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1948" }, { text: "" });
+                chart.series[0].setData(data1948);
+                break;
+            case "1947":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1947" }, { text: "" });
+                chart.series[0].setData(data1947);
+                break;
+            case "1946":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1946" }, { text: "" });
+                chart.series[0].setData(data1946);
+                break;
+            case "1945":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1945" }, { text: "" });
+                chart.series[0].setData(data1945);
+                break;
+            case "1944":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1944" }, { text: "" });
+                chart.series[0].setData(data1944);
+                break;
+            case "1943":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1943" }, { text: "" });
+                chart.series[0].setData(data1943);
+                break;
+            case "1942":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1942" }, { text: "" });
+                chart.series[0].setData(data1942);
+                break;
+            case "1941":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1941" }, { text: "" });
+                chart.series[0].setData(data1941);
+                break;
+            case "1940":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1940" }, { text: "" });
+                chart.series[0].setData(data1940);
+                break;
+            case "1939":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1939" }, { text: "" });
+                chart.series[0].setData(data1939);
+                break;
+            case "1938":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1938" }, { text: "" });
+                chart.series[0].setData(data1938);
+                break;
+            case "1937":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1937" }, { text: "" });
+                chart.series[0].setData(data1937);
+                break;
+            case "1936":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1936" }, { text: "" });
+                chart.series[0].setData(data1936);
+                break;
+            case "1935":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1935" }, { text: "" });
+                chart.series[0].setData(data1935);
+                break;
+            case "1934":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1934" }, { text: "" });
+                chart.series[0].setData(data1934);
+                break;
+            case "1933":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1933" }, { text: "" });
+                chart.series[0].setData(data1933);
+                break;
+            case "1932":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1932" }, { text: "" });
+                chart.series[0].setData(data1932);
+                break;
+            case "1931":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1931" }, { text: "" });
+                chart.series[0].setData(data1931);
+                break;
+            case "1930":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1930" }, { text: "" });
+                chart.series[0].setData(data1930);
+                break;
+            case "1929":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1929" }, { text: "" });
+                chart.series[0].setData(data1929);
+                break;
+            case "1928":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1928" }, { text: "" });
+                chart.series[0].setData(data1928);
+                break;
+            case "1927":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1927" }, { text: "" });
+                chart.series[0].setData(data1927);
+                break;
+            case "1926":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1926" }, { text: "" });
+                chart.series[0].setData(data1926);
+                break;
+            case "1925":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1925" }, { text: "" });
+                chart.series[0].setData(data1925);
+                break;
+            case "1924":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1924" }, { text: "" });
+                chart.series[0].setData(data1924);
+                break;
+            case "1923":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1923" }, { text: "" });
+                chart.series[0].setData(data1923);
+                break;
+            case "1922":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1922" }, { text: "" });
+                chart.series[0].setData(data1922);
+                break;
+            case "1921":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1921" }, { text: "" });
+                chart.series[0].setData(data1921);
+                break;
+            case "1920":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1920" }, { text: "" });
+                chart.series[0].setData(data1920);
+                break;
+            case "1919":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1919" }, { text: "" });
+                chart.series[0].setData(data1919);
+                break;
+            case "1918":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1918" }, { text: "" });
+                chart.series[0].setData(data1918);
+                break;
+            case "1917":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1917" }, { text: "" });
+                chart.series[0].setData(data1917);
+                break;
+            case "1916":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1916" }, { text: "" });
+                chart.series[0].setData(data1916);
+                break;
+            case "1915":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1915" }, { text: "" });
+                chart.series[0].setData(data1915);
+                break;
+            case "1914":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1914" }, { text: "" });
+                chart.series[0].setData(data1914);
+                break;
+            case "1913":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1913" }, { text: "" });
+                chart.series[0].setData(data1913);
+                break;
+            case "1912":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1912" }, { text: "" });
+                chart.series[0].setData(data1912);
+                break;
+            case "1911":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1911" }, { text: "" });
+                chart.series[0].setData(data1911);
+                break;
+            case "1910":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1910" }, { text: "" });
+                chart.series[0].setData(data1910);
+                break;
+            case "1909":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1909" }, { text: "" });
+                chart.series[0].setData(data1909);
+                break;
+            case "1908":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1908" }, { text: "" });
+                chart.series[0].setData(data1908);
+                break;
+            case "1907":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1907" }, { text: "" });
+                chart.series[0].setData(data1907);
+                break;
+            case "1906":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1906" }, { text: "" });
+                chart.series[0].setData(data1906);
+                break;
+            case "1905":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1905" }, { text: "" });
+                chart.series[0].setData(data1905);
+                break;
+            case "1904":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1904" }, { text: "" });
+                chart.series[0].setData(data1904);
+                break;
+            case "1903":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1903" }, { text: "" });
+                chart.series[0].setData(data1903);
+                break;
+            case "1902":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1902" }, { text: "" });
+                chart.series[0].setData(data1902);
+                break;
+            case "1901":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1901" }, { text: "" });
+                chart.series[0].setData(data1901);
+                break;
+            case "1900":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1900" }, { text: "" });
+                chart.series[0].setData(data1900);
+                break;
+        };
 
+
+
+    });
 
 });
 
@@ -417,10 +888,479 @@ $(function () {
         }
     });
 
-     // Switch the year from the dropdown HOMME
-   
-   
+    // Switch the year from the dropdown
+    $('#year-selectH').change(function () {
+        var chart = $('#CarteFranceTopPrenomHomme').highcharts();
+        var val = $('#year-selectH').val();
+        switch (val) {
+            case "2015":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2015" }, { text: "" });
+                chart.series[0].setData(dataH2015);
+                break;
+            case "2014":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2014" }, { text: "" });
+                chart.series[0].setData(dataH2014);
+                break;
+            case "2013":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2013" }, { text: "" });
+                chart.series[0].setData(dataH2013);
+                break;
+            case "2012":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2012" }, { text: "" });
+                chart.series[0].setData(dataH2012);
+                break;
+            case "2011":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2011" }, { text: "" });
+                chart.series[0].setData(dataH2011);
+                break;
+            case "2010":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2010" }, { text: "" });
+                chart.series[0].setData(dataH2010);
+                break;
+            case "2009":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2009" }, { text: "" });
+                chart.series[0].setData(dataH2009);
+                break;
+            case "2008":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2008" }, { text: "" });
+                chart.series[0].setData(dataH2008);
+                break;
+            case "2007":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2007" }, { text: "" });
+                chart.series[0].setData(dataH2007);
+                break;
+            case "2006":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2006" }, { text: "" });
+                chart.series[0].setData(dataH2006);
+                break;
+            case "2005":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2005" }, { text: "" });
+                chart.series[0].setData(dataH2005);
+                break;
+            case "2004":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2004" }, { text: "" });
+                chart.series[0].setData(dataH2004);
+                break;
+            case "2003":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2003" }, { text: "" });
+                chart.series[0].setData(dataH2003);
+                break;
+            case "2002":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2002" }, { text: "" });
+                chart.series[0].setData(dataH2002);
+                break;
+            case "2001":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2001" }, { text: "" });
+                chart.series[0].setData(dataH2001);
+                break;
+            case "2000":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 2000" }, { text: "" });
+                chart.series[0].setData(dataH2000);
+                break;
+            case "1999":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1999" }, { text: "" });
+                chart.series[0].setData(dataH1999);
+                break;
+            case "1998":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1998" }, { text: "" });
+                chart.series[0].setData(dataH1998);
+                break;
+            case "1997":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1997" }, { text: "" });
+                chart.series[0].setData(dataH1997);
+                break;
+            case "1996":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1996" }, { text: "" });
+                chart.series[0].setData(dataH1996);
+                break;
+            case "1995":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1995" }, { text: "" });
+                chart.series[0].setData(dataH1995);
+                break;
+            case "1994":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1994" }, { text: "" });
+                chart.series[0].setData(dataH1994);
+                break;
+            case "1993":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1993" }, { text: "" });
+                chart.series[0].setData(dataH1993);
+                break;
+            case "1992":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1992" }, { text: "" });
+                chart.series[0].setData(dataH1992);
+                break;
+            case "1991":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1991" }, { text: "" });
+                chart.series[0].setData(dataH1991);
+                break;
+            case "1990":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1990" }, { text: "" });
+                chart.series[0].setData(dataH1990);
+                break;
+            case "1989":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1989" }, { text: "" });
+                chart.series[0].setData(dataH1989);
+                break;
+            case "1988":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1988" }, { text: "" });
+                chart.series[0].setData(dataH1988);
+                break;
+            case "1987":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1987" }, { text: "" });
+                chart.series[0].setData(dataH1987);
+                break;
+            case "1986":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1986" }, { text: "" });
+                chart.series[0].setData(dataH1986);
+                break;
+            case "1985":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1985" }, { text: "" });
+                chart.series[0].setData(dataH1985);
+                break;
+            case "1984":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1984" }, { text: "" });
+                chart.series[0].setData(dataH1984);
+                break;
+            case "1983":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1983" }, { text: "" });
+                chart.series[0].setData(dataH1983);
+                break;
+            case "1982":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1982" }, { text: "" });
+                chart.series[0].setData(dataH1982);
+                break;
+            case "1981":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1981" }, { text: "" });
+                chart.series[0].setData(dataH1981);
+                break;
+            case "1980":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1980" }, { text: "" });
+                chart.series[0].setData(dataH1980);
+                break;
+            case "1979":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1979" }, { text: "" });
+                chart.series[0].setData(dataH1979);
+                break;
+            case "1978":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1978" }, { text: "" });
+                chart.series[0].setData(dataH1978);
+                break;
+            case "1977":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1977" }, { text: "" });
+                chart.series[0].setData(dataH1977);
+                break;
+            case "1976":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1976" }, { text: "" });
+                chart.series[0].setData(dataH1976);
+                break;
+            case "1975":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1975" }, { text: "" });
+                chart.series[0].setData(dataH1975);
+                break;
+            case "1974":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1974" }, { text: "" });
+                chart.series[0].setData(dataH1974);
+                break;
+            case "1973":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1973" }, { text: "" });
+                chart.series[0].setData(dataH1973);
+                break;
+            case "1972":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1972" }, { text: "" });
+                chart.series[0].setData(dataH1972);
+                break;
+            case "1971":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1971" }, { text: "" });
+                chart.series[0].setData(dataH1971);
+                break;
+            case "1970":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1970" }, { text: "" });
+                chart.series[0].setData(dataH1970);
+                break;
+            case "1969":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1969" }, { text: "" });
+                chart.series[0].setData(dataH1969);
+                break;
+            case "1968":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1968" }, { text: "" });
+                chart.series[0].setData(dataH1968);
+                break;
+            case "1967":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1967" }, { text: "" });
+                chart.series[0].setData(dataH1967);
+                break;
+            case "1966":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1966" }, { text: "" });
+                chart.series[0].setData(dataH1966);
+                break;
+            case "1965":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1965" }, { text: "" });
+                chart.series[0].setData(dataH1965);
+                break;
+            case "1964":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1964" }, { text: "" });
+                chart.series[0].setData(dataH1964);
+                break;
+            case "1963":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1963" }, { text: "" });
+                chart.series[0].setData(dataH1963);
+                break;
+            case "1962":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1962" }, { text: "" });
+                chart.series[0].setData(dataH1962);
+                break;
+            case "1961":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1961" }, { text: "" });
+                chart.series[0].setData(dataH1961);
+                break;
+            case "1960":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1960" }, { text: "" });
+                chart.series[0].setData(dataH1960);
+                break;
+            case "1959":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1959" }, { text: "" });
+                chart.series[0].setData(dataH1959);
+                break;
+            case "1958":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1958" }, { text: "" });
+                chart.series[0].setData(dataH1958);
+                break;
+            case "1957":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1957" }, { text: "" });
+                chart.series[0].setData(dataH1957);
+                break;
+            case "1956":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1956" }, { text: "" });
+                chart.series[0].setData(dataH1956);
+                break;
+            case "1955":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1955" }, { text: "" });
+                chart.series[0].setData(dataH1955);
+                break;
+            case "1954":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1954" }, { text: "" });
+                chart.series[0].setData(dataH1954);
+                break;
+            case "1953":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1953" }, { text: "" });
+                chart.series[0].setData(dataH1953);
+                break;
+            case "1952":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1952" }, { text: "" });
+                chart.series[0].setData(dataH1952);
+                break;
+            case "1951":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1951" }, { text: "" });
+                chart.series[0].setData(dataH1951);
+                break;
+            case "1950":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1950" }, { text: "" });
+                chart.series[0].setData(dataH1950);
+                break;
+            case "1949":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1949" }, { text: "" });
+                chart.series[0].setData(dataH1949);
+                break;
+            case "1948":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1948" }, { text: "" });
+                chart.series[0].setData(dataH1948);
+                break;
+            case "1947":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1947" }, { text: "" });
+                chart.series[0].setData(dataH1947);
+                break;
+            case "1946":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1946" }, { text: "" });
+                chart.series[0].setData(dataH1946);
+                break;
+            case "1945":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1945" }, { text: "" });
+                chart.series[0].setData(dataH1945);
+                break;
+            case "1944":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1944" }, { text: "" });
+                chart.series[0].setData(dataH1944);
+                break;
+            case "1943":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1943" }, { text: "" });
+                chart.series[0].setData(dataH1943);
+                break;
+            case "1942":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1942" }, { text: "" });
+                chart.series[0].setData(dataH1942);
+                break;
+            case "1941":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1941" }, { text: "" });
+                chart.series[0].setData(dataH1941);
+                break;
+            case "1940":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1940" }, { text: "" });
+                chart.series[0].setData(dataH1940);
+                break;
+            case "1939":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1939" }, { text: "" });
+                chart.series[0].setData(dataH1939);
+                break;
+            case "1938":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1938" }, { text: "" });
+                chart.series[0].setData(dataH1938);
+                break;
+            case "1937":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1937" }, { text: "" });
+                chart.series[0].setData(dataH1937);
+                break;
+            case "1936":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1936" }, { text: "" });
+                chart.series[0].setData(dataH1936);
+                break;
+            case "1935":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1935" }, { text: "" });
+                chart.series[0].setData(dataH1935);
+                break;
+            case "1934":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1934" }, { text: "" });
+                chart.series[0].setData(dataH1934);
+                break;
+            case "1933":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1933" }, { text: "" });
+                chart.series[0].setData(dataH1933);
+                break;
+            case "1932":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1932" }, { text: "" });
+                chart.series[0].setData(dataH1932);
+                break;
+            case "1931":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1931" }, { text: "" });
+                chart.series[0].setData(dataH1931);
+                break;
+            case "1930":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1930" }, { text: "" });
+                chart.series[0].setData(dataH1930);
+                break;
+            case "1929":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1929" }, { text: "" });
+                chart.series[0].setData(dataH1929);
+                break;
+            case "1928":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1928" }, { text: "" });
+                chart.series[0].setData(dataH1928);
+                break;
+            case "1927":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1927" }, { text: "" });
+                chart.series[0].setData(dataH1927);
+                break;
+            case "1926":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1926" }, { text: "" });
+                chart.series[0].setData(dataH1926);
+                break;
+            case "1925":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1925" }, { text: "" });
+                chart.series[0].setData(dataH1925);
+                break;
+            case "1924":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1924" }, { text: "" });
+                chart.series[0].setData(dataH1924);
+                break;
+            case "1923":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1923" }, { text: "" });
+                chart.series[0].setData(dataH1923);
+                break;
+            case "1922":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1922" }, { text: "" });
+                chart.series[0].setData(dataH1922);
+                break;
+            case "1921":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1921" }, { text: "" });
+                chart.series[0].setData(dataH1921);
+                break;
+            case "1920":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1920" }, { text: "" });
+                chart.series[0].setData(dataH1920);
+                break;
+            case "1919":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1919" }, { text: "" });
+                chart.series[0].setData(dataH1919);
+                break;
+            case "1918":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1918" }, { text: "" });
+                chart.series[0].setData(dataH1918);
+                break;
+            case "1917":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1917" }, { text: "" });
+                chart.series[0].setData(dataH1917);
+                break;
+            case "1916":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1916" }, { text: "" });
+                chart.series[0].setData(dataH1916);
+                break;
+            case "1915":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1915" }, { text: "" });
+                chart.series[0].setData(dataH1915);
+                break;
+            case "1914":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1914" }, { text: "" });
+                chart.series[0].setData(dataH1914);
+                break;
+            case "1913":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1913" }, { text: "" });
+                chart.series[0].setData(dataH1913);
+                break;
+            case "1912":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1912" }, { text: "" });
+                chart.series[0].setData(dataH1912);
+                break;
+            case "1911":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1911" }, { text: "" });
+                chart.series[0].setData(dataH1911);
+                break;
+            case "1910":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1910" }, { text: "" });
+                chart.series[0].setData(dataH1910);
+                break;
+            case "1909":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1909" }, { text: "" });
+                chart.series[0].setData(dataH1909);
+                break;
+            case "1908":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1908" }, { text: "" });
+                chart.series[0].setData(dataH1908);
+                break;
+            case "1907":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1907" }, { text: "" });
+                chart.series[0].setData(dataH1907);
+                break;
+            case "1906":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1906" }, { text: "" });
+                chart.series[0].setData(dataH1906);
+                break;
+            case "1905":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1905" }, { text: "" });
+                chart.series[0].setData(dataH1905);
+                break;
+            case "1904":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1904" }, { text: "" });
+                chart.series[0].setData(dataH1904);
+                break;
+            case "1903":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1903" }, { text: "" });
+                chart.series[0].setData(dataH1903);
+                break;
+            case "1902":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1902" }, { text: "" });
+                chart.series[0].setData(dataH1902);
+                break;
+            case "1901":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1901" }, { text: "" });
+                chart.series[0].setData(dataH1901);
+                break;
+            case "1900":
+                chart.setTitle({ text: "Les prénoms les plus données par région en 1900" }, { text: "" });
+                chart.series[0].setData(dataH1900);
+                break;
+        };
 
+
+    });
 
 });
 
