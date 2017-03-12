@@ -1414,9 +1414,11 @@ $(function () {
     });
 
     // Switch the year from the dropdown
-    $('#year-select-AllPrenom').change(function () {
+    $('#autocomplete-input').change(function(){
+      setTimeout(function () {
+        var val = $('#autocomplete-input').val();
+        console.log('Updating chart for: ' + val);
         var chart = $('#CourbePrenom').highcharts();
-        var val = $('#year-select-AllPrenom').val();
         switch (val) {
             case "Adrien":
                 chart.setTitle({ text: " Naissances pour le prénom Adrien" });
@@ -2222,7 +2224,7 @@ $(function () {
                 break;
         };
 
-
+      }, 500);
     });
 
 });
