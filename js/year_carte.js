@@ -315,7 +315,6 @@ $(function () {
     // Switch the year from the dropdown FEMME
    
 
-    });
 
 });
 
@@ -421,7 +420,7 @@ $(function () {
      // Switch the year from the dropdown HOMME
    
    
-    });
+
 
 });
 
