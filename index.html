@@ -44,11 +44,13 @@
   <link type="text/css" rel="stylesheet" href="css/style_cartes.css" media="screen,projection" />
  
   <!-- Styles préfaits -->
-  <link href="css/materialize.min.css" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" media="screen,projection" />
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/bootstrap.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" media="screen,projection" />
+  <link href="css/materialize.min.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+
+
   
   <!-- Style final -->
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
@@ -1172,13 +1174,14 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
-                $('.carousel').carousel({
-                  interval: 5000 //changes the speed
-                })
+      $('.carousel').carousel({
+        interval: 5000 //changes the speed
+      })
     </script>
 
 
@@ -1186,9 +1189,11 @@
 
 
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
     <script type="text/javascript" src="js/materialize.js"></script>
-    <!-- Import utilities -->
+    <script src="js/materialize.min.js"></script>
+
+    <!-- JS pour highcharts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/highcharts-more.js"></script>
@@ -1198,11 +1203,8 @@
     <script src="js/highcharts-exporting.fr.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <!-- Import data -->
-    <script src="data/highcharts-world-continents.fr.js"></script>
-    <script type="text/javascript" src="data/bubble-map-data.js"></script>
     <script type="text/javascript" src="data/medal-map-data.js"></script>
     <!-- Scripting goes here -->
-
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/mapdata/countries/fr/custom/fr-all-mainland.js"></script>
