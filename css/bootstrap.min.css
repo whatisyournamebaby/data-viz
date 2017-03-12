@@ -291,18 +291,18 @@ body {
 
 .btn {
   padding: 1em 2em;
-  border: 0.125em solid #fff;
+  border: 0.125em solid rgba(0,0,0,0.2);
   box-shadow: 0.5em 0.5em 0 -0.125em #222, 0.5em 0.5em rgba(255, 255, 255, 0.6);
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: rgba(0,0,0,0.5);
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: .3s;
   transition: .3s;
   z-index: 2;
-  margin: 56px auto;
+  margin: 10px 10px 10px 10px;
 }
 .btn:before {
   content: '';

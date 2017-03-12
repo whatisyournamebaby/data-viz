@@ -4915,7 +4915,8 @@ small {
 .btn-large[disabled],
 .btn-floating[disabled] {
   background-color: #DFDFDF !important;
-  box-shadow: none;
+
+
   color: #9F9F9F !important;
   cursor: default;
 }
@@ -4966,7 +4967,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: rgb(182, 215, 250);
 }
 
 .btn-floating {
