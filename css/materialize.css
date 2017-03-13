@@ -6032,7 +6032,7 @@ textarea.materialize-textarea {
 }
 
 /* Autocomplete */
-.autocomplete-content {
+/*.autocomplete-content {
   margin-top: -15px;
   display: block;
   opacity: 1;
@@ -6047,7 +6047,7 @@ textarea.materialize-textarea {
   height: 40px;
   width: 40px;
   margin: 5px 15px;
-}
+} */
 
 /* Radio Buttons
    ========================================================================== */
