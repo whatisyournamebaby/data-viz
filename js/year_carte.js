@@ -1207,9 +1207,9 @@ $(function () {
     // Switch the year from the dropdown
     $('#autocomplete-input').change(function(){
       setTimeout(function () {
-        var chart = $('#CourbePrenom').highcharts();
         var val = $('#autocomplete-input').val();
         console.log('Updating chart for: ' + val);
+        var chart = $('#CourbePrenom').highcharts();
         switch (val) {
             case "Adrien":
                 chart.setTitle({ text: " Naissances pour le prénom Adrien" });
