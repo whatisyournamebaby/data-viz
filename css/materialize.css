@@ -5944,12 +5944,12 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ input,
 .input-field .prefix ~ textarea,
 .input-field .prefix ~ label,
-.input-field .prefix ~ .validate ~ label,
+.input-field .prefix ~ .validate ~ label /*,
 .input-field .prefix ~ .autocomplete-content {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem);
-}
+}*/
 
 .input-field .prefix ~ label {
   margin-left: 3rem;
