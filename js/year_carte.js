@@ -1365,23 +1365,24 @@ $(function () {
 });
 
 
-$(function () {
+	$(function () {
 
-    Highcharts.setOptions({
-        lang: {
-            numericSymbols: ['k', ' millions', ' milliards', ' billions']
-        }
-    });
+		Highcharts.setOptions({
+			lang: 
+			{
+				numericSymbols: ['k', ' millions', ' milliards', ' billions']
+			}
+		});
 
 
 
     // Make sure that the dropdown is loaded correctly
-    $('select').material_select();
+		$('select').material_select();
 
 
     // Initiate the years map
 
-    $('#CourbePrenom').highcharts({
+		$('#CourbePrenom').highcharts({
 
         title: {
             text: 'Titre'
@@ -1414,7 +1415,7 @@ $(function () {
     });
 
     // Switch the year from the dropdown
-    $('#autocomplete-input').change(function(){
+			$('#autocomplete-input').change(function(){
       setTimeout(function () {
         var val = $('#autocomplete-input').val();
         console.log('Updating chart for: ' + val);
@@ -2227,5 +2228,5 @@ $(function () {
       }, 500);
     });
 
-});
+	});
 });
