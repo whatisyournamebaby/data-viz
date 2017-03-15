@@ -739,7 +739,7 @@ div#centre {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.5);
   display: block;
   line-height: 22px;
   padding: 5px 0px;
