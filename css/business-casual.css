@@ -1,0 +1,786 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url("../img/ciel.jpg")/* repeat center center fixed*/;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	 margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    text-align:center;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+/*Légende image*/
+legende {
+  text-align: right;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+
+/* Police de l'intro */
+.brand-before {
+    margin: 15px 0;
+    text-transform: none;
+    font-size: xx-large;
+}
+
+/* Police du nom de l'auteur de l'intro */
+.brand-name {
+    margin: 0;
+    font-size: xx-large;
+    text-transform: none;
+    text-align: right;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+	
+	
+	
+	
+	/* */
+	
+.first span:nth-child(1) {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+.first span:nth-child(2) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.first span:nth-child(3) {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.first span:nth-child(4) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.first span:nth-child(5) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.first span:nth-child(6) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+.first span:nth-child(7) {
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+.first span:nth-child(8) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+.first span:nth-child(9) {
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+.first span:nth-child(10) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.first span:nth-child(11) {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+.first span:nth-child(12) {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+.first span:nth-child(13) {
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+.first span:nth-child(14) {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+.first span:nth-child(15) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+.first span:nth-child(16) {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+.first span:nth-child(17) {
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+.first span:nth-child(18) {
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+.first span:nth-child(19) {
+  -webkit-animation-delay: 2.9s;
+          animation-delay: 2.9s;
+}
+.first span:nth-child(20) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.first span:nth-child(21) {
+  -webkit-animation-delay: 3.1s;
+          animation-delay: 3.1s;
+}
+.first span:nth-child(22) {
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+.first span:nth-child(23) {
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+}
+.first span:nth-child(24) {
+  -webkit-animation-delay: 3.4s;
+          animation-delay: 3.4s;
+}
+.first span:nth-child(25) {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+.first span:nth-child(26) {
+  -webkit-animation-delay: 3.6s;
+          animation-delay: 3.6s;
+}
+.first span:nth-child(27) {
+  -webkit-animation-delay: 3.7s;
+          animation-delay: 3.7s;
+}
+.first span:nth-child(28) {
+  -webkit-animation-delay: 3.8s;
+          animation-delay: 3.8s;
+}
+.first span:nth-child(29) {
+  -webkit-animation-delay: 3.9s;
+          animation-delay: 3.9s;
+}
+.first span:nth-child(30) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.first span:nth-child(31) {
+  -webkit-animation-delay: 4.1s;
+          animation-delay: 4.1s;
+}
+.first span:nth-child(33) {
+  -webkit-animation-delay: 4.2s;
+          animation-delay: 4.2s;
+}
+.first span:nth-child(34) {
+  -webkit-animation-delay: 4.3s;
+          animation-delay: 4.3s;
+}
+.first span:nth-child(35) {
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
+}
+.first span:nth-child(36) {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+.first span:nth-child(37) {
+  -webkit-animation-delay: 4.6s;
+          animation-delay: 4.6s;
+}
+.first span:nth-child(38) {
+  -webkit-animation-delay: 4.7s;
+          animation-delay: 4.7s;
+}
+.first span:nth-child(39) {
+  -webkit-animation-delay: 4.8s;
+          animation-delay: 4.8s;
+}
+.first span:nth-child(40) {
+  -webkit-animation-delay: 4.9s;
+          animation-delay: 4.9s;
+}
+.first span:nth-child(41) {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.first span:nth-child(42) {
+  -webkit-animation-delay: 5.1s;
+          animation-delay: 5.1s;
+}
+.first span:nth-child(43) {
+  -webkit-animation-delay: 5.2s;
+          animation-delay: 5.2s;
+}
+.first span:nth-child(44) {
+  -webkit-animation-delay: 5.3s;
+          animation-delay: 5.3s;
+}
+.first span:nth-child(45) {
+  -webkit-animation-delay: 5.4s;
+          animation-delay: 5.4s;
+}
+   .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+        min-height: 0;
+        padding-top: 20px;   /*Espace entre le bouton et le haut de la barre*/
+        padding-bottom: 30px;  /*Espace entre le bouton et le bas de la barre*/
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar-default {
+        border: none;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Pour le menu déroulant */
+
+/* Style The Dropdown Button */
+
+.dropdown-button{
+    background: rgb(182, 215, 250);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;  /*Espace entre le bord du bouton et le texte*/
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;  /*Arrondi les angles des boutons*/
+    border-color: rgba(0,0,0,0.2);
+    box-shadow: 0.5em 0.5em 0 -0.125em rgba(0,0,0,0.2), 0.5em 0.5em rgba(255, 255, 255, 0.6);
+    position: relatives;
+    background-color: rgb(182, 215, 250)
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f8fbff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0;
+    max-height: 650px;
+    overflow-y: auto;
+    opacity: 0;
+    z-index: 999;
+    will-change: width, height;
+}
+
+.dropdown-content li {
+    clear: both;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected, .dropdown-content li.active.selected {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.dropdown-content li.divider {
+  min-height: 0;
+  height: 1px;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: rgba(0,0,0,0.2);
+  display: block;
+  line-height: 22px;
+  padding: 5px 0px;
+}
+
+.dropdown-content li > span > label {
+  top: 1px;
+  left: 0px;
+  height: 18px;
+}
+
+.dropdown-content li > a > i {
+  height: inherit;
+  line-height: inherit;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(182, 215, 250)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+div#colonne1 {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+	background: lightblue;
+}
+div#colonne2 {
+	float: right;
+	width: 300px;
+	margin-left: 10px;
+	background: burlywood;
+}
+
+div#colonne3 {
+	float: center;
+	width: 300px;
+	margin-left: 10px;
+	background: burlywood;
+}
+div#centre {
+	overflow: hidden;
+	background: khaki;
+}
+
+
+/* Pour le menu déroulant */
+
+/* Style The Dropdown Button */
+
+.dropdown-button{
+    background: rgb(182, 215, 250);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;  /*Espace entre le bord du bouton et le texte*/
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;  /*Arrondi les angles des boutons*/
+    border-color: rgba(0,0,0,0.2);
+    box-shadow: 0.5em 0.5em 0 -0.125em rgba(0,0,0,0.2), 0.5em 0.5em rgba(255, 255, 255, 0.6);
+    position: relatives;
+    background-color: rgb(182, 215, 250)
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #008000; /*#f8fbff;*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0;
+    max-height: 650px;
+    overflow-y: auto;
+    opacity: 0;
+    z-index: 999;
+    will-change: width, height;
+}
+
+.dropdown-content li {
+    clear: both;
+    color: rgba(0,0,0,0.2);
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected, .dropdown-content li.active.selected {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.dropdown-content li.divider {
+  min-height: 0;
+  height: 1px;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: rgba(0,0,0,0.2);
+  display: block;
+  line-height: 22px;
+  padding: 5px 0px;
+}
+
+.dropdown-content li > span > label {
+  top: 1px;
+  left: 0px;
+  height: 18px;
+}
+
+.dropdown-content li > a > i {
+  height: inherit;
+  line-height: inherit;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(182, 215, 250)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+/* Pour le menu déroulant */
+
+/* Style The Dropdown Button */
+
+.dropdown-button{
+    background: rgb(182, 215, 250);
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;  /*Espace entre le bord du bouton et le texte*/
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;  /*Arrondi les angles des boutons*/
+    border-color: rgba(0,0,0,0.2);
+    box-shadow: 0.5em 0.5em 0 -0.125em rgba(0,0,0,0.2), 0.5em 0.5em rgba(255, 255, 255, 0.6);
+    position: relatives;
+    background-color: rgb(182, 215, 250)
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f8fbff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0;
+    max-height: 650px;
+    overflow-y: auto;
+    opacity: 0;
+    z-index: 999;
+    will-change: width, height;
+}
+
+.dropdown-content li {
+    clear: both;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 1.5rem;
+    width: 100%;
+    text-align: left;
+    text-transform: none;
+
+}
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected, .dropdown-content li.active.selected {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.dropdown-content li.divider {
+  min-height: 0;
+  height: 1px;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: rgba(0,0,0,0.2);
+  display: block;
+  line-height: 22px;
+  padding: 5px 0px;
+}
+
+.dropdown-content li > span > label {
+  top: 1px;
+  left: 0px;
+  height: 18px;
+}
+
+.dropdown-content li > a > i {
+  height: inherit;
+  line-height: inherit;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(182, 215, 250)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+

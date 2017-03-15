@@ -2236,9 +2236,14 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url("../img/ciel.jpg")/* repeat center center fixed*/;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	 margin: 0;
 }
-
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -4915,8 +4920,7 @@ small {
 .btn-large[disabled],
 .btn-floating[disabled] {
   background-color: #DFDFDF !important;
-
-
+  box-shadow: none;
   color: #9F9F9F !important;
   cursor: default;
 }
@@ -4967,7 +4971,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: rgb(182, 215, 250);
+  background-color: #2bbbad;
 }
 
 .btn-floating {
@@ -5944,12 +5948,12 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ input,
 .input-field .prefix ~ textarea,
 .input-field .prefix ~ label,
-.input-field .prefix ~ .validate ~ label /*,
+.input-field .prefix ~ .validate ~ label,
 .input-field .prefix ~ .autocomplete-content {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem);
-}*/
+}
 
 .input-field .prefix ~ label {
   margin-left: 3rem;
@@ -6032,7 +6036,7 @@ textarea.materialize-textarea {
 }
 
 /* Autocomplete */
-/*.autocomplete-content {
+.autocomplete-content {
   margin-top: -15px;
   display: block;
   opacity: 1;
@@ -6047,7 +6051,7 @@ textarea.materialize-textarea {
   height: 40px;
   width: 40px;
   margin: 5px 15px;
-} */
+}
 
 /* Radio Buttons
    ========================================================================== */
