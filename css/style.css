@@ -101,12 +101,14 @@ html {
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+          margin-bottom: 5px;
 	}
 
-	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
-	}
+h5 {
+  font-size: 1.44rem;
+  text-align: justify;
+}
+
 .smaller-h5 {
   font-size: 1.24rem;
 }
@@ -1094,7 +1096,14 @@ header {
 				width: 100%;
 			}
         
-
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 
 		
 
@@ -1719,15 +1728,15 @@ footer p {
 /*#region '<select>' element*/
 .select-wrapper input.select-dropdown
 {
-  border-bottom: 1px solid v;
+  border-bottom: 1px solid #1893B2;
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
-  color: rgba(0,0,0,0.5);
+  color: #1893B2;
 }
 
 .select-wrapper span.caret {
-  color: rgba(0,0,0,0.2);
+  color: #1893B2;
 }
 /*#endregion*/
 
