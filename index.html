@@ -391,9 +391,9 @@
         </div>
       </div>
       
-      -->
 
-    </section>
+
+    </section>      -->
     <!-- SECTION 1.5 : VOITURES RENAULT -->
     <section id="renault">
       <div class="row">
@@ -889,7 +889,51 @@
         <div class="box">
           <div class="col-lg-12">
             <hr>
-            <h2 class="intro-text text-center"> A propos de vous </h2>
+            <h2 class="intro-text text-center"> A propos de vous1 </h2>
+            <hr>
+            <p> Déçu(e) de pas avoir trouvé votre prénom dans les différentes catégories que nous proposons ? Pas de panique
+              cette section est faite pour vous ! Trouvez ci-dessous la courbe représentant le nombre de naissances par an
+              de vos homonymes ! Et si par malheur votre prénom ne figure pas dans la liste envoyez-nous un petit mail ;)
+            </p>
+
+            <div class="z-depth-2 white card-container row" id="years-map-tab">
+              <div class="row">
+                <div class="col s12">
+                  <div class="row">
+                        <div class="input-field col s12">
+                        <input type="text" id="autocomplete-input" class="autocomplete"> </input>
+                        <label for="autocomplete-input">Prénom</label>
+                        </div>
+                        <div class="col s12" id="CourbePrenom"></div>
+                  </div>
+                </div>
+              </div>
+
+              <script>
+                // tell the embed parent frame the height of the content
+                if (window.parent && window.parent.parent) {
+                  window.parent.parent.postMessage(["resultsFrame", {
+                    height: document.body.getBoundingClientRect().height,
+                    slug: "None"
+                  }], "*")
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+  
+
+    <!-- SECTION 4.1 : Evolution par prénom -->
+    <section id="vous">
+
+      <div class="row">
+        <div class="box">
+          <div class="col-lg-12">
+            <hr>
+            <h2 class="intro-text text-center"> A propos de vous2 </h2>
             <hr>
             <p> Déçu(e) de pas avoir trouvé votre prénom dans les différentes catégories que nous proposons ? Pas de panique
               cette section est faite pour vous ! Trouvez ci-dessous la courbe représentant le nombre de naissances par an
@@ -931,71 +975,32 @@
     </section>
   
   
-  <!-- SECTION 4.1 : Evolution par prénom -->
+  
+  
+    <!-- SECTION 4.1 : Evolution par prénom -->
     <section id="vous">
 
       <div class="row">
         <div class="box">
           <div class="col-lg-12">
             <hr>
-            <h2 class="intro-text text-center"> A propos de vous </h2>
+            <h2 class="intro-text text-center"> A propos de vous3 </h2>
             <hr>
             <p> Déçu(e) de pas avoir trouvé votre prénom dans les différentes catégories que nous proposons ? Pas de panique
               cette section est faite pour vous ! Trouvez ci-dessous la courbe représentant le nombre de naissances par an
               de vos homonymes ! Et si par malheur votre prénom ne figure pas dans la liste envoyez-nous un petit mail ;)
             </p>
 
+            <div class="z-depth-2 white card-container row" id="years-map-tab">
+TEST
+            </div>
 
-              <div class="row">
-                <div class="col s12">
-                  <div class="row">
-                      <div class="input-field col s12">
-                      <input type="text" id="autocomplete-input" class="autocomplete">
-                      <label for="autocomplete-input">Prénom</label>
-
-                       </div>
-                    <div class="col s12" id="CourbePrenom">
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <script>
-                // tell the embed parent frame the height of the content
-                if (window.parent && window.parent.parent) {
-                  window.parent.parent.postMessage(["resultsFrame", {
-                    height: document.body.getBoundingClientRect().height,
-                    slug: "None"
-                  }], "*")
-                }
-              </script>
             </div>
           </div>
-          </div>
-
-
-    </section>
-
-    <!-- SECTION 4.2 : TOP 10 -->
-    <section id="vousan">
-
-      <div class="row">
-        <div class="box">
-          <div class="col-lg-12">
-            <hr>
-            <h2 class="intro-text text-center">Top 10 par année</h2>
-            <hr>
-            <p> Que vous vous demandiez « Mes parents ont-ils été originaux sur le choix de mon prénom ? » ou « Comment être
-              orignal(e) sur le choix du prénom de mon enfant à venir ? » c’est ici que se trouve votre réponse ! Retrouvez
-              ci-dessous le Top10 des prénoms féminins et masculins par année depuis 1900 !
-            </p>
-          </div>
         </div>
-      </div>
+
 
     </section>
-
-
     <!-- fin de la section 4 -->
 
 
