@@ -4963,7 +4963,7 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: rgb(182, 215, 250);
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
