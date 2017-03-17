@@ -54,8 +54,7 @@ html {
 
 	strong, b {
 		color: #000;
-		font-weight: 400;
-		font-style: bold;
+		font-weight: bold;
 	}
 
 	em, i {
