@@ -2233,7 +2233,7 @@ html {
 /**
  * Remove default margin.
  */
-/*body {
+body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url("../img/fond_violet.jpg") repeat center center fixed;
     -webkit-background-size: cover ;
@@ -2241,7 +2241,7 @@ html {
     background-size: cover;
     -o-background-size: cover;
 	 margin: 0;
-}*/
+}
 /* HTML5 display definitions
    ========================================================================== */
 /**
