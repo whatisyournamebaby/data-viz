@@ -306,7 +306,7 @@ body {
 }
 .btn:before {
   content: '';
-  background: #fff;
+  background: #F5F1F5;
   width: 150%;
   height: 100%;
   position: absolute;

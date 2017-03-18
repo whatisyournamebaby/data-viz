@@ -584,40 +584,47 @@ section {
     border-color: rgba(0,0,0,0.2);
     box-shadow: 0.5em 0.5em 0 -0.125em rgba(0,0,0,0.2), 0.5em 0.5em rgba(255, 255, 255, 0.6);
     position: relatives;
-    background-color: rgb(182, 215, 250)
+    background-color: #9C7496;
+/*    text-decoration: none;*/
+    color: #fff;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+}
+
+.btn:hover {
+  background-color: #9C7496;
 }
 
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: relative;
-    background-color: #f8fbff;
-    min-width: 160px;
+    position: absolute;                              
+    background-color: #F5F1F5;                      
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin: 0;
+    z-index: 500;                                         
+    margin: 0px;
     max-height: 650px;
     overflow-y: auto;
     opacity: 0;
-    z-index: 999;
     will-change: width, height;
+    margin-top: 10px;
 }
 
 .dropdown-content li {
     clear: both;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.87);  
     cursor: pointer;
     min-height: 50px;
     line-height: 1.5rem;
     width: 100%;
     text-align: left;
     text-transform: none;
-
 }
 
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected, .dropdown-content li.active.selected {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.2);    /*#eee*/
 }
 
 .dropdown-content li.divider {
@@ -627,15 +634,15 @@ section {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.2);         /*rgba(0,0,0,0.5)*/
   display: block;
   line-height: 22px;
-  padding: 5px 0px;
+  padding: 5px 0px;                  /*14px 16px*/
 }
 
 .dropdown-content li > span > label {
   top: 1px;
-  left: 0px;
+  left: 0px;               /*3px*/
   height: 18px;
 }
 
@@ -653,7 +660,7 @@ section {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgb(182, 215, 250)}
+.dropdown-content a:hover {background-color: #9C7496}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -1332,7 +1339,7 @@ img {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 2em 10px;
 		padding-left: 1em;
 	}
 
@@ -1716,7 +1723,7 @@ footer p {
 }
 
 .switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #1893B2;
+  background-color: rgba(0, 0, 0, 0.87);
 }
 .switch {
   margin-bottom: 10px;
@@ -1728,15 +1735,15 @@ footer p {
 /*#region '<select>' element*/
 .select-wrapper input.select-dropdown
 {
-  border-bottom: 1px solid #1893B2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87);
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
-  color: #1893B2;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .select-wrapper span.caret {
-  color: #1893B2;
+  color: rgba(0, 0, 0, 0.87);
 }
 /*#endregion*/
 
@@ -1745,11 +1752,11 @@ footer p {
 
 /*#region '.tabs' element*/
 .tabs .tab a {
-  color: #1893B2;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .tabs .indicator {
-  background-color: #1893B2;
+  background-color: rgba(0, 0, 0, 0.87);
 }
 
 .tabs .tab a:hover {
@@ -1766,7 +1773,7 @@ footer p {
 }
 
 .input-field label {
-  color: #1893B2;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 #gold-medal {
