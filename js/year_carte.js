@@ -278,7 +278,7 @@ $(function () {
                 tooltip: {
                     headerFormat: '',
                     pointFormat: '<b>{point.name}</b>' + '<br>' +
-                    'Nb total de naissance : ' + '{point.nbNaissances}' + '<br>' +
+                    'Nombre total de naissances : ' + '{point.nbNaissances}' + '<br>' +
                     'Pourcentage de ' + '{point.nom}' + ' : ' + '{point.pourcentageMax }' + '<br>'
                 }
 
@@ -854,7 +854,7 @@ $(function () {
                 tooltip: {
                     headerFormat: '',
                     pointFormat: '<b>{point.name}</b>' + '<br>' +
-                    'Nb total de naissance : ' + '{point.nbNaissances}' + '<br>' +
+                    'Nombre total de naissances : ' + '{point.nbNaissances}' + '<br>' +
                     'Pourcentage de ' + '{point.nom}' + ' : ' + '{point.pourcentageMax }' + '<br>'
                 }
 
