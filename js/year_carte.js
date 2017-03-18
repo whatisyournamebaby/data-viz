@@ -1385,7 +1385,7 @@ $(function () {
 		$('#CourbePrenom').highcharts({
 
         title: {
-            text: 'Selectionnez un titre'
+            text: 'Selectionnez un prénom'
         },
 
         subtitle: {
