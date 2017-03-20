@@ -107,7 +107,7 @@ $(function () {
 	 "Jacques": null,		
 	 "Jade": null,		
 	 "Jean": null,		
-	 "Jeanclaude": null,		
+	 "Jean-claude": null,		
 	 "Jeanfrançois": null,		
 	 "Jeanluc": null,		
 	 "Jeanmarc": null,		
