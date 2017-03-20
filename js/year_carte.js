@@ -107,13 +107,13 @@ $(function () {
 	 "Jacques": null,		
 	 "Jade": null,		
 	 "Jean": null,		
-	 "Jean-claude": null,		
-	 "Jeanfrançois": null,		
-	 "Jeanluc": null,		
-	 "Jeanmarc": null,		
-	 "Jeanmichel": null,		
-	 "Jeanpaul": null,		
-	 "Jeanpierre": null,		
+	 "Jean-Claude": null,		
+	 "Jean-François": null,		
+	 "Jean-Luc": null,		
+	 "Jean-Marc": null,		
+	 "Jean-Michel": null,		
+	 "Jean-Paul": null,		
+	 "Jean-Pierre": null,		
 	 "Jennifer": null,		
 	 "Jeremy": null,		
 	 "Jerome": null,		
@@ -147,7 +147,7 @@ $(function () {
 	 "Manon": null,		
 	 "Marc": null,		
 	 "Marie": null,		
-	 "Mariechristine": null,		
+	 "Marie-Christine": null,		
 	 "Marine": null,		
 	 "Marion": null,		
 	 "Martine": null,		
@@ -1801,32 +1801,32 @@ $(function () {
                 chart.setTitle({ text: " Naissances pour le prénom Jean" }, { text: "" });
                 chart.series[0].setData(data3093);
                 break;
-            case "Jean-claude":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-claude" }, { text: "" });
+            case "Jean-Claude":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-Claude" }, { text: "" });
                 chart.series[0].setData(data3094);
                 break;
-            case "Jean-françois":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-françois" }, { text: "" });
+            case "Jean-François":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-François" }, { text: "" });
                 chart.series[0].setData(data3095);
                 break;
-            case "Jean-luc":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-luc" }, { text: "" });
+            case "Jean-Luc":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-Luc" }, { text: "" });
                 chart.series[0].setData(data3096);
                 break;
-            case "Jean-marc":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-marc" }, { text: "" });
+            case "Jean-Marc":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-Marc" }, { text: "" });
                 chart.series[0].setData(data3097);
                 break;
-            case "Jean-michel":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-michel" }, { text: "" });
+            case "Jean-Michel":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-Michel" }, { text: "" });
                 chart.series[0].setData(data3098);
                 break;
-            case "Jean-paul":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-paul" }, { text: "" });
+            case "Jean-Paul":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-Paul" }, { text: "" });
                 chart.series[0].setData(data3099);
                 break;
-            case "Jean-pierre":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-pierre" }, { text: "" });
+            case "Jean-Pierre":
+                chart.setTitle({ text: " Naissances pour le prénom Jean-Pierre" }, { text: "" });
                 chart.series[0].setData(data3100);
                 break;
             case "Jennifer":
@@ -1961,8 +1961,8 @@ $(function () {
                 chart.setTitle({ text: " Naissances pour le prénom Marie" }, { text: "" });
                 chart.series[0].setData(data3133);
                 break;
-            case "Marie-christine":
-                chart.setTitle({ text: " Naissances pour le prénom Marie-christine" }, { text: "" });
+            case "Marie-Christine":
+                chart.setTitle({ text: " Naissances pour le prénom Marie-Christine" }, { text: "" });
                 chart.series[0].setData(data3134);
                 break;
             case "Marine":
