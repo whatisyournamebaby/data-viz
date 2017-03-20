@@ -1422,810 +1422,1210 @@ $(function () {
         var val = $('#autocomplete-input').val();
         console.log('Updating chart for: ' + val);
         var chart = $('#CourbePrenom').highcharts();
-        switch (val) {
-            case "Adrien":
-                chart.setTitle({ text: " Naissances pour le prénom Adrien" }, { text: "" });
-                chart.series[0].setData(data3000);
-                chart.series[0].setName({ text: " Naissances pour le prénom Adrien" }, { text: "" });
+	switch (val) {
+           case "Adam":
+           chart.setTitle({text: " Naissances pour le prénom Adam"}, { text: "" });
+           chart.series[0].setData(data3000);
+           break;
+           case "Adeline":
+           chart.setTitle({text: " Naissances pour le prénom Adeline"}, { text: "" });
+           chart.series[0].setData(data3001);
+           break;
+           case "Adrien":
+           chart.setTitle({text: " Naissances pour le prénom Adrien"}, { text: "" });
+           chart.series[0].setData(data3002);
+           break;
+           case "Agathe":
+           chart.setTitle({text: " Naissances pour le prénom Agathe"}, { text: "" });
+           chart.series[0].setData(data3003);
+           break;
+           case "Agnès":
+           chart.setTitle({text: " Naissances pour le prénom Agnès"}, { text: "" });
+           chart.series[0].setData(data3004);
+           break;
+           case "Alain":
+           chart.setTitle({text: " Naissances pour le prénom Alain"}, { text: "" });
+           chart.series[0].setData(data3005);
+           break;
+           case "Alexandra":
+           chart.setTitle({text: " Naissances pour le prénom Alexandra"}, { text: "" });
+           chart.series[0].setData(data3006);
+           break;
+           case "Alexandre":
+           chart.setTitle({text: " Naissances pour le prénom Alexandre"}, { text: "" });
+           chart.series[0].setData(data3007);
+           break;
+           case "Alexis":
+           chart.setTitle({text: " Naissances pour le prénom Alexis"}, { text: "" });
+           chart.series[0].setData(data3008);
+           break;
+           case "Alice":
+           chart.setTitle({text: " Naissances pour le prénom Alice"}, { text: "" });
+           chart.series[0].setData(data3009);
+           break;
+           case "Alicia":
+           chart.setTitle({text: " Naissances pour le prénom Alicia"}, { text: "" });
+           chart.series[0].setData(data3010);
+           break;
+           case "Aline":
+           chart.setTitle({text: " Naissances pour le prénom Aline"}, { text: "" });
+           chart.series[0].setData(data3011);
+           break;
+           case "Amandine":
+           chart.setTitle({text: " Naissances pour le prénom Amandine"}, { text: "" });
+           chart.series[0].setData(data3012);
+           break;
+           case "Amélie":
+           chart.setTitle({text: " Naissances pour le prénom Amélie"}, { text: "" });
+           chart.series[0].setData(data3013);
+           break;
+           case "Anaïs":
+           chart.setTitle({text: " Naissances pour le prénom Anaïs"}, { text: "" });
+           chart.series[0].setData(data3014);
+           break;
+           case "André":
+           chart.setTitle({text: " Naissances pour le prénom André"}, { text: "" });
+           chart.series[0].setData(data3015);
+           break;
+           case "Angelique":
+           chart.setTitle({text: " Naissances pour le prénom Angelique"}, { text: "" });
+           chart.series[0].setData(data3016);
+           break;
+           case "Anna":
+           chart.setTitle({text: " Naissances pour le prénom Anna"}, { text: "" });
+           chart.series[0].setData(data3017);
+           break;
+           case "Anne":
+           chart.setTitle({text: " Naissances pour le prénom Anne"}, { text: "" });
+           chart.series[0].setData(data3018);
+           break;
+           case "Anne-marie":
+           chart.setTitle({text: " Naissances pour le prénom Anne-marie"}, { text: "" });
+           chart.series[0].setData(data3019);
+           break;
+           case "Annick":
+           chart.setTitle({text: " Naissances pour le prénom Annick"}, { text: "" });
+           chart.series[0].setData(data3020);
+           break;
+           case "Annie":
+           chart.setTitle({text: " Naissances pour le prénom Annie"}, { text: "" });
+           chart.series[0].setData(data3021);
+           break;
+           case "Anthony":
+           chart.setTitle({text: " Naissances pour le prénom Anthony"}, { text: "" });
+           chart.series[0].setData(data3022);
+           break;
+           case "Antoine":
+           chart.setTitle({text: " Naissances pour le prénom Antoine"}, { text: "" });
+           chart.series[0].setData(data3023);
+           break;
+           case "Arnaud":
+           chart.setTitle({text: " Naissances pour le prénom Arnaud"}, { text: "" });
+           chart.series[0].setData(data3024);
+           break;
+           case "Arthur":
+           chart.setTitle({text: " Naissances pour le prénom Arthur"}, { text: "" });
+           chart.series[0].setData(data3025);
+           break;
+           case "Audrey":
+           chart.setTitle({text: " Naissances pour le prénom Audrey"}, { text: "" });
+           chart.series[0].setData(data3026);
+           break;
+           case "Aurélie":
+           chart.setTitle({text: " Naissances pour le prénom Aurélie"}, { text: "" });
+           chart.series[0].setData(data3027);
+           break;
+           case "Aurélien":
+           chart.setTitle({text: " Naissances pour le prénom Aurélien"}, { text: "" });
+           chart.series[0].setData(data3028);
+           break;
+           case "Aurore":
+           chart.setTitle({text: " Naissances pour le prénom Aurore"}, { text: "" });
+           chart.series[0].setData(data3029);
+           break;
+           case "Axel":
+           chart.setTitle({text: " Naissances pour le prénom Axel"}, { text: "" });
+           chart.series[0].setData(data3030);
+           break;
+           case "Baptiste":
+           chart.setTitle({text: " Naissances pour le prénom Baptiste"}, { text: "" });
+           chart.series[0].setData(data3031);
+           break;
+           case "Bastien":
+           chart.setTitle({text: " Naissances pour le prénom Bastien"}, { text: "" });
+           chart.series[0].setData(data3032);
+           break;
+           case "Béatrice":
+           chart.setTitle({text: " Naissances pour le prénom Béatrice"}, { text: "" });
+           chart.series[0].setData(data3033);
+           break;
+           case "Benjamin":
+           chart.setTitle({text: " Naissances pour le prénom Benjamin"}, { text: "" });
+           chart.series[0].setData(data3034);
+           break;
+           case "Benoît":
+           chart.setTitle({text: " Naissances pour le prénom Benoît"}, { text: "" });
+           chart.series[0].setData(data3035);
+           break;
+           case "Bernadette":
+           chart.setTitle({text: " Naissances pour le prénom Bernadette"}, { text: "" });
+           chart.series[0].setData(data3036);
+           break;
+           case "Bernard":
+           chart.setTitle({text: " Naissances pour le prénom Bernard"}, { text: "" });
+           chart.series[0].setData(data3037);
+           break;
+           case "Bertrand":
+           chart.setTitle({text: " Naissances pour le prénom Bertrand"}, { text: "" });
+           chart.series[0].setData(data3038);
+           break;
+           case "Brigitte":
+           chart.setTitle({text: " Naissances pour le prénom Brigitte"}, { text: "" });
+           chart.series[0].setData(data3039);
+           break;
+           case "Bruno":
+           chart.setTitle({text: " Naissances pour le prénom Bruno"}, { text: "" });
+           chart.series[0].setData(data3040);
+           break;
+           case "Camille":
+           chart.setTitle({text: " Naissances pour le prénom Camille"}, { text: "" });
+           chart.series[0].setData(data3041);
+           break;
+           case "Carine":
+           chart.setTitle({text: " Naissances pour le prénom Carine"}, { text: "" });
+           chart.series[0].setData(data3042);
+           break;
+           case "Carole":
+           chart.setTitle({text: " Naissances pour le prénom Carole"}, { text: "" });
+           chart.series[0].setData(data3043);
+           break;
+           case "Caroline":
+           chart.setTitle({text: " Naissances pour le prénom Caroline"}, { text: "" });
+           chart.series[0].setData(data3044);
+           break;
+           case "Catherine":
+           chart.setTitle({text: " Naissances pour le prénom Catherine"}, { text: "" });
+           chart.series[0].setData(data3045);
+           break;
+           case "Cécile":
+           chart.setTitle({text: " Naissances pour le prénom Cécile"}, { text: "" });
+           chart.series[0].setData(data3046);
+           break;
+           case "Cedric":
+           chart.setTitle({text: " Naissances pour le prénom Cedric"}, { text: "" });
+           chart.series[0].setData(data3047);
+           break;
+           case "Célia":
+           chart.setTitle({text: " Naissances pour le prénom Célia"}, { text: "" });
+           chart.series[0].setData(data3048);
+           break;
+           case "Céline":
+           chart.setTitle({text: " Naissances pour le prénom Céline"}, { text: "" });
+           chart.series[0].setData(data3049);
+           break;
+           case "Chantal":
+           chart.setTitle({text: " Naissances pour le prénom Chantal"}, { text: "" });
+           chart.series[0].setData(data3050);
+           break;
+           case "Charles":
+           chart.setTitle({text: " Naissances pour le prénom Charles"}, { text: "" });
+           chart.series[0].setData(data3051);
+           break;
+           case "Charlotte":
+           chart.setTitle({text: " Naissances pour le prénom Charlotte"}, { text: "" });
+           chart.series[0].setData(data3052);
+           break;
+           case "Chloé":
+           chart.setTitle({text: " Naissances pour le prénom Chloé"}, { text: "" });
+           chart.series[0].setData(data3053);
+           break;
+           case "Christelle":
+           chart.setTitle({text: " Naissances pour le prénom Christelle"}, { text: "" });
+           chart.series[0].setData(data3054);
+           break;
+           case "Christian":
+           chart.setTitle({text: " Naissances pour le prénom Christian"}, { text: "" });
+           chart.series[0].setData(data3055);
+           break;
+           case "Christiane":
+           chart.setTitle({text: " Naissances pour le prénom Christiane"}, { text: "" });
+           chart.series[0].setData(data3056);
+           break;
+           case "Christine":
+           chart.setTitle({text: " Naissances pour le prénom Christine"}, { text: "" });
+           chart.series[0].setData(data3057);
+           break;
+           case "Christophe":
+           chart.setTitle({text: " Naissances pour le prénom Christophe"}, { text: "" });
+           chart.series[0].setData(data3058);
+           break;
+           case "Christopher":
+           chart.setTitle({text: " Naissances pour le prénom Christopher"}, { text: "" });
+           chart.series[0].setData(data3059);
+           break;
+           case "Cindy":
+           chart.setTitle({text: " Naissances pour le prénom Cindy"}, { text: "" });
+           chart.series[0].setData(data3060);
+           break;
+           case "Claire":
+           chart.setTitle({text: " Naissances pour le prénom Claire"}, { text: "" });
+           chart.series[0].setData(data3061);
+           break;
+           case "Clara":
+           chart.setTitle({text: " Naissances pour le prénom Clara"}, { text: "" });
+           chart.series[0].setData(data3062);
+           break;
+           case "Claude":
+           chart.setTitle({text: " Naissances pour le prénom Claude"}, { text: "" });
+           chart.series[0].setData(data3063);
+           break;
+           case "Claudine":
+           chart.setTitle({text: " Naissances pour le prénom Claudine"}, { text: "" });
+           chart.series[0].setData(data3064);
+           break;
+           case "Clémence":
+           chart.setTitle({text: " Naissances pour le prénom Clémence"}, { text: "" });
+           chart.series[0].setData(data3065);
+           break;
+           case "Clément":
+           chart.setTitle({text: " Naissances pour le prénom Clément"}, { text: "" });
+           chart.series[0].setData(data3066);
+           break;
+           case "Colette":
+           chart.setTitle({text: " Naissances pour le prénom Colette"}, { text: "" });
+           chart.series[0].setData(data3067);
+           break;
+           case "Coralie":
+           chart.setTitle({text: " Naissances pour le prénom Coralie"}, { text: "" });
+           chart.series[0].setData(data3068);
+           break;
+           case "Corentin":
+           chart.setTitle({text: " Naissances pour le prénom Corentin"}, { text: "" });
+           chart.series[0].setData(data3069);
+           break;
+           case "Corinne":
+           chart.setTitle({text: " Naissances pour le prénom Corinne"}, { text: "" });
+           chart.series[0].setData(data3070);
+           break;
+           case "Cyril":
+           chart.setTitle({text: " Naissances pour le prénom Cyril"}, { text: "" });
+           chart.series[0].setData(data3071);
+           break;
+           case "Damien":
+           chart.setTitle({text: " Naissances pour le prénom Damien"}, { text: "" });
+           chart.series[0].setData(data3072);
+           break;
+           case "Daniel":
+           chart.setTitle({text: " Naissances pour le prénom Daniel"}, { text: "" });
+           chart.series[0].setData(data3073);
+           break;
+           case "Danielle":
+           chart.setTitle({text: " Naissances pour le prénom Danielle"}, { text: "" });
+           chart.series[0].setData(data3074);
+           break;
+           case "David":
+           chart.setTitle({text: " Naissances pour le prénom David"}, { text: "" });
+           chart.series[0].setData(data3075);
+           break;
+           case "Delphine":
+           chart.setTitle({text: " Naissances pour le prénom Delphine"}, { text: "" });
+           chart.series[0].setData(data3076);
+           break;
+           case "Denis":
+           chart.setTitle({text: " Naissances pour le prénom Denis"}, { text: "" });
+           chart.series[0].setData(data3077);
+           break;
+           case "Didier":
+           chart.setTitle({text: " Naissances pour le prénom Didier"}, { text: "" });
+           chart.series[0].setData(data3078);
+           break;
+           case "Dominique":
+           chart.setTitle({text: " Naissances pour le prénom Dominique"}, { text: "" });
+           chart.series[0].setData(data3079);
+           break;
+           case "Dylan":
+           chart.setTitle({text: " Naissances pour le prénom Dylan"}, { text: "" });
+           chart.series[0].setData(data3080);
+           break;
+           case "Elisa":
+           chart.setTitle({text: " Naissances pour le prénom Elisa"}, { text: "" });
+           chart.series[0].setData(data3081);
+           break;
+           case "Elisabeth":
+           chart.setTitle({text: " Naissances pour le prénom Elisabeth"}, { text: "" });
+           chart.series[0].setData(data3082);
+           break;
+           case "Elise":
+           chart.setTitle({text: " Naissances pour le prénom Elise"}, { text: "" });
+           chart.series[0].setData(data3083);
+           break;
+           case "Elodie":
+           chart.setTitle({text: " Naissances pour le prénom Elodie"}, { text: "" });
+           chart.series[0].setData(data3084);
+           break;
+           case "Elsa":
+           chart.setTitle({text: " Naissances pour le prénom Elsa"}, { text: "" });
+           chart.series[0].setData(data3085);
+           break;
+           case "Emilie":
+           chart.setTitle({text: " Naissances pour le prénom Emilie"}, { text: "" });
+           chart.series[0].setData(data3086);
+           break;
+           case "Emma":
+           chart.setTitle({text: " Naissances pour le prénom Emma"}, { text: "" });
+           chart.series[0].setData(data3087);
+           break;
+           case "Emmanuel":
+           chart.setTitle({text: " Naissances pour le prénom Emmanuel"}, { text: "" });
+           chart.series[0].setData(data3088);
+           break;
+           case "Emmanuelle":
+           chart.setTitle({text: " Naissances pour le prénom Emmanuelle"}, { text: "" });
+           chart.series[0].setData(data3089);
+           break;
+           case "Enzo":
+           chart.setTitle({text: " Naissances pour le prénom Enzo"}, { text: "" });
+           chart.series[0].setData(data3090);
+           break;
+           case "Eric":
+           chart.setTitle({text: " Naissances pour le prénom Eric"}, { text: "" });
+           chart.series[0].setData(data3091);
+           break;
+           case "Estelle":
+           chart.setTitle({text: " Naissances pour le prénom Estelle"}, { text: "" });
+           chart.series[0].setData(data3092);
+           break;
+           case "Ethan":
+           chart.setTitle({text: " Naissances pour le prénom Ethan"}, { text: "" });
+           chart.series[0].setData(data3093);
+           break;
+           case "Etienne":
+           chart.setTitle({text: " Naissances pour le prénom Etienne"}, { text: "" });
+           chart.series[0].setData(data3094);
+           break;
+           case "Eva":
+           chart.setTitle({text: " Naissances pour le prénom Eva"}, { text: "" });
+           chart.series[0].setData(data3095);
+           break;
+           case "Evelyne":
+           chart.setTitle({text: " Naissances pour le prénom Evelyne"}, { text: "" });
+           chart.series[0].setData(data3096);
+           break;
+           case "Fabien":
+           chart.setTitle({text: " Naissances pour le prénom Fabien"}, { text: "" });
+           chart.series[0].setData(data3097);
+           break;
+           case "Fabienne":
+           chart.setTitle({text: " Naissances pour le prénom Fabienne"}, { text: "" });
+           chart.series[0].setData(data3098);
+           break;
+           case "Fabrice":
+           chart.setTitle({text: " Naissances pour le prénom Fabrice"}, { text: "" });
+           chart.series[0].setData(data3099);
+           break;
+           case "Fanny":
+           chart.setTitle({text: " Naissances pour le prénom Fanny"}, { text: "" });
+           chart.series[0].setData(data3100);
+           break;
+           case "Florence":
+           chart.setTitle({text: " Naissances pour le prénom Florence"}, { text: "" });
+           chart.series[0].setData(data3101);
+           break;
+           case "Florent":
+           chart.setTitle({text: " Naissances pour le prénom Florent"}, { text: "" });
+           chart.series[0].setData(data3102);
+           break;
+           case "Florian":
+           chart.setTitle({text: " Naissances pour le prénom Florian"}, { text: "" });
+           chart.series[0].setData(data3103);
+           break;
+           case "Francis":
+           chart.setTitle({text: " Naissances pour le prénom Francis"}, { text: "" });
+           chart.series[0].setData(data3104);
+           break;
+           case "Franck":
+           chart.setTitle({text: " Naissances pour le prénom Franck"}, { text: "" });
+           chart.series[0].setData(data3105);
+           break;
+           case "François":
+           chart.setTitle({text: " Naissances pour le prénom François"}, { text: "" });
+           chart.series[0].setData(data3106);
+           break;
+           case "Françoise":
+           chart.setTitle({text: " Naissances pour le prénom Françoise"}, { text: "" });
+           chart.series[0].setData(data3107);
+           break;
+           case "Frédéric":
+           chart.setTitle({text: " Naissances pour le prénom Frédéric"}, { text: "" });
+           chart.series[0].setData(data3108);
+           break;
+           case "Frédérique":
+           chart.setTitle({text: " Naissances pour le prénom Frédérique"}, { text: "" });
+           chart.series[0].setData(data3109);
+           break;
+           case "Gabriel":
+           chart.setTitle({text: " Naissances pour le prénom Gabriel"}, { text: "" });
+           chart.series[0].setData(data3110);
+           break;
+           case "Gaelle":
+           chart.setTitle({text: " Naissances pour le prénom Gaelle"}, { text: "" });
+           chart.series[0].setData(data3111);
+           break;
+           case "Gaëtan":
+           chart.setTitle({text: " Naissances pour le prénom Gaëtan"}, { text: "" });
+           chart.series[0].setData(data3112);
+           break;
+           case "Geneviève":
+           chart.setTitle({text: " Naissances pour le prénom Geneviève"}, { text: "" });
+           chart.series[0].setData(data3113);
+           break;
+           case "Georges":
+           chart.setTitle({text: " Naissances pour le prénom Georges"}, { text: "" });
+           chart.series[0].setData(data3114);
+           break;
+           case "Gérard":
+           chart.setTitle({text: " Naissances pour le prénom Gérard"}, { text: "" });
+           chart.series[0].setData(data3115);
+           break;
+           case "Ghislaine":
+           chart.setTitle({text: " Naissances pour le prénom Ghislaine"}, { text: "" });
+           chart.series[0].setData(data3116);
+           break;
+           case "Gilbert":
+           chart.setTitle({text: " Naissances pour le prénom Gilbert"}, { text: "" });
+           chart.series[0].setData(data3117);
+           break;
+           case "Gilles":
+           chart.setTitle({text: " Naissances pour le prénom Gilles"}, { text: "" });
+           chart.series[0].setData(data3118);
+           break;
+           case "Gregory":
+           chart.setTitle({text: " Naissances pour le prénom Gregory"}, { text: "" });
+           chart.series[0].setData(data3119);
+           break;
+           case "Guillaume":
+           chart.setTitle({text: " Naissances pour le prénom Guillaume"}, { text: "" });
+           chart.series[0].setData(data3120);
+           break;
+           case "Guy":
+           chart.setTitle({text: " Naissances pour le prénom Guy"}, { text: "" });
+           chart.series[0].setData(data3121);
+           break;
+           case "Hélène":
+           chart.setTitle({text: " Naissances pour le prénom Hélène"}, { text: "" });
+           chart.series[0].setData(data3122);
+           break;
+           case "Henri":
+           chart.setTitle({text: " Naissances pour le prénom Henri"}, { text: "" });
+           chart.series[0].setData(data3123);
+           break;
+           case "Hervé":
+           chart.setTitle({text: " Naissances pour le prénom Hervé"}, { text: "" });
+           chart.series[0].setData(data3124);
+           break;
+           case "Hugo":
+           chart.setTitle({text: " Naissances pour le prénom Hugo"}, { text: "" });
+           chart.series[0].setData(data3125);
+           break;
+           case "Inès":
+           chart.setTitle({text: " Naissances pour le prénom Inès"}, { text: "" });
+           chart.series[0].setData(data3126);
+           break;
+           case "Isabelle":
+           chart.setTitle({text: " Naissances pour le prénom Isabelle"}, { text: "" });
+           chart.series[0].setData(data3127);
+           break;
+           case "Jacky":
+           chart.setTitle({text: " Naissances pour le prénom Jacky"}, { text: "" });
+           chart.series[0].setData(data3128);
+           break;
+           case "Jacqueline":
+           chart.setTitle({text: " Naissances pour le prénom Jacqueline"}, { text: "" });
+           chart.series[0].setData(data3129);
+           break;
+           case "Jacques":
+           chart.setTitle({text: " Naissances pour le prénom Jacques"}, { text: "" });
+           chart.series[0].setData(data3130);
+           break;
+           case "Jade":
+           chart.setTitle({text: " Naissances pour le prénom Jade"}, { text: "" });
+           chart.series[0].setData(data3131);
+           break;
+           case "Jean":
+           chart.setTitle({text: " Naissances pour le prénom Jean"}, { text: "" });
+           chart.series[0].setData(data3132);
+           break;
+           case "Jean-baptiste":
+           chart.setTitle({text: " Naissances pour le prénom Jean-baptiste"}, { text: "" });
+           chart.series[0].setData(data3133);
+           break;
+           case "Jean-claude":
+           chart.setTitle({text: " Naissances pour le prénom Jean-claude"}, { text: "" });
+           chart.series[0].setData(data3134);
+           break;
+           case "Jean-françois":
+           chart.setTitle({text: " Naissances pour le prénom Jean-françois"}, { text: "" });
+           chart.series[0].setData(data3135);
+           break;
+           case "Jean-jacques":
+           chart.setTitle({text: " Naissances pour le prénom Jean-jacques"}, { text: "" });
+           chart.series[0].setData(data3136);
+           break;
+           case "Jean-louis":
+           chart.setTitle({text: " Naissances pour le prénom Jean-louis"}, { text: "" });
+           chart.series[0].setData(data3137);
+           break;
+           case "Jean-luc":
+           chart.setTitle({text: " Naissances pour le prénom Jean-luc"}, { text: "" });
+           chart.series[0].setData(data3138);
+           break;
+           case "Jean-marc":
+           chart.setTitle({text: " Naissances pour le prénom Jean-marc"}, { text: "" });
+           chart.series[0].setData(data3139);
+           break;
+           case "Jean-marie":
+           chart.setTitle({text: " Naissances pour le prénom Jean-marie"}, { text: "" });
+           chart.series[0].setData(data3140);
+           break;
+           case "Jean-michel":
+           chart.setTitle({text: " Naissances pour le prénom Jean-michel"}, { text: "" });
+           chart.series[0].setData(data3141);
+           break;
+           case "Jean-paul":
+           chart.setTitle({text: " Naissances pour le prénom Jean-paul"}, { text: "" });
+           chart.series[0].setData(data3142);
+           break;
+           case "Jean-philippe":
+           chart.setTitle({text: " Naissances pour le prénom Jean-philippe"}, { text: "" });
+           chart.series[0].setData(data3143);
+           break;
+           case "Jean-pierre":
+           chart.setTitle({text: " Naissances pour le prénom Jean-pierre"}, { text: "" });
+           chart.series[0].setData(data3144);
+           break;
+           case "Jeanne":
+           chart.setTitle({text: " Naissances pour le prénom Jeanne"}, { text: "" });
+           chart.series[0].setData(data3145);
+           break;
+           case "Jennifer":
+           chart.setTitle({text: " Naissances pour le prénom Jennifer"}, { text: "" });
+           chart.series[0].setData(data3146);
+           break;
+           case "Jeremy":
+           chart.setTitle({text: " Naissances pour le prénom Jeremy"}, { text: "" });
+           chart.series[0].setData(data3147);
+           break;
+           case "Jerome":
+           chart.setTitle({text: " Naissances pour le prénom Jerome"}, { text: "" });
+           chart.series[0].setData(data3148);
+           break;
+           case "Jessica":
+           chart.setTitle({text: " Naissances pour le prénom Jessica"}, { text: "" });
+           chart.series[0].setData(data3149);
+           break;
+           case "Jocelyne":
+           chart.setTitle({text: " Naissances pour le prénom Jocelyne"}, { text: "" });
+           chart.series[0].setData(data3150);
+           break;
+           case "Joël":
+           chart.setTitle({text: " Naissances pour le prénom Joël"}, { text: "" });
+           chart.series[0].setData(data3151);
+           break;
+           case "Joëlle":
+           chart.setTitle({text: " Naissances pour le prénom Joëlle"}, { text: "" });
+           chart.series[0].setData(data3152);
+           break;
+           case "Jonathan":
+           chart.setTitle({text: " Naissances pour le prénom Jonathan"}, { text: "" });
+           chart.series[0].setData(data3153);
+           break;
+           case "Jordan":
+           chart.setTitle({text: " Naissances pour le prénom Jordan"}, { text: "" });
+           chart.series[0].setData(data3154);
+           break;
+           case "José":
+           chart.setTitle({text: " Naissances pour le prénom José"}, { text: "" });
+           chart.series[0].setData(data3155);
+           break;
+           case "Joseph":
+           chart.setTitle({text: " Naissances pour le prénom Joseph"}, { text: "" });
+           chart.series[0].setData(data3156);
+           break;
+           case "Josiane":
+           chart.setTitle({text: " Naissances pour le prénom Josiane"}, { text: "" });
+           chart.series[0].setData(data3157);
+           break;
+           case "Jules":
+           chart.setTitle({text: " Naissances pour le prénom Jules"}, { text: "" });
+           chart.series[0].setData(data3158);
+           break;
+           case "Julia":
+           chart.setTitle({text: " Naissances pour le prénom Julia"}, { text: "" });
+           chart.series[0].setData(data3159);
+           break;
+           case "Julie":
+           chart.setTitle({text: " Naissances pour le prénom Julie"}, { text: "" });
+           chart.series[0].setData(data3160);
+           break;
+           case "Julien":
+           chart.setTitle({text: " Naissances pour le prénom Julien"}, { text: "" });
+           chart.series[0].setData(data3161);
+           break;
+           case "Juliette":
+           chart.setTitle({text: " Naissances pour le prénom Juliette"}, { text: "" });
+           chart.series[0].setData(data3162);
+           break;
+           case "Justine":
+           chart.setTitle({text: " Naissances pour le prénom Justine"}, { text: "" });
+           chart.series[0].setData(data3163);
+           break;
+           case "Karine":
+           chart.setTitle({text: " Naissances pour le prénom Karine"}, { text: "" });
+           chart.series[0].setData(data3164);
+           break;
+           case "Kevin":
+           chart.setTitle({text: " Naissances pour le prénom Kevin"}, { text: "" });
+           chart.series[0].setData(data3165);
+           break;
+           case "Laetitia":
+           chart.setTitle({text: " Naissances pour le prénom Laetitia"}, { text: "" });
+           chart.series[0].setData(data3166);
+           break;
+           case "Laura":
+           chart.setTitle({text: " Naissances pour le prénom Laura"}, { text: "" });
+           chart.series[0].setData(data3167);
+           break;
+           case "Laure":
+           chart.setTitle({text: " Naissances pour le prénom Laure"}, { text: "" });
+           chart.series[0].setData(data3168);
+           break;
+           case "Laurence":
+           chart.setTitle({text: " Naissances pour le prénom Laurence"}, { text: "" });
+           chart.series[0].setData(data3169);
+           break;
+           case "Laurent":
+           chart.setTitle({text: " Naissances pour le prénom Laurent"}, { text: "" });
+           chart.series[0].setData(data3170);
+           break;
+           case "Léa":
+           chart.setTitle({text: " Naissances pour le prénom Léa"}, { text: "" });
+           chart.series[0].setData(data3171);
+           break;
+           case "Léna":
+           chart.setTitle({text: " Naissances pour le prénom Léna"}, { text: "" });
+           chart.series[0].setData(data3172);
+           break;
+           case "Léo":
+           chart.setTitle({text: " Naissances pour le prénom Léo"}, { text: "" });
+           chart.series[0].setData(data3173);
+           break;
+           case "Lilou":
+           chart.setTitle({text: " Naissances pour le prénom Lilou"}, { text: "" });
+           chart.series[0].setData(data3174);
+           break;
+           case "Lina":
+           chart.setTitle({text: " Naissances pour le prénom Lina"}, { text: "" });
+           chart.series[0].setData(data3175);
+           break;
+           case "Lionel":
+           chart.setTitle({text: " Naissances pour le prénom Lionel"}, { text: "" });
+           chart.series[0].setData(data3176);
+           break;
+           case "Lisa":
+           chart.setTitle({text: " Naissances pour le prénom Lisa"}, { text: "" });
+           chart.series[0].setData(data3177);
+           break;
+           case "Loïc":
+           chart.setTitle({text: " Naissances pour le prénom Loïc"}, { text: "" });
+           chart.series[0].setData(data3178);
+           break;
+           case "Lola":
+           chart.setTitle({text: " Naissances pour le prénom Lola"}, { text: "" });
+           chart.series[0].setData(data3179);
+           break;
+           case "Louis":
+           chart.setTitle({text: " Naissances pour le prénom Louis"}, { text: "" });
+           chart.series[0].setData(data3180);
+           break;
+           case "Louise":
+           chart.setTitle({text: " Naissances pour le prénom Louise"}, { text: "" });
+           chart.series[0].setData(data3181);
+           break;
+           case "Luc":
+           chart.setTitle({text: " Naissances pour le prénom Luc"}, { text: "" });
+           chart.series[0].setData(data3182);
+           break;
+           case "Lucas":
+           chart.setTitle({text: " Naissances pour le prénom Lucas"}, { text: "" });
+           chart.series[0].setData(data3183);
+           break;
+           case "Lucie":
+           chart.setTitle({text: " Naissances pour le prénom Lucie"}, { text: "" });
+           chart.series[0].setData(data3184);
+           break;
+           case "Ludivine":
+           chart.setTitle({text: " Naissances pour le prénom Ludivine"}, { text: "" });
+           chart.series[0].setData(data3185);
+           break;
+           case "Ludovic":
+           chart.setTitle({text: " Naissances pour le prénom Ludovic"}, { text: "" });
+           chart.series[0].setData(data3186);
+           break;
+           case "Lydie":
+           chart.setTitle({text: " Naissances pour le prénom Lydie"}, { text: "" });
+           chart.series[0].setData(data3187);
+           break;
+           case "Maeva":
+           chart.setTitle({text: " Naissances pour le prénom Maeva"}, { text: "" });
+           chart.series[0].setData(data3188);
+           break;
+           case "Magali":
+           chart.setTitle({text: " Naissances pour le prénom Magali"}, { text: "" });
+           chart.series[0].setData(data3189);
+           break;
+           case "Manon":
+           chart.setTitle({text: " Naissances pour le prénom Manon"}, { text: "" });
+           chart.series[0].setData(data3190);
+           break;
+           case "Marc":
+           chart.setTitle({text: " Naissances pour le prénom Marc"}, { text: "" });
+           chart.series[0].setData(data3191);
+           break;
+           case "Margaux":
+           chart.setTitle({text: " Naissances pour le prénom Margaux"}, { text: "" });
+           chart.series[0].setData(data3192);
+           break;
+           case "Margot":
+           chart.setTitle({text: " Naissances pour le prénom Margot"}, { text: "" });
+           chart.series[0].setData(data3193);
+           break;
+           case "Maria":
+           chart.setTitle({text: " Naissances pour le prénom Maria"}, { text: "" });
+           chart.series[0].setData(data3194);
+           break;
+           case "Marie":
+           chart.setTitle({text: " Naissances pour le prénom Marie"}, { text: "" });
+           chart.series[0].setData(data3195);
+           break;
+           case "Marie-christine":
+           chart.setTitle({text: " Naissances pour le prénom Marie-christine"}, { text: "" });
+           chart.series[0].setData(data3196);
+           break;
+           case "Marie-claude":
+           chart.setTitle({text: " Naissances pour le prénom Marie-claude"}, { text: "" });
+           chart.series[0].setData(data3197);
+           break;
+           case "Marina":
+           chart.setTitle({text: " Naissances pour le prénom Marina"}, { text: "" });
+           chart.series[0].setData(data3198);
+           break;
+           case "Marine":
+           chart.setTitle({text: " Naissances pour le prénom Marine"}, { text: "" });
+           chart.series[0].setData(data3199);
+           break;
+           case "Marion":
+           chart.setTitle({text: " Naissances pour le prénom Marion"}, { text: "" });
+           chart.series[0].setData(data3200);
+           break;
+           case "Martin":
+           chart.setTitle({text: " Naissances pour le prénom Martin"}, { text: "" });
+           chart.series[0].setData(data3201);
+           break;
+           case "Martine":
+           chart.setTitle({text: " Naissances pour le prénom Martine"}, { text: "" });
+           chart.series[0].setData(data3202);
+           break;
+           case "Maryse":
+           chart.setTitle({text: " Naissances pour le prénom Maryse"}, { text: "" });
+           chart.series[0].setData(data3203);
+           break;
+           case "Mathéo":
+           chart.setTitle({text: " Naissances pour le prénom Mathéo"}, { text: "" });
+           chart.series[0].setData(data3204);
+           break;
+           case "Mathieu":
+           chart.setTitle({text: " Naissances pour le prénom Mathieu"}, { text: "" });
+           chart.series[0].setData(data3205);
+           break;
+           case "Mathilde":
+           chart.setTitle({text: " Naissances pour le prénom Mathilde"}, { text: "" });
+           chart.series[0].setData(data3206);
+           break;
+           case "Mathis":
+           chart.setTitle({text: " Naissances pour le prénom Mathis"}, { text: "" });
+           chart.series[0].setData(data3207);
+           break;
+           case "Matthieu":
+           chart.setTitle({text: " Naissances pour le prénom Matthieu"}, { text: "" });
+           chart.series[0].setData(data3208);
+           break;
+           case "Maxence":
+           chart.setTitle({text: " Naissances pour le prénom Maxence"}, { text: "" });
+           chart.series[0].setData(data3209);
+           break;
+           case "Maxime":
+           chart.setTitle({text: " Naissances pour le prénom Maxime"}, { text: "" });
+           chart.series[0].setData(data3210);
+           break;
+           case "Mehdi":
+           chart.setTitle({text: " Naissances pour le prénom Mehdi"}, { text: "" });
+           chart.series[0].setData(data3211);
+           break;
+           case "Mélanie":
+           chart.setTitle({text: " Naissances pour le prénom Mélanie"}, { text: "" });
+           chart.series[0].setData(data3212);
+           break;
+           case "Mélissa":
+           chart.setTitle({text: " Naissances pour le prénom Mélissa"}, { text: "" });
+           chart.series[0].setData(data3213);
+           break;
+           case "Michael":
+           chart.setTitle({text: " Naissances pour le prénom Michael"}, { text: "" });
+           chart.series[0].setData(data3214);
+           break;
+           case "Michel":
+           chart.setTitle({text: " Naissances pour le prénom Michel"}, { text: "" });
+           chart.series[0].setData(data3215);
+           break;
+           case "Michèle":
+           chart.setTitle({text: " Naissances pour le prénom Michèle"}, { text: "" });
+           chart.series[0].setData(data3216);
+           break;
+           case "Michelle":
+           chart.setTitle({text: " Naissances pour le prénom Michelle"}, { text: "" });
+           chart.series[0].setData(data3217);
+           break;
+           case "Mickael":
+           chart.setTitle({text: " Naissances pour le prénom Mickael"}, { text: "" });
+           chart.series[0].setData(data3218);
+           break;
+           case "Mireille":
+           chart.setTitle({text: " Naissances pour le prénom Mireille"}, { text: "" });
+           chart.series[0].setData(data3219);
+           break;
+           case "Mohamed":
+           chart.setTitle({text: " Naissances pour le prénom Mohamed"}, { text: "" });
+           chart.series[0].setData(data3220);
+           break;
+           case "Monique":
+           chart.setTitle({text: " Naissances pour le prénom Monique"}, { text: "" });
+           chart.series[0].setData(data3221);
+           break;
+           case "Morgane":
+           chart.setTitle({text: " Naissances pour le prénom Morgane"}, { text: "" });
+           chart.series[0].setData(data3222);
+           break;
+           case "Muriel":
+           chart.setTitle({text: " Naissances pour le prénom Muriel"}, { text: "" });
+           chart.series[0].setData(data3223);
+           break;
+           case "Myriam":
+           chart.setTitle({text: " Naissances pour le prénom Myriam"}, { text: "" });
+           chart.series[0].setData(data3224);
+           break;
+           case "Nadege":
+           chart.setTitle({text: " Naissances pour le prénom Nadege"}, { text: "" });
+           chart.series[0].setData(data3225);
+           break;
+           case "Nadia":
+           chart.setTitle({text: " Naissances pour le prénom Nadia"}, { text: "" });
+           chart.series[0].setData(data3226);
+           break;
+           case "Nadine":
+           chart.setTitle({text: " Naissances pour le prénom Nadine"}, { text: "" });
+           chart.series[0].setData(data3227);
+           break;
+           case "Nathalie":
+           chart.setTitle({text: " Naissances pour le prénom Nathalie"}, { text: "" });
+           chart.series[0].setData(data3228);
+           break;
+           case "Nathan":
+           chart.setTitle({text: " Naissances pour le prénom Nathan"}, { text: "" });
+           chart.series[0].setData(data3229);
+           break;
+           case "Nelly":
+           chart.setTitle({text: " Naissances pour le prénom Nelly"}, { text: "" });
+           chart.series[0].setData(data3230);
+           break;
+           case "Nicolas":
+           chart.setTitle({text: " Naissances pour le prénom Nicolas"}, { text: "" });
+           chart.series[0].setData(data3231);
+           break;
+           case "Nicole":
+           chart.setTitle({text: " Naissances pour le prénom Nicole"}, { text: "" });
+           chart.series[0].setData(data3232);
+           break;
+           case "Noah":
+           chart.setTitle({text: " Naissances pour le prénom Noah"}, { text: "" });
+           chart.series[0].setData(data3233);
+           break;
+           case "Noemie":
+           chart.setTitle({text: " Naissances pour le prénom Noemie"}, { text: "" });
+           chart.series[0].setData(data3234);
+           break;
+           case "Océane":
+           chart.setTitle({text: " Naissances pour le prénom Océane"}, { text: "" });
+           chart.series[0].setData(data3235);
+           break;
+           case "Odile":
+           chart.setTitle({text: " Naissances pour le prénom Odile"}, { text: "" });
+           chart.series[0].setData(data3236);
+           break;
+           case "Olivier":
+           chart.setTitle({text: " Naissances pour le prénom Olivier"}, { text: "" });
+           chart.series[0].setData(data3237);
+           break;
+           case "Pascal":
+           chart.setTitle({text: " Naissances pour le prénom Pascal"}, { text: "" });
+           chart.series[0].setData(data3238);
+           break;
+           case "Pascale":
+           chart.setTitle({text: " Naissances pour le prénom Pascale"}, { text: "" });
+           chart.series[0].setData(data3239);
+           break;
+           case "Patrice":
+           chart.setTitle({text: " Naissances pour le prénom Patrice"}, { text: "" });
+           chart.series[0].setData(data3240);
+           break;
+           case "Patricia":
+           chart.setTitle({text: " Naissances pour le prénom Patricia"}, { text: "" });
+           chart.series[0].setData(data3241);
+           break;
+           case "Patrick":
+           chart.setTitle({text: " Naissances pour le prénom Patrick"}, { text: "" });
+           chart.series[0].setData(data3242);
+           break;
+           case "Paul":
+           chart.setTitle({text: " Naissances pour le prénom Paul"}, { text: "" });
+           chart.series[0].setData(data3243);
+           break;
+           case "Pauline":
+           chart.setTitle({text: " Naissances pour le prénom Pauline"}, { text: "" });
+           chart.series[0].setData(data3244);
+           break;
+           case "Philippe":
+           chart.setTitle({text: " Naissances pour le prénom Philippe"}, { text: "" });
+           chart.series[0].setData(data3245);
+           break;
+           case "Pierre":
+           chart.setTitle({text: " Naissances pour le prénom Pierre"}, { text: "" });
+           chart.series[0].setData(data3246);
+           break;
+           case "Quentin":
+           chart.setTitle({text: " Naissances pour le prénom Quentin"}, { text: "" });
+           chart.series[0].setData(data3247);
+           break;
+           case "Raphaël":
+           chart.setTitle({text: " Naissances pour le prénom Raphaël"}, { text: "" });
+           chart.series[0].setData(data3248);
+           break;
+           case "Régine":
+           chart.setTitle({text: " Naissances pour le prénom Régine"}, { text: "" });
+           chart.series[0].setData(data3249);
+           break;
+           case "Regis":
+           chart.setTitle({text: " Naissances pour le prénom Regis"}, { text: "" });
+           chart.series[0].setData(data3250);
+           break;
+           case "Rémi":
+           chart.setTitle({text: " Naissances pour le prénom Rémi"}, { text: "" });
+           chart.series[0].setData(data3251);
+           break;
+           case "Rémy":
+           chart.setTitle({text: " Naissances pour le prénom Rémy"}, { text: "" });
+           chart.series[0].setData(data3252);
+           break;
+           case "René":
+           chart.setTitle({text: " Naissances pour le prénom René"}, { text: "" });
+           chart.series[0].setData(data3253);
+           break;
+           case "Richard":
+           chart.setTitle({text: " Naissances pour le prénom Richard"}, { text: "" });
+           chart.series[0].setData(data3254);
+           break;
+           case "Robert":
+           chart.setTitle({text: " Naissances pour le prénom Robert"}, { text: "" });
+           chart.series[0].setData(data3255);
+           break;
+           case "Robin":
+           chart.setTitle({text: " Naissances pour le prénom Robin"}, { text: "" });
+           chart.series[0].setData(data3256);
+           break;
+           case "Roger":
+           chart.setTitle({text: " Naissances pour le prénom Roger"}, { text: "" });
+           chart.series[0].setData(data3257);
+           break;
+           case "Romain":
+           chart.setTitle({text: " Naissances pour le prénom Romain"}, { text: "" });
+           chart.series[0].setData(data3258);
+           break;
+           case "Romane":
+           chart.setTitle({text: " Naissances pour le prénom Romane"}, { text: "" });
+           chart.series[0].setData(data3259);
+           break;
+           case "Sabine":
+           chart.setTitle({text: " Naissances pour le prénom Sabine"}, { text: "" });
+           chart.series[0].setData(data3260);
+           break;
+           case "Sabrina":
+           chart.setTitle({text: " Naissances pour le prénom Sabrina"}, { text: "" });
+           chart.series[0].setData(data3261);
+           break;
+           case "Sacha":
+           chart.setTitle({text: " Naissances pour le prénom Sacha"}, { text: "" });
+           chart.series[0].setData(data3262);
+           break;
+           case "Samuel":
+           chart.setTitle({text: " Naissances pour le prénom Samuel"}, { text: "" });
+           chart.series[0].setData(data3263);
+           break;
+           case "Sandra":
+           chart.setTitle({text: " Naissances pour le prénom Sandra"}, { text: "" });
+           chart.series[0].setData(data3264);
+           break;
+           case "Sandrine":
+           chart.setTitle({text: " Naissances pour le prénom Sandrine"}, { text: "" });
+           chart.series[0].setData(data3265);
+           break;
+           case "Sarah":
+           chart.setTitle({text: " Naissances pour le prénom Sarah"}, { text: "" });
+           chart.series[0].setData(data3266);
+           break;
+           case "Sébastien":
+           chart.setTitle({text: " Naissances pour le prénom Sébastien"}, { text: "" });
+           chart.series[0].setData(data3267);
+           break;
+           case "Serge":
+           chart.setTitle({text: " Naissances pour le prénom Serge"}, { text: "" });
+           chart.series[0].setData(data3268);
+           break;
+           case "Severine":
+           chart.setTitle({text: " Naissances pour le prénom Severine"}, { text: "" });
+           chart.series[0].setData(data3269);
+           break;
+           case "Simon":
+           chart.setTitle({text: " Naissances pour le prénom Simon"}, { text: "" });
+           chart.series[0].setData(data3270);
+           break;
+           case "Sonia":
+           chart.setTitle({text: " Naissances pour le prénom Sonia"}, { text: "" });
+           chart.series[0].setData(data3271);
+           break;
+           case "Sophie":
+           chart.setTitle({text: " Naissances pour le prénom Sophie"}, { text: "" });
+           chart.series[0].setData(data3272);
+           break;
+           case "Stéphane":
+           chart.setTitle({text: " Naissances pour le prénom Stéphane"}, { text: "" });
+           chart.series[0].setData(data3273);
+           break;
+           case "Stéphanie":
+           chart.setTitle({text: " Naissances pour le prénom Stéphanie"}, { text: "" });
+           chart.series[0].setData(data3274);
+           break;
+           case "Sylvain":
+           chart.setTitle({text: " Naissances pour le prénom Sylvain"}, { text: "" });
+           chart.series[0].setData(data3275);
+           break;
+           case "Sylviane":
+           chart.setTitle({text: " Naissances pour le prénom Sylviane"}, { text: "" });
+           chart.series[0].setData(data3276);
+           break;
+           case "Sylvie":
+           chart.setTitle({text: " Naissances pour le prénom Sylvie"}, { text: "" });
+           chart.series[0].setData(data3277);
+           break;
+           case "Théo":
+           chart.setTitle({text: " Naissances pour le prénom Théo"}, { text: "" });
+           chart.series[0].setData(data3278);
+           break;
+           case "Thibault":
+           chart.setTitle({text: " Naissances pour le prénom Thibault"}, { text: "" });
+           chart.series[0].setData(data3279);
+           break;
+           case "Thierry":
+           chart.setTitle({text: " Naissances pour le prénom Thierry"}, { text: "" });
+           chart.series[0].setData(data3280);
+           break;
+           case "Thomas":
+           chart.setTitle({text: " Naissances pour le prénom Thomas"}, { text: "" });
+           chart.series[0].setData(data3281);
+           break;
+           case "Tom":
+           chart.setTitle({text: " Naissances pour le prénom Tom"}, { text: "" });
+           chart.series[0].setData(data3282);
+           break;
+           case "Tony":
+           chart.setTitle({text: " Naissances pour le prénom Tony"}, { text: "" });
+           chart.series[0].setData(data3283);
+           break;
+           case "Tristan":
+           chart.setTitle({text: " Naissances pour le prénom Tristan"}, { text: "" });
+           chart.series[0].setData(data3284);
+           break;
+           case "Valentin":
+           chart.setTitle({text: " Naissances pour le prénom Valentin"}, { text: "" });
+           chart.series[0].setData(data3285);
+           break;
+           case "Valérie":
+           chart.setTitle({text: " Naissances pour le prénom Valérie"}, { text: "" });
+           chart.series[0].setData(data3286);
+           break;
+           case "Vanessa":
+           chart.setTitle({text: " Naissances pour le prénom Vanessa"}, { text: "" });
+           chart.series[0].setData(data3287);
+           break;
+           case "Véronique":
+           chart.setTitle({text: " Naissances pour le prénom Véronique"}, { text: "" });
+           chart.series[0].setData(data3288);
+           break;
+           case "Victor":
+           chart.setTitle({text: " Naissances pour le prénom Victor"}, { text: "" });
+           chart.series[0].setData(data3289);
+           break;
+           case "Vincent":
+           chart.setTitle({text: " Naissances pour le prénom Vincent"}, { text: "" });
+           chart.series[0].setData(data3290);
+           break;
+           case "Virginie":
+           chart.setTitle({text: " Naissances pour le prénom Virginie"}, { text: "" });
+           chart.series[0].setData(data3291);
+           break;
+           case "William":
+           chart.setTitle({text: " Naissances pour le prénom William"}, { text: "" });
+           chart.series[0].setData(data3292);
+           break;
+           case "Xavier":
+           chart.setTitle({text: " Naissances pour le prénom Xavier"}, { text: "" });
+           chart.series[0].setData(data3293);
+           break;
+           case "Yanis":
+           chart.setTitle({text: " Naissances pour le prénom Yanis"}, { text: "" });
+           chart.series[0].setData(data3294);
+           break;
+           case "Yann":
+           chart.setTitle({text: " Naissances pour le prénom Yann"}, { text: "" });
+           chart.series[0].setData(data3295);
+           break;
+           case "Yannick":
+           chart.setTitle({text: " Naissances pour le prénom Yannick"}, { text: "" });
+           chart.series[0].setData(data3296);
+           break;
+           case "Yoann":
+           chart.setTitle({text: " Naissances pour le prénom Yoann"}, { text: "" });
+           chart.series[0].setData(data3297);
+           break;
+           case "Yves":
+           chart.setTitle({text: " Naissances pour le prénom Yves"}, { text: "" });
+           chart.series[0].setData(data3298);
+           break;
+           case "Zoé":
+           chart.setTitle({text: " Naissances pour le prénom Zoé"}, { text: "" });
+           chart.series[0].setData(data3299);
+           break;
+};
 
-                break;
-            case "Agnès":
-                chart.setTitle({ text: " Naissances pour le prénom Agnès" }, { text: "" });
-                chart.series[0].setData(data3001);
-                break;
-            case "Alain":
-                chart.setTitle({ text: " Naissances pour le prénom Alain" }, { text: "" });
-                chart.series[0].setData(data3002);
-                break;
-            case "Alexandra":
-                chart.setTitle({ text: " Naissances pour le prénom Alexandra" }, { text: "" });
-                chart.series[0].setData(data3003);
-                break;
-            case "Alexandre":
-                chart.setTitle({ text: " Naissances pour le prénom Alexandre" }, { text: "" });
-                chart.series[0].setData(data3004);
-                break;
-            case "Alice":
-                chart.setTitle({ text: " Naissances pour le prénom Alice" }, { text: "" });
-                chart.series[0].setData(data3005);
-                break;
-            case "Amandine":
-                chart.setTitle({ text: " Naissances pour le prénom Amandine" }, { text: "" });
-                chart.series[0].setData(data3006);
-                break;
-            case "Amélie":
-                chart.setTitle({ text: " Naissances pour le prénom Amélie" }, { text: "" });
-                chart.series[0].setData(data3007);
-                break;
-            case "Anaïs":
-                chart.setTitle({ text: " Naissances pour le prénom Anaïs" }, { text: "" });
-                chart.series[0].setData(data3008);
-                break;
-            case "Angelique":
-                chart.setTitle({ text: " Naissances pour le prénom Angelique" }, { text: "" });
-                chart.series[0].setData(data3009);
-                break;
-            case "Anne":
-                chart.setTitle({ text: " Naissances pour le prénom Anne" }, { text: "" });
-                chart.series[0].setData(data3010);
-                break;
-            case "Annick":
-                chart.setTitle({ text: " Naissances pour le prénom Annick" }, { text: "" });
-                chart.series[0].setData(data3011);
-                break;
-            case "Annie":
-                chart.setTitle({ text: " Naissances pour le prénom Annie" }, { text: "" });
-                chart.series[0].setData(data3012);
-                break;
-            case "Anthony":
-                chart.setTitle({ text: " Naissances pour le prénom Anthony" }, { text: "" });
-                chart.series[0].setData(data3013);
-                break;
-            case "Antoine":
-                chart.setTitle({ text: " Naissances pour le prénom Antoine" }, { text: "" });
-                chart.series[0].setData(data3014);
-                break;
-            case "Arnaud":
-                chart.setTitle({ text: " Naissances pour le prénom Arnaud" }, { text: "" });
-                chart.series[0].setData(data3015);
-                break;
-            case "Arthur":
-                chart.setTitle({ text: " Naissances pour le prénom Arthur" }, { text: "" });
-                chart.series[0].setData(data3016);
-                break;
-            case "Audrey":
-                chart.setTitle({ text: " Naissances pour le prénom Audrey" }, { text: "" });
-                chart.series[0].setData(data3017);
-                break;
-            case "Aurélie":
-                chart.setTitle({ text: " Naissances pour le prénom Aurélie" }, { text: "" });
-                chart.series[0].setData(data3018);
-                break;
-            case "Aurélien":
-                chart.setTitle({ text: " Naissances pour le prénom Aurélien" }, { text: "" });
-                chart.series[0].setData(data3019);
-                break;
-            case "Aurore":
-                chart.setTitle({ text: " Naissances pour le prénom Aurore" }, { text: "" });
-                chart.series[0].setData(data3020);
-                break;
-            case "Baptiste":
-                chart.setTitle({ text: " Naissances pour le prénom Baptiste" }, { text: "" });
-                chart.series[0].setData(data3021);
-                break;
-            case "Béatrice":
-                chart.setTitle({ text: " Naissances pour le prénom Béatrice" }, { text: "" });
-                chart.series[0].setData(data3022);
-                break;
-            case "Benjamin":
-                chart.setTitle({ text: " Naissances pour le prénom Benjamin" }, { text: "" });
-                chart.series[0].setData(data3023);
-                break;
-            case "Benoît":
-                chart.setTitle({ text: " Naissances pour le prénom Benoît" }, { text: "" });
-                chart.series[0].setData(data3024);
-                break;
-            case "Bernard":
-                chart.setTitle({ text: " Naissances pour le prénom Bernard" }, { text: "" });
-                chart.series[0].setData(data3025);
-                break;
-            case "Brigitte":
-                chart.setTitle({ text: " Naissances pour le prénom Brigitte" }, { text: "" });
-                chart.series[0].setData(data3026);
-                break;
-            case "Bruno":
-                chart.setTitle({ text: " Naissances pour le prénom Bruno" }, { text: "" });
-                chart.series[0].setData(data3027);
-                break;
-            case "Camille":
-                chart.setTitle({ text: " Naissances pour le prénom Camille" }, { text: "" });
-                chart.series[0].setData(data3028);
-                break;
-            case "Carole":
-                chart.setTitle({ text: " Naissances pour le prénom Carole" }, { text: "" });
-                chart.series[0].setData(data3029);
-                break;
-            case "Caroline":
-                chart.setTitle({ text: " Naissances pour le prénom Caroline" }, { text: "" });
-                chart.series[0].setData(data3030);
-                break;
-            case "Catherine":
-                chart.setTitle({ text: " Naissances pour le prénom Catherine" }, { text: "" });
-                chart.series[0].setData(data3031);
-                break;
-            case "Cécile":
-                chart.setTitle({ text: " Naissances pour le prénom Cécile" }, { text: "" });
-                chart.series[0].setData(data3032);
-                break;
-            case "Cedric":
-                chart.setTitle({ text: " Naissances pour le prénom Cedric" }, { text: "" });
-                chart.series[0].setData(data3033);
-                break;
-            case "Céline":
-                chart.setTitle({ text: " Naissances pour le prénom Céline" }, { text: "" });
-                chart.series[0].setData(data3034);
-                break;
-            case "Chantal":
-                chart.setTitle({ text: " Naissances pour le prénom Chantal" }, { text: "" });
-                chart.series[0].setData(data3035);
-                break;
-            case "Charlotte":
-                chart.setTitle({ text: " Naissances pour le prénom Charlotte" }, { text: "" });
-                chart.series[0].setData(data3036);
-                break;
-            case "Chloé":
-                chart.setTitle({ text: " Naissances pour le prénom Chloé" }, { text: "" });
-                chart.series[0].setData(data3037);
-                break;
-            case "Christelle":
-                chart.setTitle({ text: " Naissances pour le prénom Christelle" }, { text: "" });
-                chart.series[0].setData(data3038);
-                break;
-            case "Christian":
-                chart.setTitle({ text: " Naissances pour le prénom Christian" }, { text: "" });
-                chart.series[0].setData(data3039);
-                break;
-            case "Christiane":
-                chart.setTitle({ text: " Naissances pour le prénom Christiane" }, { text: "" });
-                chart.series[0].setData(data3040);
-                break;
-            case "Christine":
-                chart.setTitle({ text: " Naissances pour le prénom Christine" }, { text: "" });
-                chart.series[0].setData(data3041);
-                break;
-            case "Christophe":
-                chart.setTitle({ text: " Naissances pour le prénom Christophe" }, { text: "" });
-                chart.series[0].setData(data3042);
-                break;
-            case "Cindy":
-                chart.setTitle({ text: " Naissances pour le prénom Cindy" }, { text: "" });
-                chart.series[0].setData(data3043);
-                break;
-            case "Claire":
-                chart.setTitle({ text: " Naissances pour le prénom Claire" }, { text: "" });
-                chart.series[0].setData(data3044);
-                break;
-            case "Clara":
-                chart.setTitle({ text: " Naissances pour le prénom Clara" }, { text: "" });
-                chart.series[0].setData(data3045);
-                break;
-            case "Claudine":
-                chart.setTitle({ text: " Naissances pour le prénom Claudine" }, { text: "" });
-                chart.series[0].setData(data3046);
-                break;
-            case "Clément":
-                chart.setTitle({ text: " Naissances pour le prénom Clément" }, { text: "" });
-                chart.series[0].setData(data3047);
-                break;
-            case "Corinne":
-                chart.setTitle({ text: " Naissances pour le prénom Corinne" }, { text: "" });
-                chart.series[0].setData(data3048);
-                break;
-            case "Cyril":
-                chart.setTitle({ text: " Naissances pour le prénom Cyril" }, { text: "" });
-                chart.series[0].setData(data3049);
-                break;
-            case "Damien":
-                chart.setTitle({ text: " Naissances pour le prénom Damien" }, { text: "" });
-                chart.series[0].setData(data3050);
-                break;
-            case "Daniel":
-                chart.setTitle({ text: " Naissances pour le prénom Daniel" }, { text: "" });
-                chart.series[0].setData(data3051);
-                break;
-            case "David":
-                chart.setTitle({ text: " Naissances pour le prénom David" }, { text: "" });
-                chart.series[0].setData(data3052);
-                break;
-            case "Delphine":
-                chart.setTitle({ text: " Naissances pour le prénom Delphine" }, { text: "" });
-                chart.series[0].setData(data3053);
-                break;
-            case "Denis":
-                chart.setTitle({ text: " Naissances pour le prénom Denis" }, { text: "" });
-                chart.series[0].setData(data3054);
-                break;
-            case "Didier":
-                chart.setTitle({ text: " Naissances pour le prénom Didier" }, { text: "" });
-                chart.series[0].setData(data3055);
-                break;
-            case "Dominique":
-                chart.setTitle({ text: " Naissances pour le prénom Dominique" }, { text: "" });
-                chart.series[0].setData(data3056);
-                break;
-            case "Dylan":
-                chart.setTitle({ text: " Naissances pour le prénom Dylan" }, { text: "" });
-                chart.series[0].setData(data3057);
-                break;
-            case "Elisabeth":
-                chart.setTitle({ text: " Naissances pour le prénom Elisabeth" }, { text: "" });
-                chart.series[0].setData(data3058);
-                break;
-            case "Elise":
-                chart.setTitle({ text: " Naissances pour le prénom Elise" }, { text: "" });
-                chart.series[0].setData(data3059);
-                break;
-            case "Elodie":
-                chart.setTitle({ text: " Naissances pour le prénom Elodie" }, { text: "" });
-                chart.series[0].setData(data3060);
-                break;
-            case "Emilie":
-                chart.setTitle({ text: " Naissances pour le prénom Emilie" }, { text: "" });
-                chart.series[0].setData(data3061);
-                break;
-            case "Emma":
-                chart.setTitle({ text: " Naissances pour le prénom Emma" }, { text: "" });
-                chart.series[0].setData(data3062);
-                break;
-            case "Emmanuel":
-                chart.setTitle({ text: " Naissances pour le prénom Emmanuel" }, { text: "" });
-                chart.series[0].setData(data3063);
-                break;
-            case "Emmanuelle":
-                chart.setTitle({ text: " Naissances pour le prénom Emmanuelle" }, { text: "" });
-                chart.series[0].setData(data3064);
-                break;
-            case "Enzo":
-                chart.setTitle({ text: " Naissances pour le prénom Enzo" }, { text: "" });
-                chart.series[0].setData(data3065);
-                break;
-            case "Eric":
-                chart.setTitle({ text: " Naissances pour le prénom Eric" }, { text: "" });
-                chart.series[0].setData(data3066);
-                break;
-            case "Estelle":
-                chart.setTitle({ text: " Naissances pour le prénom Estelle" }, { text: "" });
-                chart.series[0].setData(data3067);
-                break;
-            case "Eva":
-                chart.setTitle({ text: " Naissances pour le prénom Eva" }, { text: "" });
-                chart.series[0].setData(data3068);
-                break;
-            case "Evelyne":
-                chart.setTitle({ text: " Naissances pour le prénom Evelyne" }, { text: "" });
-                chart.series[0].setData(data3069);
-                break;
-            case "Fabien":
-                chart.setTitle({ text: " Naissances pour le prénom Fabien" }, { text: "" });
-                chart.series[0].setData(data3070);
-                break;
-            case "Fabienne":
-                chart.setTitle({ text: " Naissances pour le prénom Fabienne" }, { text: "" });
-                chart.series[0].setData(data3071);
-                break;
-            case "Fanny":
-                chart.setTitle({ text: " Naissances pour le prénom Fanny" }, { text: "" });
-                chart.series[0].setData(data3072);
-                break;
-            case "Florence":
-                chart.setTitle({ text: " Naissances pour le prénom Florence" }, { text: "" });
-                chart.series[0].setData(data3073);
-                break;
-            case "Florent":
-                chart.setTitle({ text: " Naissances pour le prénom Florent" }, { text: "" });
-                chart.series[0].setData(data3074);
-                break;
-            case "Florian":
-                chart.setTitle({ text: " Naissances pour le prénom Florian" }, { text: "" });
-                chart.series[0].setData(data3075);
-                break;
-            case "Francis":
-                chart.setTitle({ text: " Naissances pour le prénom Francis" }, { text: "" });
-                chart.series[0].setData(data3076);
-                break;
-            case "Franck":
-                chart.setTitle({ text: " Naissances pour le prénom Franck" }, { text: "" });
-                chart.series[0].setData(data3077);
-                break;
-            case "François":
-                chart.setTitle({ text: " Naissances pour le prénom François" }, { text: "" });
-                chart.series[0].setData(data3078);
-                break;
-            case "Françoise":
-                chart.setTitle({ text: " Naissances pour le prénom Françoise" }, { text: "" });
-                chart.series[0].setData(data3079);
-                break;
-            case "Frédéric":
-                chart.setTitle({ text: " Naissances pour le prénom Frédéric" }, { text: "" });
-                chart.series[0].setData(data3080);
-                break;
-            case "Gabriel":
-                chart.setTitle({ text: " Naissances pour le prénom Gabriel" }, { text: "" });
-                chart.series[0].setData(data3081);
-                break;
-            case "Gilles":
-                chart.setTitle({ text: " Naissances pour le prénom Gilles" }, { text: "" });
-                chart.series[0].setData(data3082);
-                break;
-            case "Gregory":
-                chart.setTitle({ text: " Naissances pour le prénom Gregory" }, { text: "" });
-                chart.series[0].setData(data3083);
-                break;
-            case "Guillaume":
-                chart.setTitle({ text: " Naissances pour le prénom Guillaume" }, { text: "" });
-                chart.series[0].setData(data3084);
-                break;
-            case "Hélène":
-                chart.setTitle({ text: " Naissances pour le prénom Hélène" }, { text: "" });
-                chart.series[0].setData(data3085);
-                break;
-            case "Hervé":
-                chart.setTitle({ text: " Naissances pour le prénom Hervé" }, { text: "" });
-                chart.series[0].setData(data3086);
-                break;
-            case "Hugo":
-                chart.setTitle({ text: " Naissances pour le prénom Hugo" }, { text: "" });
-                chart.series[0].setData(data3087);
-                break;
-            case "Inès":
-                chart.setTitle({ text: " Naissances pour le prénom Inès" }, { text: "" });
-                chart.series[0].setData(data3088);
-                break;
-            case "Isabelle":
-                chart.setTitle({ text: " Naissances pour le prénom Isabelle" }, { text: "" });
-                chart.series[0].setData(data3089);
-                break;
-            case "Jacqueline":
-                chart.setTitle({ text: " Naissances pour le prénom Jacqueline" }, { text: "" });
-                chart.series[0].setData(data3090);
-                break;
-            case "Jacques":
-                chart.setTitle({ text: " Naissances pour le prénom Jacques" }, { text: "" });
-                chart.series[0].setData(data3091);
-                break;
-            case "Jade":
-                chart.setTitle({ text: " Naissances pour le prénom Jade" }, { text: "" });
-                chart.series[0].setData(data3092);
-                break;
-            case "Jean":
-                chart.setTitle({ text: " Naissances pour le prénom Jean" }, { text: "" });
-                chart.series[0].setData(data3093);
-                break;
-            case "Jean-Claude":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-Claude" }, { text: "" });
-                chart.series[0].setData(data3094);
-                break;
-            case "Jean-François":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-François" }, { text: "" });
-                chart.series[0].setData(data3095);
-                break;
-            case "Jean-Luc":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-Luc" }, { text: "" });
-                chart.series[0].setData(data3096);
-                break;
-            case "Jean-Marc":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-Marc" }, { text: "" });
-                chart.series[0].setData(data3097);
-                break;
-            case "Jean-Michel":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-Michel" }, { text: "" });
-                chart.series[0].setData(data3098);
-                break;
-            case "Jean-Paul":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-Paul" }, { text: "" });
-                chart.series[0].setData(data3099);
-                break;
-            case "Jean-Pierre":
-                chart.setTitle({ text: " Naissances pour le prénom Jean-Pierre" }, { text: "" });
-                chart.series[0].setData(data3100);
-                break;
-            case "Jennifer":
-                chart.setTitle({ text: " Naissances pour le prénom Jennifer" }, { text: "" });
-                chart.series[0].setData(data3101);
-                break;
-            case "Jeremy":
-                chart.setTitle({ text: " Naissances pour le prénom Jeremy" }, { text: "" });
-                chart.series[0].setData(data3102);
-                break;
-            case "Jerome":
-                chart.setTitle({ text: " Naissances pour le prénom Jerome" }, { text: "" });
-                chart.series[0].setData(data3103);
-                break;
-            case "Jessica":
-                chart.setTitle({ text: " Naissances pour le prénom Jessica" }, { text: "" });
-                chart.series[0].setData(data3104);
-                break;
-            case "Jocelyne":
-                chart.setTitle({ text: " Naissances pour le prénom Jocelyne" }, { text: "" });
-                chart.series[0].setData(data3105);
-                break;
-            case "Joël":
-                chart.setTitle({ text: " Naissances pour le prénom Joël" }, { text: "" });
-                chart.series[0].setData(data3106);
-                break;
-            case "Joëlle":
-                chart.setTitle({ text: " Naissances pour le prénom Joëlle" }, { text: "" });
-                chart.series[0].setData(data3107);
-                break;
-            case "Jonathan":
-                chart.setTitle({ text: " Naissances pour le prénom Jonathan" }, { text: "" });
-                chart.series[0].setData(data3108);
-                break;
-            case "Jules":
-                chart.setTitle({ text: " Naissances pour le prénom Jules" }, { text: "" });
-                chart.series[0].setData(data3109);
-                break;
-            case "Julie":
-                chart.setTitle({ text: " Naissances pour le prénom Julie" }, { text: "" });
-                chart.series[0].setData(data3110);
-                break;
-            case "Julien":
-                chart.setTitle({ text: " Naissances pour le prénom Julien" }, { text: "" });
-                chart.series[0].setData(data3111);
-                break;
-            case "Juliette":
-                chart.setTitle({ text: " Naissances pour le prénom Juliette" }, { text: "" });
-                chart.series[0].setData(data3112);
-                break;
-            case "Justine":
-                chart.setTitle({ text: " Naissances pour le prénom Justine" }, { text: "" });
-                chart.series[0].setData(data3113);
-                break;
-            case "Karine":
-                chart.setTitle({ text: " Naissances pour le prénom Karine" }, { text: "" });
-                chart.series[0].setData(data3114);
-                break;
-            case "Kevin":
-                chart.setTitle({ text: " Naissances pour le prénom Kevin" }, { text: "" });
-                chart.series[0].setData(data3115);
-                break;
-            case "Laetitia":
-                chart.setTitle({ text: " Naissances pour le prénom Laetitia" }, { text: "" });
-                chart.series[0].setData(data3116);
-                break;
-            case "Laura":
-                chart.setTitle({ text: " Naissances pour le prénom Laura" }, { text: "" });
-                chart.series[0].setData(data3117);
-                break;
-            case "Laure":
-                chart.setTitle({ text: " Naissances pour le prénom Laure" }, { text: "" });
-                chart.series[0].setData(data3118);
-                break;
-            case "Laurence":
-                chart.setTitle({ text: " Naissances pour le prénom Laurence" }, { text: "" });
-                chart.series[0].setData(data3119);
-                break;
-            case "Laurent":
-                chart.setTitle({ text: " Naissances pour le prénom Laurent" }, { text: "" });
-                chart.series[0].setData(data3120);
-                break;
-            case "Léa":
-                chart.setTitle({ text: " Naissances pour le prénom Léa" }, { text: "" });
-                chart.series[0].setData(data3121);
-                break;
-            case "Lionel":
-                chart.setTitle({ text: " Naissances pour le prénom Lionel" }, { text: "" });
-                chart.series[0].setData(data3122);
-                break;
-            case "Lisa":
-                chart.setTitle({ text: " Naissances pour le prénom Lisa" }, { text: "" });
-                chart.series[0].setData(data3123);
-                break;
-            case "Loïc":
-                chart.setTitle({ text: " Naissances pour le prénom Loïc" }, { text: "" });
-                chart.series[0].setData(data3124);
-                break;
-            case "Louis":
-                chart.setTitle({ text: " Naissances pour le prénom Louis" }, { text: "" });
-                chart.series[0].setData(data3125);
-                break;
-            case "Louise":
-                chart.setTitle({ text: " Naissances pour le prénom Louise" }, { text: "" });
-                chart.series[0].setData(data3126);
-                break;
-            case "Lucas":
-                chart.setTitle({ text: " Naissances pour le prénom Lucas" }, { text: "" });
-                chart.series[0].setData(data3127);
-                break;
-            case "Lucie":
-                chart.setTitle({ text: " Naissances pour le prénom Lucie" }, { text: "" });
-                chart.series[0].setData(data3128);
-                break;
-            case "Ludovic":
-                chart.setTitle({ text: " Naissances pour le prénom Ludovic" }, { text: "" });
-                chart.series[0].setData(data3129);
-                break;
-            case "Magali":
-                chart.setTitle({ text: " Naissances pour le prénom Magali" }, { text: "" });
-                chart.series[0].setData(data3130);
-                break;
-            case "Manon":
-                chart.setTitle({ text: " Naissances pour le prénom Manon" }, { text: "" });
-                chart.series[0].setData(data3131);
-                break;
-            case "Marc":
-                chart.setTitle({ text: " Naissances pour le prénom Marc" }, { text: "" });
-                chart.series[0].setData(data3132);
-                break;
-            case "Marie":
-                chart.setTitle({ text: " Naissances pour le prénom Marie" }, { text: "" });
-                chart.series[0].setData(data3133);
-                break;
-            case "Marie-Christine":
-                chart.setTitle({ text: " Naissances pour le prénom Marie-Christine" }, { text: "" });
-                chart.series[0].setData(data3134);
-                break;
-            case "Marine":
-                chart.setTitle({ text: " Naissances pour le prénom Marine" }, { text: "" });
-                chart.series[0].setData(data3135);
-                break;
-            case "Marion":
-                chart.setTitle({ text: " Naissances pour le prénom Marion" }, { text: "" });
-                chart.series[0].setData(data3136);
-                break;
-            case "Martine":
-                chart.setTitle({ text: " Naissances pour le prénom Martine" }, { text: "" });
-                chart.series[0].setData(data3137);
-                break;
-            case "Mathieu":
-                chart.setTitle({ text: " Naissances pour le prénom Mathieu" }, { text: "" });
-                chart.series[0].setData(data3138);
-                break;
-            case "Mathilde":
-                chart.setTitle({ text: " Naissances pour le prénom Mathilde" }, { text: "" });
-                chart.series[0].setData(data3139);
-                break;
-            case "Mathis":
-                chart.setTitle({ text: " Naissances pour le prénom Mathis" }, { text: "" });
-                chart.series[0].setData(data3140);
-                break;
-            case "Matthieu":
-                chart.setTitle({ text: " Naissances pour le prénom Matthieu" }, { text: "" });
-                chart.series[0].setData(data3141);
-                break;
-            case "Mélanie":
-                chart.setTitle({ text: " Naissances pour le prénom Mélanie" }, { text: "" });
-                chart.series[0].setData(data3142);
-                break;
-            case "Mélissa":
-                chart.setTitle({ text: " Naissances pour le prénom Mélissa" }, { text: "" });
-                chart.series[0].setData(data3143);
-                break;
-            case "Michael":
-                chart.setTitle({ text: " Naissances pour le prénom Michael" }, { text: "" });
-                chart.series[0].setData(data3144);
-                break;
-            case "Michel":
-                chart.setTitle({ text: " Naissances pour le prénom Michel" }, { text: "" });
-                chart.series[0].setData(data3145);
-                break;
-            case "Michèle":
-                chart.setTitle({ text: " Naissances pour le prénom Michèle" }, { text: "" });
-                chart.series[0].setData(data3146);
-                break;
-            case "Mickael":
-                chart.setTitle({ text: " Naissances pour le prénom Mickael" }, { text: "" });
-                chart.series[0].setData(data3147);
-                break;
-            case "Mohamed":
-                chart.setTitle({ text: " Naissances pour le prénom Mohamed" }, { text: "" });
-                chart.series[0].setData(data3148);
-                break;
-            case "Monique":
-                chart.setTitle({ text: " Naissances pour le prénom Monique" }, { text: "" });
-                chart.series[0].setData(data3149);
-                break;
-            case "Morgane":
-                chart.setTitle({ text: " Naissances pour le prénom Morgane" }, { text: "" });
-                chart.series[0].setData(data3150);
-                break;
-            case "Muriel":
-                chart.setTitle({ text: " Naissances pour le prénom Muriel" }, { text: "" });
-                chart.series[0].setData(data3151);
-                break;
-            case "Myriam":
-                chart.setTitle({ text: " Naissances pour le prénom Myriam" }, { text: "" });
-                chart.series[0].setData(data3152);
-                break;
-            case "Nadia":
-                chart.setTitle({ text: " Naissances pour le prénom Nadia" }, { text: "" });
-                chart.series[0].setData(data3153);
-                break;
-            case "Nadine":
-                chart.setTitle({ text: " Naissances pour le prénom Nadine" }, { text: "" });
-                chart.series[0].setData(data3154);
-                break;
-            case "Nathalie":
-                chart.setTitle({ text: " Naissances pour le prénom Nathalie" }, { text: "" });
-                chart.series[0].setData(data3155);
-                break;
-            case "Nathan":
-                chart.setTitle({ text: " Naissances pour le prénom Nathan" }, { text: "" });
-                chart.series[0].setData(data3156);
-                break;
-            case "Nicolas":
-                chart.setTitle({ text: " Naissances pour le prénom Nicolas" }, { text: "" });
-                chart.series[0].setData(data3157);
-                break;
-            case "Nicole":
-                chart.setTitle({ text: " Naissances pour le prénom Nicole" }, { text: "" });
-                chart.series[0].setData(data3158);
-                break;
-            case "Océane":
-                chart.setTitle({ text: " Naissances pour le prénom Océane" }, { text: "" });
-                chart.series[0].setData(data3159);
-                break;
-            case "Olivier":
-                chart.setTitle({ text: " Naissances pour le prénom Olivier" }, { text: "" });
-                chart.series[0].setData(data3160);
-                break;
-            case "Pascal":
-                chart.setTitle({ text: " Naissances pour le prénom Pascal" }, { text: "" });
-                chart.series[0].setData(data3161);
-                break;
-            case "Pascale":
-                chart.setTitle({ text: " Naissances pour le prénom Pascale" }, { text: "" });
-                chart.series[0].setData(data3162);
-                break;
-            case "Patricia":
-                chart.setTitle({ text: " Naissances pour le prénom Patricia" }, { text: "" });
-                chart.series[0].setData(data3163);
-                break;
-            case "Patrick":
-                chart.setTitle({ text: " Naissances pour le prénom Patrick" }, { text: "" });
-                chart.series[0].setData(data3164);
-                break;
-            case "Paul":
-                chart.setTitle({ text: " Naissances pour le prénom Paul" }, { text: "" });
-                chart.series[0].setData(data3165);
-                break;
-            case "Pauline":
-                chart.setTitle({ text: " Naissances pour le prénom Pauline" }, { text: "" });
-                chart.series[0].setData(data3166);
-                break;
-            case "Philippe":
-                chart.setTitle({ text: " Naissances pour le prénom Philippe" }, { text: "" });
-                chart.series[0].setData(data3167);
-                break;
-            case "Pierre":
-                chart.setTitle({ text: " Naissances pour le prénom Pierre" }, { text: "" });
-                chart.series[0].setData(data3168);
-                break;
-            case "Quentin":
-                chart.setTitle({ text: " Naissances pour le prénom Quentin" }, { text: "" });
-                chart.series[0].setData(data3169);
-                break;
-            case "Raphaël":
-                chart.setTitle({ text: " Naissances pour le prénom Raphaël" }, { text: "" });
-                chart.series[0].setData(data3170);
-                break;
-            case "Rémi":
-                chart.setTitle({ text: " Naissances pour le prénom Rémi" }, { text: "" });
-                chart.series[0].setData(data3171);
-                break;
-            case "Romain":
-                chart.setTitle({ text: " Naissances pour le prénom Romain" }, { text: "" });
-                chart.series[0].setData(data3172);
-                break;
-            case "Sabrina":
-                chart.setTitle({ text: " Naissances pour le prénom Sabrina" }, { text: "" });
-                chart.series[0].setData(data3173);
-                break;
-            case "Samuel":
-                chart.setTitle({ text: " Naissances pour le prénom Samuel" }, { text: "" });
-                chart.series[0].setData(data3174);
-                break;
-            case "Sandra":
-                chart.setTitle({ text: " Naissances pour le prénom Sandra" }, { text: "" });
-                chart.series[0].setData(data3175);
-                break;
-            case "Sandrine":
-                chart.setTitle({ text: " Naissances pour le prénom Sandrine" }, { text: "" });
-                chart.series[0].setData(data3176);
-                break;
-            case "Sarah":
-                chart.setTitle({ text: " Naissances pour le prénom Sarah" }, { text: "" });
-                chart.series[0].setData(data3177);
-                break;
-            case "Sébastien":
-                chart.setTitle({ text: " Naissances pour le prénom Sébastien" }, { text: "" });
-                chart.series[0].setData(data3178);
-                break;
-            case "Severine":
-                chart.setTitle({ text: " Naissances pour le prénom Severine" }, { text: "" });
-                chart.series[0].setData(data3179);
-                break;
-            case "Simon":
-                chart.setTitle({ text: " Naissances pour le prénom Simon" }, { text: "" });
-                chart.series[0].setData(data3180);
-                break;
-            case "Sonia":
-                chart.setTitle({ text: " Naissances pour le prénom Sonia" }, { text: "" });
-                chart.series[0].setData(data3181);
-                break;
-            case "Sophie":
-                chart.setTitle({ text: " Naissances pour le prénom Sophie" }, { text: "" });
-                chart.series[0].setData(data3182);
-                break;
-            case "Stéphanie":
-                chart.setTitle({ text: " Naissances pour le prénom Stéphanie" }, { text: "" });
-                chart.series[0].setData(data3183);
-                break;
-            case "Sylvain":
-                chart.setTitle({ text: " Naissances pour le prénom Sylvain" }, { text: "" });
-                chart.series[0].setData(data3184);
-                break;
-            case "Sylvie":
-                chart.setTitle({ text: " Naissances pour le prénom Sylvie" }, { text: "" });
-                chart.series[0].setData(data3185);
-                break;
-            case "Théo":
-                chart.setTitle({ text: " Naissances pour le prénom Théo" }, { text: "" });
-                chart.series[0].setData(data3186);
-                break;
-            case "Thierry":
-                chart.setTitle({ text: " Naissances pour le prénom Thierry" }, { text: "" });
-                chart.series[0].setData(data3187);
-                break;
-            case "Thomas":
-                chart.setTitle({ text: " Naissances pour le prénom Thomas" }, { text: "" });
-                chart.series[0].setData(data3188);
-                break;
-            case "Tom":
-                chart.setTitle({ text: " Naissances pour le prénom Tom" }, { text: "" });
-                chart.series[0].setData(data3189);
-                break;
-            case "Valentin":
-                chart.setTitle({ text: " Naissances pour le prénom Valentin" }, { text: "" });
-                chart.series[0].setData(data3190);
-                break;
-            case "Valérie":
-                chart.setTitle({ text: " Naissances pour le prénom Valérie" }, { text: "" });
-                chart.series[0].setData(data3191);
-                break;
-            case "Vanessa":
-                chart.setTitle({ text: " Naissances pour le prénom Vanessa" }, { text: "" });
-                chart.series[0].setData(data3192);
-                break;
-            case "Véronique":
-                chart.setTitle({ text: " Naissances pour le prénom Véronique" }, { text: "" });
-                chart.series[0].setData(data3193);
-                break;
-            case "Victor":
-                chart.setTitle({ text: " Naissances pour le prénom Victor" }, { text: "" });
-                chart.series[0].setData(data3194);
-                break;
-            case "Vincent":
-                chart.setTitle({ text: " Naissances pour le prénom Vincent" }, { text: "" });
-                chart.series[0].setData(data3195);
-                break;
-            case "Virginie":
-                chart.setTitle({ text: " Naissances pour le prénom Virginie" }, { text: "" });
-                chart.series[0].setData(data3196);
-                break;
-            case "William":
-                chart.setTitle({ text: " Naissances pour le prénom William" }, { text: "" });
-                chart.series[0].setData(data3197);
-                break;
-            case "Xavier":
-                chart.setTitle({ text: " Naissances pour le prénom Xavier" }, { text: "" });
-                chart.series[0].setData(data3198);
-                break;
-            case "Yann":
-                chart.setTitle({ text: " Naissances pour le prénom Yann" }, { text: "" });
-                chart.series[0].setData(data3199);
-                break;
-        };
+
 
       }, 500);
     });
