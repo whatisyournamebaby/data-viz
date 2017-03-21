@@ -328,7 +328,8 @@ $(function () {
     // Initiate the years map
 
     $('#CarteFranceTopPrenom').highcharts('Map', {
-        title: {
+                exporting: { enabled: false },
+	title: {
             text: 'Sélectionnez une année'
         },
 
@@ -906,6 +907,8 @@ $(function () {
     // Initiate the years map
 
     $('#CarteFranceTopPrenomHomme').highcharts('Map', {
+	exporting: { enabled: false },
+
         title: {
             text: 'Sélectionnez une année'
         },
@@ -1484,6 +1487,8 @@ $(function () {
     // Initiate the years map
 
 		$('#CourbePrenom').highcharts({
+	exporting: { enabled: false },
+
 
         title: {
             text: 'Selectionnez un prénom'
