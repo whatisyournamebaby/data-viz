@@ -330,11 +330,11 @@ $(function () {
     $('#CarteFranceTopPrenom').highcharts('Map', {
                 exporting: { enabled: false },
 	title: {
-            text: 'Sélectionnez une année'
+            text: 'TITRE A METRE'
         },
 
         subtitle: {
-            text: 'depuis le menu déroulant ci-dessus'
+            text: ' '
         },
 
         mapNavigation: {
@@ -910,11 +910,11 @@ $(function () {
 	exporting: { enabled: false },
 
         title: {
-            text: 'Sélectionnez une année'
+            text: 'TITRE  A METTRE'
         },
 
         subtitle: {
-            text: 'depuis le menu déroulant ci-dessus'
+            text: ' '
         },
 
         mapNavigation: {
@@ -1491,11 +1491,11 @@ $(function () {
 
 
         title: {
-            text: 'Selectionnez un prénom'
+            text: 'TITRE A METTRE'
         },
 
         subtitle: {
-            text: 'depuis le menu déroulant ci-dessus'
+            text: ''
         },
 
         yAxis: {
