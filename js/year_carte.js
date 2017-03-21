@@ -344,13 +344,6 @@ $(function () {
             }
         },
 
-        exporting: {
-            buttons: {
-                contextButton: {
-                    symbolStroke: '#1893B2',
-                },
-            },
-        },
 
         colorAxis: {
             minColor: "#AD1457",
@@ -924,13 +917,7 @@ $(function () {
             }
         },
 
-        exporting: {
-            buttons: {
-                contextButton: {
-                    symbolStroke: '#1893B2',
-                },
-            },
-        },
+        
 
         colorAxis: {
             min: 1,
