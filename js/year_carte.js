@@ -1478,7 +1478,7 @@ $(function () {
 
 
         title: {
-            text: 'TITRE A METTRE'
+            text: ' '
         },
 
         subtitle: {
