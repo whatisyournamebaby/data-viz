@@ -330,7 +330,7 @@ $(function () {
     $('#CarteFranceTopPrenom').highcharts('Map', {
                 exporting: { enabled: false },
 	title: {
-            text: 'TITRE A METRE'
+            text: ' '
         },
 
         subtitle: {
@@ -903,7 +903,7 @@ $(function () {
 	exporting: { enabled: false },
 
         title: {
-            text: 'TITRE  A METTRE'
+            text: ' '
         },
 
         subtitle: {
