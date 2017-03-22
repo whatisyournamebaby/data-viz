@@ -6521,7 +6521,7 @@ select {
 .select-wrapper + label {
   position: absolute;
   top: -14px;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 select:disabled {
