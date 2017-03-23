@@ -5922,13 +5922,13 @@ textarea.materialize-textarea + label:after {
   color: #9C7496;
   position: absolute;
   top: 0.8rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: text;
   transition: .2s ease-out;
 }
 
 .input-field label.active {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   -webkit-transform: translateY(-140%);
           transform: translateY(-140%);
 }
